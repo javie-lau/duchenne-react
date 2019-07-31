@@ -36,8 +36,14 @@
     }   
  }
 
-.dropdown-item, .dropdown-menu, .show, .dropdown-item:hover{
+
+.dropdown-menu,.dropdown-item{
+    background: #eaebea;
+    color:#039D8B !important;
+}
+.dropdown-divider{
     background: #039D8B;
+    border-color:#039D8B;
 }
 
 #navbar-two{
