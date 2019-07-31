@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 import Carousel from '../components/carousel/Carousel';
+import Cards from '../components/Cards/Cards';
 class Home extends Component {
     render(){
         return(
@@ -11,11 +12,14 @@ class Home extends Component {
             </div>
             <div className ="body">
               <Carousel/>
+               <Cards />
             </div>
+             
             <div className= "footer">
               <Footer />
               </div>
          </React.Fragment>
+
         )
     }
     
