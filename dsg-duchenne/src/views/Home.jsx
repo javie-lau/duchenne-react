@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
+import Carousel from '../components/carousel/Carousel';
 class Home extends Component {
     render(){
         return(
-
-            <div>
-         
+         <React.Fragment>
+            <div className="header">
             <Navbar />
-        
-            <Footer />
-          
             </div>
+            <div className ="body">
+              <Carousel/>
+            </div>
+            <div className= "footer">
+              <Footer />
+              </div>
+         </React.Fragment>
         )
     }
     
