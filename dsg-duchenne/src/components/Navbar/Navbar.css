@@ -1,9 +1,9 @@
 .navbar img {
-    width: 25%;
+    width: 60%;
 }
 @media (max-width: 576px) {
     .navbar img {
-        width: 50%;
+        width: 100%;
     }
  }
 .nav-item{
