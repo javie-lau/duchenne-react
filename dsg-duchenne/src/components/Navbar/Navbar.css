@@ -1,3 +1,15 @@
 .navbar img {
-    width: 30%;
+    width: 25%;
+}
+@media (max-width: 576px) {
+    .navbar img {
+        width: 50%;
+    }
+ }
+.nav-item{
+    margin-right: 3em;
+}
+.nav-item, .dropdown-item{
+    font-size: 1.2em;
+    font-family: 'Source Sans Pro', sans-serif;
 }

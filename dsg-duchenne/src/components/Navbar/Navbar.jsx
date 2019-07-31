@@ -8,9 +8,9 @@ class Navbar extends Component{
         return(
             <React.Fragment>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="container">
+                
                     <a className="navbar-brand" href="#"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a>
-                </div>
+                
             </nav>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
