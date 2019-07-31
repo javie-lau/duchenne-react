@@ -9,25 +9,24 @@ class Navbar extends Component{
             <React.Fragment>
             <nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="row">
-                    <div className="col-6 col-md-4">
+                    <div className="col-8 col-md-4">
                     <a className="navbar-brand" href="#"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a>
                     </div>
-                    <div className="col-6 col-md-2 offset-md-6">
-                        
-                        <button>Button</button>
+                    <div className="col-4 col-md-2 offset-md-6">
+                        <button className="btn"><i class="fas fa-heart"></i>Sumate</button>
                     </div>    
                  </div>
             </nav>
-            <nav id="navbar-two" className="navbar navbar-expand-lg navbar-light">
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
+            <nav id="navbar-two" className="navbar navbar-expand-lg">
+            <div className="navbar-toggler"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div className="hamburger"></div>
+            </div>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 
                 <ul className="navbar-nav mr-auto">
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Nosotros
+                    Sobre Duchenne
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
 
@@ -40,7 +39,7 @@ class Navbar extends Component{
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Que es Duchenne?
+                    ¿Qué hacemos?
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a className="dropdown-item" href="#">Action</a>
@@ -50,8 +49,15 @@ class Navbar extends Component{
                     <a className="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
-                <li className="nav-item active">
-                    <a className="nav-link" href="#">Cómo ayudo? <span className="sr-only">(current)</span></a>
+                <li className="nav-item dropdown">
+                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Cómo ayudarnos? <span className="sr-only">(current)</span></a>
+                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a className="dropdown-item" href="#">Action</a>
+                    <div className="dropdown-divider"></div>
+                    <a className="dropdown-item" href="#">Another action</a>
+                    <div className="dropdown-divider"></div>
+                    <a className="dropdown-item" href="#">Something else here</a>
+                    </div>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">Noticias</a>
