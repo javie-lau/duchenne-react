@@ -7,7 +7,7 @@ class Navbar extends Component{
     render(){
         return(
             <React.Fragment>
-            <nav className="navbar navbar-expand-lg navbar-light ">
+            <nav className="navbar navbar-light ">
                 <div className="row">
                     <div className="col-8 col-md-4">
                     <a className="navbar-brand" href="#"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a>
@@ -17,7 +17,7 @@ class Navbar extends Component{
                     </div>    
                  </div>
             </nav>
-            <nav id="navbar-two" className="navbar navbar-expand-lg">
+            <nav id="navbar-two" className="navbar ">
             <div className="navbar-toggler"data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <div className="hamburger"></div>
             </div>
