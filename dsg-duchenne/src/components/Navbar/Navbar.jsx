@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
 import './Navbar.css';
+import images from '../../importImages';
+
 
 class Navbar extends Component{
     render(){
         return(
             <React.Fragment>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container">
-                    <a class="navbar-brand" href="#">Navbar</a>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <div className="container">
+                    <a className="navbar-brand" href="#"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a>
                 </div>
             </nav>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
   </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 
