@@ -7,18 +7,18 @@ class Navbar extends Component{
     render(){
         return(
             <React.Fragment>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="row">
                     <div className="col-6 col-md-4">
                     <a className="navbar-brand" href="#"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a>
                     </div>
                     <div className="col-6 col-md-2 offset-md-6">
-                        <button>Button</button>
+                        
                         <button>Button</button>
                     </div>    
                  </div>
             </nav>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav id="navbar-two" className="navbar navbar-expand-lg navbar-light">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -57,9 +57,11 @@ class Navbar extends Component{
                     <a className="nav-link" href="#">Noticias</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Ley de transparencia</a>
+                    <a className="nav-link" href="#">Transparencia</a>
                 </li>
-               
+                <li className="nav-item">
+                    <a className="nav-link" href="#">Contacto</a>
+                </li>
                 </ul>
             
             </div>
