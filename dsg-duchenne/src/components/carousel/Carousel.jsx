@@ -16,10 +16,10 @@ class  Carousel extends Component{
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={images['niño.jpg']} className="d-block w-100" alt="..."/>
+            <img src={images['bienvenido.jpg']} className="d-block w-100" alt="..."/>
           </div>
           <div className="carousel-item">
-            <img src={images['Investigacion.png']}className="d-block w-100" alt="..."/>
+            <img src={images['mision.png']}className="d-block w-100" alt="..."/>
           </div>
           <div class="carousel-item">
             <img src={images['donar.jpg']} className="d-block w-100" alt="..."/>

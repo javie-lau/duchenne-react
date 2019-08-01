@@ -12,10 +12,10 @@ class Navbar extends Component{
             <nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="row">
                     <div className="col-8 col-md-4">
-                    <a className="navbar-brand" href="#"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a>
+                    <Link className="link" to="/"><a className="navbar-brand" href="#"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a></Link>
                     </div>
                     <div className="col-4 col-md-2 offset-md-6">
-                        <button className="btn"><i class="fas fa-heart"> Sumate</i></button>
+                        <Link  to="/sumate"><button className="btn"><i class="fas fa-heart"> Sumate</i></button></Link>
                     </div>    
                  </div>
             </nav>
@@ -52,7 +52,7 @@ class Navbar extends Component{
                     </div>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link " href="#">¿Cómo ayudar? <span className="sr-only">(current)</span></a>
+                <Link className="link" to="/sumate"><a className="nav-link">¿Cómo ayudar? <span className="sr-only">(current)</span></a></Link>
                    
                 </li>
                 <li className="nav-item">
