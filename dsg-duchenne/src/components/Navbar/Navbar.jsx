@@ -32,7 +32,7 @@ class Navbar extends Component{
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                   <Link to='/que-es-duchenne'> <a className="dropdown-item" href="#">¿Qué es Duchenne?</a> </Link>
+                   <Link className="link" to='/que-es-duchenne'> <a className="dropdown-item" href="#">¿Qué es Duchenne?</a> </Link>
                     <div className="dropdown-divider"></div>
                     <a className="dropdown-item" href="#">Diagnostico de duchenne</a>
                     <div className="dropdown-divider"></div>
