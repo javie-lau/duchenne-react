@@ -58,7 +58,7 @@ class Navbar extends Component{
                    
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/News">Noticias</a>
+                    <a className="nav-link" href="/News"><Link to="/News">Noticias</Link></a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">Transparencia</a>
