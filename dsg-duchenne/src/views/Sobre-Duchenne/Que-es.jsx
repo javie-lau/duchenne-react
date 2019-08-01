@@ -21,10 +21,12 @@ Los niños con distrofia muscular de Duchenne pueden empezar a andar más tarde 
   
         </p>
       </div>
-   </div>
+  >
+   <div>
+     <Footer/>
    </div>
 
-
+   </div>
    )
   }
 }
