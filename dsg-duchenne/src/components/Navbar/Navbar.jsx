@@ -46,7 +46,7 @@ class Navbar extends Component{
                     Sobre nosotros
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <Link to='/nuestra-mision'>  <a className="dropdown-item" href="#">Nuestra misión</a> </Link>
+                  <Link className="link" to='/nuestra-mision'>  <a className="dropdown-item" href="#">Nuestra misión</a> </Link>
                     <div className="dropdown-divider"></div>
                     <a className="dropdown-item" href="#">Nuestro equipo</a>
                     <div className="dropdown-divider"></div>
@@ -58,7 +58,7 @@ class Navbar extends Component{
                    
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/News">Noticias</a>
+                   <Link className="link" to="/news"><a className="nav-link">Noticias</a></Link> 
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">Transparencia</a>
