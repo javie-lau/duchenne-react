@@ -1,2 +1,15 @@
-
-
+.carousel-item img{
+    height: 22em;
+}
+@media (max-width: 576px) {
+    .carousel-item img{
+        height: 10em;
+    }
+}
+.carousel-indicators li {
+    background: inherit;
+    width: 10px;
+    height: 10px;
+   border:2px solid #039D8B;
+    border-radius: 100%;
+  }
