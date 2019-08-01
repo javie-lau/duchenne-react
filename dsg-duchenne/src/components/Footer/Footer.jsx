@@ -7,14 +7,13 @@ class Footer extends Component {
     render(){
     return (
      <footer className="footer text-center">
-         <div className="container">
              <div className="footer-icons">
              <a><img className="img-fluid icon-footer" src={images['facebook(1).png']} alt=""/></a>
              <a><img className="img-fluid icon-footer" src={images['instagram(1).png']} alt=""/></a>
+                
              </div>
-             
-         </div>
-
+             <div className="copyright"><p>© 2018 Copyright: DSG-Duchenne</p>
+            </div>
      </footer>
     )
     }

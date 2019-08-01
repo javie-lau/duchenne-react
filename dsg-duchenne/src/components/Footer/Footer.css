@@ -1,7 +1,15 @@
 .footer{
  background: #039D8B;
 }
-
+.footer p{
+    color:#eaebea;
+}
+.copyright{
+    padding-bottom: .5em;
+}
+.footer-icons{
+    padding-top: .5em;
+}
 .icon-footer{
     width:3%;
     margin-left:1%;

@@ -6,6 +6,9 @@
         height: 10em;
     }
 }
+.carousel-indicators{
+    margin-bottom: 5px;
+}
 .carousel-indicators li {
     background: inherit;
     width: 10px;
