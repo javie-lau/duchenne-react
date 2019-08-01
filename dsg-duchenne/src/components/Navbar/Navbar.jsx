@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 class Navbar extends Component{
     render(){
         return(
-            
+
             <React.Fragment>
             <nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="row">
@@ -34,7 +34,7 @@ class Navbar extends Component{
 
                    <Link className="link" to='/que-es-duchenne'> <a className="dropdown-item" href="#">¿Qué es Duchenne?</a> </Link>
                     <div className="dropdown-divider"></div>
-                    <a className="dropdown-item" href="#">Diagnostico de duchenne</a>
+                   <Link className='link' to='/diagnostico'> <a className="dropdown-item" href="#">Diagnostico Duchenne</a> </Link>
                     <div className="dropdown-divider"></div>
                     <a className="dropdown-item" href="#">Etapas de duchenne</a>
                     </div>
