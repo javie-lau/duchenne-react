@@ -2,10 +2,14 @@ import React, { Component } from 'react';
 import './Navbar.css';
 import images from '../../importImages';
 
+import { Link } from 'react-router-dom';
+
+
 
 class Navbar extends Component{
     render(){
         return(
+
             <React.Fragment>
             <nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="row">
@@ -13,7 +17,7 @@ class Navbar extends Component{
                     <a className="navbar-brand" href="/Home"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a>
                     </div>
                     <div className="col-4 col-md-2 offset-md-6">
-                        <button className="btn"><i class="fas fa-heart"> Sumate</i></button>
+                        <Link  to="/sumate"><button className="btn"><i class="fas fa-heart"> Sumate</i></button></Link>
                     </div>    
                  </div>
             </nav>
@@ -30,34 +34,28 @@ class Navbar extends Component{
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                    <a className="dropdown-item" href="#">Action</a>
+                   <Link className="link" to='/que-es-duchenne'> <a className="dropdown-item" href="#">¿Qué es Duchenne?</a> </Link>
                     <div className="dropdown-divider"></div>
-                    <a className="dropdown-item" href="#">Another action</a>
+                   <Link className='link' to='/diagnostico'> <a className="dropdown-item" href="#">Diagnostico Duchenne</a> </Link>
                     <div className="dropdown-divider"></div>
-                    <a className="dropdown-item" href="#">Something else here</a>
+                    <a className="dropdown-item" href="#">Etapas de duchenne</a>
                     </div>
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    ¿Qué hacemos?
+                    Sobre nosotros
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a className="dropdown-item" href="#">Action</a>
+                  <Link to='/nuestra-mision'>  <a className="dropdown-item" href="#">Nuestra misión</a> </Link>
                     <div className="dropdown-divider"></div>
-                    <a className="dropdown-item" href="#">Another action</a>
+                    <a className="dropdown-item" href="#">Nuestro equipo</a>
                     <div className="dropdown-divider"></div>
-                    <a className="dropdown-item" href="#">Something else here</a>
+                    <a className="dropdown-item" href="#">Que hacemos</a>
                     </div>
                 </li>
-                <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Cómo ayudarnos? <span className="sr-only">(current)</span></a>
-                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a className="dropdown-item" href="#">Action</a>
-                    <div className="dropdown-divider"></div>
-                    <a className="dropdown-item" href="#">Another action</a>
-                    <div className="dropdown-divider"></div>
-                    <a className="dropdown-item" href="#">Something else here</a>
-                    </div>
+                <li className="nav-item">
+                <Link className="link" to="/sumate"><a className="nav-link">¿Cómo ayudar? <span className="sr-only">(current)</span></a></Link>
+                   
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="/News">Noticias</a>

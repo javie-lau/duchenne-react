@@ -31,9 +31,9 @@ class Cards extends Component{
       <a className="btn-more" href="#" > > Leer más</a>
     </div>
   </div>
-</div>
-</div>
 
+</div>
+</div>
 {/* <div className="container"> */}
 {/* <div className="row">
   <div className="col-12 col-md-3 img-news">
@@ -80,7 +80,7 @@ class Cards extends Component{
       </div> 
     </a>
   </div>
-  <div className="col-12 col-md-3 img-news">
+  {/* <div className="col-12 col-md-3 img-news">
     <a href="">
       <img className="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLKVzsdG-HDOKEUxgeiqtUCEcoGfG1ogPhXV9IY6SF0YsqFhDRqg" alt=""/>
       <div className="overlay" >
