@@ -5,8 +5,8 @@ class Cards extends Component{
     render(){
         return(
 <React.Fragment>
-   
-{/* <div className="row card-group">
+   <div className="container">
+ <div className="row card-group">
   <div className="card col-md-4 col-12">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMaJ54GmDduYGMbSMgeUlpNe4nEjs8oZMcxEL68b7VntL0xdLe9g" className="card-img-top" alt="..."></img>
     <div className="card-body">
@@ -35,10 +35,10 @@ class Cards extends Component{
     </div>
   </div>
 
-</div> */}
-
+</div>
+</div>
 {/* <div className="container"> */}
-<div className="row">
+{/* <div className="row">
   <div className="col-12 col-md-3 img-news">
     <a href="">
       <img className="img-fluid" src="https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/8ed65a25fe45201738e57d34ba98ffc49170b66c/5-Figure3-1.png" alt=""/>
@@ -128,7 +128,7 @@ class Cards extends Component{
     </a>
   </div>
   
-</div>
+</div> */}
 {/* </div> */}
 
 
