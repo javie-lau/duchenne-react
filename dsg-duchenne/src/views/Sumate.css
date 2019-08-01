@@ -1,0 +1,43 @@
+#sumate img{
+    width: 60%;
+}
+#sumate .img{
+    text-align: center;
+}
+@media (max-width: 576px){
+    #sumate img{
+        margin-top:1.5em;
+        width: 55%;
+    }
+    
+}
+
+#sumate h6{
+    color:#039D8B;
+   
+    font-size: 2em;
+}
+@media (max-width: 576px){
+    #sumate h6{
+        font-size: .9em;
+    }
+}
+#sumate.container{
+    margin:1em 0;
+}
+#sumate .row:first-child{
+    margin-bottom:5em;
+}
+#sumate ul li{
+    font-size: 1.3em;
+}
+@media (max-width: 576px){
+#sumate ul li{
+    font-size: .5em;
+}
+}
+.btn-help{
+    border:solid 2px #039D8B;
+    color: #039D8B;
+
+}
