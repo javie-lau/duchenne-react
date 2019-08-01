@@ -1,20 +1,23 @@
 import React, { Component } from 'react';
 import './Navbar.css';
 import images from '../../importImages';
-import {Link} from 'react-router-dom'
+
+import { Link } from 'react-router-dom';
+
 
 
 class Navbar extends Component{
     render(){
         return(
+
             <React.Fragment>
             <nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="row">
                     <div className="col-8 col-md-4">
-                    <a className="navbar-brand" href="#"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a>
+                    <Link className="link" to="/"><a className="navbar-brand" href="#"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a></Link>
                     </div>
                     <div className="col-4 col-md-2 offset-md-6">
-                        <button className="btn"><i class="fas fa-heart"> Sumate</i></button>
+                        <Link  to="/sumate"><button className="btn"><i class="fas fa-heart"> Sumate</i></button></Link>
                     </div>    
                  </div>
             </nav>
@@ -31,9 +34,9 @@ class Navbar extends Component{
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                    <a className="dropdown-item" href="#">¿Qué es Duchenne?</a>
+                   <Link className="link" to='/que-es-duchenne'> <a className="dropdown-item" href="#">¿Qué es Duchenne?</a> </Link>
                     <div className="dropdown-divider"></div>
-                    <a className="dropdown-item" href="#">Diagnostico de duchenne</a>
+                   <Link className='link' to='/diagnostico'> <a className="dropdown-item" href="#">Diagnostico Duchenne</a> </Link>
                     <div className="dropdown-divider"></div>
                     <a className="dropdown-item" href="#">Etapas de duchenne</a>
                     </div>
@@ -51,7 +54,7 @@ class Navbar extends Component{
                     </div>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link " href="#">¿Cómo ayudar? <span className="sr-only">(current)</span></a>
+                <Link className="link" to="/sumate"><a className="nav-link">¿Cómo ayudar? <span className="sr-only">(current)</span></a></Link>
                    
                 </li>
                 <li className="nav-item">
