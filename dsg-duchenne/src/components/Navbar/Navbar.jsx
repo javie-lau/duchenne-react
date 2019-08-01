@@ -13,7 +13,7 @@ class Navbar extends Component{
                     <a className="navbar-brand" href="#"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a>
                     </div>
                     <div className="col-4 col-md-2 offset-md-6">
-                        <button className="btn"><i class="fas fa-heart"></i>Sumate</button>
+                        <button className="btn"><i class="fas fa-heart"> Sumate</i></button>
                     </div>    
                  </div>
             </nav>
