@@ -1,26 +1,22 @@
 .card{
     color:rgb(63, 65, 65);
     align-items:center;
-    margin-left:20px;
-    margin-right: 10px;
     border-style: none;
     font-weight: bold;
 }
 .card-group{
-    width:1000px;
-    flex-direction: row;
-    justify-items:center;
-    display: flex;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    align-content: center;
-
+    margin-top:3%;
 }
-.btn{
-    background: #039D8B;
-     
+  @media (max-width: 576px){
+  .card-group{
+    margin-top:3%;
+   }
+}
+.btn-more{
+    color: #039D8B;
+    background: transparent; 
+    align-items: left;
 }
 img{
-    
     height: 200px;
 }
