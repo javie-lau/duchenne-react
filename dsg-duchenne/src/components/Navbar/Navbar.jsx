@@ -14,7 +14,7 @@ class Navbar extends Component{
             <nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="row">
                     <div className="col-8 col-md-4">
-                    <a className="navbar-brand" href="/Home"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a>
+                    <Link  to="/"><a className="navbar-brand"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a></Link>
                     </div>
                     <div className="col-4 col-md-2 offset-md-6">
                         <Link  to="/sumate"><button className="btn"><i class="fas fa-heart"> Sumate</i></button></Link>
