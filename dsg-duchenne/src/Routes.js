@@ -1,13 +1,19 @@
 import React from 'react';
 import { Switch, Route} from 'react-router-dom';
 import Home from './views/Home';
-import QueEsDuchenne from './views/Sobre-Duchenne/Que-es';
+import Sumate from './views/Sumate';
+import WhatIsDuchenne from './views/About-Duchenne/What-is';
+import Diagnostic from './views/About-Duchenne/Diagnostic';
+
+
 
 const Routes = () =>{
     return(
         <Switch>
             <Route exact path='/' component = {Home}/>  
-            <Route path='/que-es-duchenne' component = {QueEsDuchenne}/>  
+            <Route path='/que-es-duchenne' component = {WhatIsDuchenne}/>  
+            <Route path='/diagnostico' component = {Diagnostic}/>  
+            <Route path='/sumate' component = {Sumate}/>
 
         </Switch>
     )
