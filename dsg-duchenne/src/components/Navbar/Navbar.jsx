@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './Navbar.css';
 import images from '../../importImages';
+
 import { Link } from 'react-router-dom';
+
 
 
 class Navbar extends Component{
@@ -44,7 +46,7 @@ class Navbar extends Component{
                     Sobre nosotros
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a className="dropdown-item" href="#">Nuestra misión</a>
+                  <Link to='/nuestra-mision'>  <a className="dropdown-item" href="#">Nuestra misión</a> </Link>
                     <div className="dropdown-divider"></div>
                     <a className="dropdown-item" href="#">Nuestro equipo</a>
                     <div className="dropdown-divider"></div>
