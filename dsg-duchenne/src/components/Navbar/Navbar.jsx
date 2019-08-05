@@ -68,7 +68,7 @@ class Navbar extends Component{
                     <a className="nav-link" href="#">Transparencia</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Contacto</a>
+                   <Link className="link" to="/contact"><a className="nav-link" href="#">Contacto</a></Link> 
                 </li>
                 </ul>
             

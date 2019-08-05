@@ -1,6 +1,7 @@
 import React, {Component}from 'react';
 import images from '../../importImages';
 import './Carousel.css'
+import { Link } from 'react-router-dom';
 
 class  Carousel extends Component{
 
@@ -16,13 +17,13 @@ class  Carousel extends Component{
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={images['New-Project(6).png']} className="d-block w-100" alt="..."/>
+            <img src={images['mision.png']} className="d-block w-100" alt="..."/>
           </div>
           <div className="carousel-item">
-            <img src={images['New-Project(5).png']}className="d-block w-100" alt="..."/>
+            <img src={images['donar.png']}className="d-block w-100" alt="..."/>
           </div>
           <div class="carousel-item">
-            <img src={images['New-Project(7).png']} className="d-block w-100" alt="..."/>
+           <Link to="/investigacion"> <img src={images['microdistrofina.png']} className="d-block w-100" alt="..."/></Link>
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
