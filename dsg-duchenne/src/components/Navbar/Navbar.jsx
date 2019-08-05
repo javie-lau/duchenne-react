@@ -39,7 +39,12 @@ class Navbar extends Component{
                    <Link className='link' to='/diagnostico'> <a className="dropdown-item" href="#">Diagnostico Duchenne</a> </Link>
                     <div className="dropdown-divider"></div>
                     <a className="dropdown-item" href="#">Etapas de duchenne</a>
+                    <div className="dropdown-divider"></div>
+                    <a className="dropdown-item" href="#">Guía para padres</a>
                     </div>
+                    
+
+
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

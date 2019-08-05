@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
-import './sobre-duchenne.css';
+import './about.css';
 
 class WhatIsDuchenne extends Component{
   render(){
    return (
      <React.Fragment>
          <Navbar />
-         <div className="container-all">
+         <div className="container-all col-md-8">
        <h2>¿Qué es la distrofia muscular de Duchenne (DMD)?</h2>
         <div className="container-p"> 
        <p>La distrofia muscular de Duchenne es la forma más frecuente de distrofia muscular, un trastorno de origen genético que debilita progresivamente los músculos del cuerpo.</p>
@@ -27,8 +27,10 @@ class WhatIsDuchenne extends Component{
        <p> La distrofia muscular de Duchenne afecta en mayor medida a los niños que a las niñas, porque el gen de la distrofina se encuentra en el cromosoma X. Los niños tienen solo un cromosoma X, mientras que las niñas tienen dos.</p>
        <p> Por lo tanto, las niñas casi siempre pueden fabricar distrofina funcional usando el gen de la distrofina de su segundo cromosoma X.</p>
        <p> Pero las niñas con un solo gen de la distrofia muscular de Duchenne pueden tener calambres musculares, debilidad y problemas cardíacos. Las mujeres que son portadoras del gen de esta enfermedad presentan una deleción (falta de un fragmento) o una modificación del gen, que pueden transmitir a sus hijos. A veces, la modificación o deleción del gen no proviene de la madre, sino que se trata de un cambio genético que aparece en el niño. Esto se llama mutación nueva o de novo. </p>
-    
        </div>
+
+
+
      </div>
   
    <div>
