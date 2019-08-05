@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './Navbar.css';
 import images from '../../importImages';
+
 import { Link } from 'react-router-dom';
+
 
 
 class Navbar extends Component{
@@ -12,7 +14,7 @@ class Navbar extends Component{
             <nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="row">
                     <div className="col-8 col-md-4">
-                    <Link className="link" to="/"><a className="navbar-brand" href="#"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a></Link>
+                    <Link  to="/"><a className="navbar-brand"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a></Link>
                     </div>
                     <div className="col-4 col-md-2 offset-md-6">
                         <Link  to="/sumate"><button className="btn"><i class="fas fa-heart"> Sumate</i></button></Link>
@@ -44,7 +46,7 @@ class Navbar extends Component{
                     Sobre nosotros
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a className="dropdown-item" href="#">Nuestra misión</a>
+                  <Link to='/nuestra-mision'>  <a className="dropdown-item" href="#">Nuestra misión</a> </Link>
                     <div className="dropdown-divider"></div>
                     <a className="dropdown-item" href="#">Nuestro equipo</a>
                     <div className="dropdown-divider"></div>
@@ -56,7 +58,7 @@ class Navbar extends Component{
                    
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Noticias</a>
+                    <a className="nav-link" href="/News">Noticias</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">Transparencia</a>

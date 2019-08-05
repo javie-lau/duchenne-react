@@ -6,11 +6,8 @@ import './sobre-duchenne.css';
 class WhatIsDuchenne extends Component{
   render(){
    return (
-     <div>
-       <div className="header">
+     <React.Fragment>
          <Navbar />
-       </div>
-       <div className ="body">
          <div className="container-all">
        <h2>¿Qué es la distrofia muscular de Duchenne (DMD)?</h2>
         <div className="container-p"> 
@@ -35,10 +32,11 @@ class WhatIsDuchenne extends Component{
      </div>
   
    <div>
-     <Footer/>
+    
    </div>
-   </div>
-   </div>
+  <Footer/>
+   
+   </React.Fragment>
    )
   }
 }
