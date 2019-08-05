@@ -8,7 +8,7 @@ class Diagnostic extends Component{
    return (
      <React.Fragment>
         <Navbar />
-          <div className="container-all">
+          <div className="container-all col-md-8">
             <h2>Diagnóstico Duchenne</h2>
             <div className="container-p"> 
               <p> Los médicos suelen diagnosticar la distrofia muscular basándose en los antecedentes médicos familiares del niño, los síntomas y un examen físico. </p>

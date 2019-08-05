@@ -20,3 +20,33 @@ p, li{
 .container-p{
     text-align: justify;
 }
+
+.extra-cards{
+    margin-top:5%;
+}
+.card-title{
+    color: white;
+    margin-top:10%;
+    text-align: center;
+}
+.card-body{
+    padding-top: 15%;
+    padding-bottom:15%;
+}
+.bg-secondary{
+    background-color: #7A7C7C;
+}
+
+.link:hover{
+    text-decoration:none;
+    
+}
+@media (max-width: 576px) {
+    .card-body{
+        padding-top: 8%;
+        padding-bottom:8%
+    }
+    .card.title{
+    margin-top:10px; 
+    }
+}
