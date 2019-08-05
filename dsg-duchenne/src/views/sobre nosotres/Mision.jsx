@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer'
 import './mision.css'
-
+import ButtonDonate from '../../components/buttonDonate/ButtonDonate'
 class Mision extends Component{
 
     render(){
@@ -11,7 +11,8 @@ class Mision extends Component{
                 <div className="header">
                     <Navbar/>
                 </div>
-                <div className="body">
+                <div className="row">
+                <div className="body offset-md-1 col-md-8">
                   <h2> 
                     Misión y Principios de la Fundación DSG-Duchenne
                   </h2>
@@ -69,7 +70,9 @@ Muscular de Duchenne. En esta travesía la transparencia es fundamental, porque 
 que cualquier persona pueda saber cómo y en qué se utilizan los recursos de esta
 Fundación.
 </p>
+<ButtonDonate/>
 
+                </div>
                 </div>
                 <div className="footer">
                     <Footer/>
