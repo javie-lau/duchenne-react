@@ -17,7 +17,7 @@ class Navbar extends Component{
                     <Link  to="/"><a className="navbar-brand"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a></Link>
                     </div>
                     <div className="col-4 col-md-2 offset-md-6">
-                        <Link  to="/sumate"><button className="btn"><i class="fas fa-heart"> Sumate</i></button></Link>
+                        <Link  to="/sumate"><button className="btn"><i class="fas fa-heart"><span> Sumate</span></i></button></Link>
                     </div>    
                  </div>
             </nav>

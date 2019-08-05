@@ -2,16 +2,19 @@
     margin-top:.5em;
     background: white;
     border-radius: 25px;
-    border:solid 3px #a31915;
+    border:solid 3px #9d0315;
     padding:.2em 1.5em;
-    color:#a31915;
+    color:#9d0315;
     font-weight: bold;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.3em;
 }
+.btn i span{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 .fas{
 
-    color: #a31915;
+    color: #9d0315;
 }
 @media (max-width: 576px) {
     .btn{
@@ -48,7 +51,10 @@
 
 .dropdown-menu,.dropdown-item{
     background: #eaebea;
-    color:#039D8B !important;
+    color:rgb(97, 131, 127) !important;
+}
+.dropdown-item:hover,.dropdown-item:focus{
+    color: #9d0315 !important;
 }
 .dropdown-divider{
     background: #039D8B;
@@ -61,8 +67,10 @@
 }
 
 #navbar-two ul li a{
-    color:#eaebea;
+    color:#ebeaea;
 }
+
+
 .hamburger,
 .hamburger::before,
 .hamburger::after{
