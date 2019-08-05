@@ -8,6 +8,7 @@ import Mision from '../src/views/sobre nosotres/Mision'
 import Sumate from './views/Sumate';
 import WhatIsDuchenne from './views/About-Duchenne/What-is';
 import Diagnostic from './views/About-Duchenne/Diagnostic';
+import Investigation from './views/investigacion/Investigation'
 
 
 
@@ -24,6 +25,8 @@ const Routes = () =>{
             <Route path='/que-es-duchenne' component = {WhatIsDuchenne}/>  
             <Route path='/diagnostico' component = {Diagnostic}/>  
             <Route path='/sumate' component = {Sumate}/>
+            <Route path='/investigacion' component = {Investigation}/>
+
 
 
         </Switch>
