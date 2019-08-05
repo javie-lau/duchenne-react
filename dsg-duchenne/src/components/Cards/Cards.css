@@ -47,7 +47,9 @@ img{
 .card-text{
     margin-top:3%;
     margin-bottom:10%;
+    text-decoration: none;
 }
+
 h5{
     margin-top:90px;
     color: #039D8B;
@@ -55,3 +57,60 @@ h5{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
 }
+.container{
+ display: flex;
+ flex-direction: row;
+flex-wrap:wrap;
+ width: 100%;
+ flex-grow: 1;
+ flex:1 1 80%;
+ align-content: space-between;
+ display:inline-block;
+ margin-bottom: 20px;
+
+}
+.row{
+
+flex-wrap:wrap;
+}
+@media screen and (max-width: 576px) {
+	.container {
+        flex-direction:column;
+        justify-items: auto;
+        max-width: 50%;
+        margin-bottom: 20px;
+        flex-wrap:wrap;
+        flex-grow: 1;
+    }
+    
+}
+@media screen and (max-width: 870px) {
+	.container {
+            flex-direction:column;
+            width: 100%;
+            align-items: center;
+            margin-bottom: 30px;
+            display: inline-block;
+            margin-bottom: 20px;
+            flex-wrap:wrap;
+            justify-content: center;
+            margin-left:  20%;
+        }
+        img{ 
+            flex-wrap: wrap;
+        }
+        .card-text{
+         flex-wrap: wrap;
+         font-size:13px;
+        }
+    }
+    @media screen and (max-width: 1140px) {
+        .card-text{
+            font-size:15;
+            flex-wrap:wrap;
+        }
+        .container{
+            margin-bottom: 20px;
+        }
+    }
+    
