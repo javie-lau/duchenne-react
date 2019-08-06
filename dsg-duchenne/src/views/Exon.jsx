@@ -8,10 +8,10 @@ import ButtonDonate from '../components/buttonDonate/ButtonDonate'
 class Exon extends Component{
     render(){
         return(
-            <div className="exon">
-                <div className="header">
+      <React.Fragment>
+                         
                     <Navbar/>
-                </div>
+              
                 <div className="body">
                 <div className="row">
                         <div className="offset-md-1 col-md-7">
@@ -87,18 +87,19 @@ médico u otro proveedor de salud calificado con cualquier pregunta que
 pueda tener con respecto a una afección médica.
                     </p>
 
-                            
-                        <ButtonDonate/>
+                        
 
                         </div>
                 </div>            
 
                 </div>
-                <div className="footer">
+                    
+                <ButtonDonate/>
+               
                      <Footer/>
-                 </div>
-            </div>
-   
+               
+           
+    </React.Fragment>
 
         )
     }

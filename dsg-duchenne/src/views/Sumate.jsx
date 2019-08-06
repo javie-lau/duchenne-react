@@ -20,7 +20,7 @@ class Sumate extends Component {
                                 <li>Lorem, ipsum dolor.</li>
                                 <li>Lorem ipsum dolor sit.</li>
                                 <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>En que consiste el<a href="http://www.sii.cl/contribuyentes/actividades_especiales/donaciones.pdf"> "Beneficio Tributario"</a></li>
                             </ul>
                             <button className="btn btn-help">Ayudar!</button>
                         </div>
