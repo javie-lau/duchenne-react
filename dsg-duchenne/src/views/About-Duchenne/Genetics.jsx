@@ -3,7 +3,6 @@ import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import './about.css';
 import ButtonDonate from '../../components/buttonDonate/ButtonDonate';
-import Conector from '../../components/Conector/Conector';
 
 class Genetics extends Component{
     render(){
@@ -44,7 +43,6 @@ class Genetics extends Component{
             </div>
              
             <div className="col-md-3">
-                <Conector title="Hola"/>
             </div>
 
             <ButtonDonate/>

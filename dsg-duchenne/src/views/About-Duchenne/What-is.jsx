@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import './about.css';
 import ButtonDonate from '../../components/buttonDonate/ButtonDonate';
+import Conector from '../../components/Conector/Conector';
 
 class WhatIsDuchenne extends Component{
   render(){
@@ -31,8 +32,7 @@ class WhatIsDuchenne extends Component{
               <p> Pero las niñas con un solo gen de la distrofia muscular de Duchenne pueden tener calambres musculares, debilidad y problemas cardíacos. Las mujeres que son portadoras del gen de esta enfermedad presentan una deleción (falta de un fragmento) o una modificación del gen, que pueden transmitir a sus hijos. A veces, la modificación o deleción del gen no proviene de la madre, sino que se trata de un cambio genético que aparece en el niño. Esto se llama mutación nueva o de novo. </p>
             </div>
           </div>
-          <div className="col-md-3 col-10 offset-md-0 offset-1 extra-cards">
-            {/* <a><Conector /></a> */}
+          <div className="col-md-3 btns-extras">
             
                 <div class="card text-white">
                   <div class="card-body">

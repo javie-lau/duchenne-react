@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import images from '../../importImages';
+import './Conector.css'
 
 
 class Conector extends Component{
@@ -9,8 +10,9 @@ class Conector extends Component{
     render(){
         return(
             <div>
-            <h5 className="txt-btn">{this.props.title}</h5>
-             <img className="img-fluid conector" src={images["New-Project(13).png"]} alt=""/>
+             <a className="conector"><img className="img-fluid conector" src={images["New-Project(13).png"]} alt=""/>
+             <h5 className="txt-btn">{this.props.title}</h5>
+             </a>
             </div>
         )
     }
