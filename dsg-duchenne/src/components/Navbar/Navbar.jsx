@@ -38,6 +38,8 @@ class Navbar extends Component{
                                     <div className="dropdown-divider"></div>
                                 <Link className='link' to='/diagnostico'> <a className="dropdown-item" href="#">Diagnostico Duchenne</a> </Link>
                                     <div className="dropdown-divider"></div>
+                                <Link className="link" to='/genetica'><a className="dropdown-item" href="#">Geńetica</a></Link>
+                                    <div className="dropdown-divider"></div>
                                 <Link className="link" to='/etapas'><a className="dropdown-item" href="#">Etapas de duchenne</a></Link>
                                     <div className="dropdown-divider"></div>
                                 <Link className="link" to='/guia-para-padres'><a className="dropdown-item" href="#">Guía para padres</a></Link> 

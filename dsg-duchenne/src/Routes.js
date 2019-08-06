@@ -14,6 +14,7 @@ import Form from './components/Form/Form';
 import Exon from './views/Exon'
 
 import Transparency from './views/Tranparency';
+import Genetics from './views/About-Duchenne/Genetics';
 
 
 const Routes = () =>{
@@ -25,6 +26,7 @@ const Routes = () =>{
             <Route path='/nuestra-mision' component ={Mision}/>
             <Route path='/que-es-duchenne' component = {WhatIsDuchenne}/>  
             <Route path='/diagnostico' component = {Diagnostic}/>  
+            <Route path='/genetica' component = {Genetics}/>  
             <Route path='/etapas' component = {Stages}/>
             <Route path='/guia-para-padres' component = {Guide}/>
             <Route path='/sumate' component = {Sumate}/>

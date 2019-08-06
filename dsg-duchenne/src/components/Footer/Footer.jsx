@@ -19,8 +19,10 @@ class Footer extends Component {
                 {/* <div className="footer-icons"> */}
                 <a  href="https://www.facebook.com/DSGDuchenne/"><img className="img-fluid icon-footer" src={images['facebook(1).png']} alt=""/></a>
                 <a><img className="img-fluid icon-footer" src={images['New-Project(11).png']} alt=""/></a>
+
                 {/* </div> */}
                 </div> 
+
         </div>
              
         {/* </div> */}
