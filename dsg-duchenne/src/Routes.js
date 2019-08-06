@@ -11,6 +11,7 @@ import News from './views/News';
 import Sumate from './views/Sumate';
 import Investigation from './views/investigacion/Investigation';
 import Form from './components/Form/Form';
+import Exon from './views/Exon'
 
 const Routes = () =>{
     return(
@@ -26,6 +27,7 @@ const Routes = () =>{
             <Route path='/sumate' component = {Sumate}/>
             <Route path='/investigacion' component = {Investigation}/>
             <Route path='/contact' component = {Form}/>
+            <Route path='/investigacion-exon' component = {Exon}/>
 
         </Switch>
     )
