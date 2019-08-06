@@ -10,12 +10,12 @@ class Footer extends Component {
      <footer className="footer text-center">
 
          <div className="row">
-             <div className="col-md-12">
+             <div className="col-md-6">
                
                   <button><Link  to="/contact"><a  href="#">Contacto</a></Link></button>
                   
              </div>
-             <div className="col-md-12">
+             <div className="col-md-6">
                 <div className="footer-icons">
                 <a  href="https://www.facebook.com/DSGDuchenne/"><img className="img-fluid icon-footer" src={images['facebook(1).png']} alt=""/></a>
                 <a><img className="img-fluid icon-footer" src={images['instagram(1).png']} alt=""/></a>
