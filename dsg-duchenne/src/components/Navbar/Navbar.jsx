@@ -27,7 +27,7 @@ class Navbar extends Component{
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 
                 <ul className="navbar-nav mr-auto">
-                <li>
+                <li className="nav-item imgHome">
                    <Link className="link" to="/Home"><a className="nav-item"> <img className="img-fluid btn-home"src={images['home.png']}/></a></Link>
                 </li>
                 <li className="nav-item dropdown">
@@ -70,8 +70,16 @@ class Navbar extends Component{
                 <li className="nav-item">
                    <Link className="link" to="/transparencia"><a className="nav-link">Transparencia</a></Link>
                 </li>
-                <li className="nav-item">
-                    <a className ="nav-link" href="#">Investigaciones</a>
+                <li className="nav-item dropdown">
+                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Investigaciones
+                    </a>
+                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a className="dropdown-item" href="investigacion-microdistrofina">Microdistrofina</a>
+                    <div className="dropdown-divider"></div>
+                    <a className="dropdown-item" href="investigacion-exon">Exón skipping</a>
+                    </div>
+                    
                 </li>
                 
                 </ul>
