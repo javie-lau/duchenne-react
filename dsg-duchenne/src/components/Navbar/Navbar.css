@@ -18,9 +18,10 @@
 }
 @media (max-width: 576px) {
     .btn{
-        margin-top:1em;
-        padding:.2em 1.2em;
-        font-size: .7em;
+        width: 110%;
+        
+        padding:.1em 0 .2em 0;
+        font-size: 1.4em;
     }
     
     .fas{
@@ -32,7 +33,7 @@
 }
 @media (max-width: 576px) {
     .navbar img {
-        width: 100%;
+        width: 90%;
     }
  }
 .nav-item{
@@ -97,4 +98,7 @@
 .link:hover{
     text-decoration:none;
     
+}
+.navbar img .btn-home{
+    width: 10%;
 }

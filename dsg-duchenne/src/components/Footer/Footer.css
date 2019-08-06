@@ -4,6 +4,21 @@
 .footer p{
     color:#eaebea;
 }
+.footer button{
+    margin-top: 1em;
+    background: #039D8B;
+    border:4px solid white;
+    border-radius:25px;
+    padding: .5em 1.5em;
+
+}
+.footer a{
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+   
+}
+
 .copyright{
     padding-bottom: .5em;
 }

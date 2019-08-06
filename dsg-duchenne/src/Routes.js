@@ -1,7 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './views/Home';
-
 import WhatIsDuchenne from './views/About-Duchenne/What-is';
 import Diagnostic from './views/About-Duchenne/Diagnostic';
 import Stages from './views/About-Duchenne/Stages';
@@ -11,7 +10,11 @@ import News from './views/News';
 import Sumate from './views/Sumate';
 import Investigation from './views/investigacion/Investigation';
 import Form from './components/Form/Form';
+
 import Exon from './views/Exon'
+
+import Transparency from './views/Tranparency';
+
 
 const Routes = () =>{
     return(
@@ -25,7 +28,8 @@ const Routes = () =>{
             <Route path='/etapas' component = {Stages}/>
             <Route path='/guia-para-padres' component = {Guide}/>
             <Route path='/sumate' component = {Sumate}/>
-            <Route path='/investigacion' component = {Investigation}/>
+            <Route path='/investigacion-microdistrofina' component = {Investigation}/>
+            <Route path='/transparencia' component = {Transparency}/>
             <Route path='/contact' component = {Form}/>
             <Route path='/investigacion-exon' component = {Exon}/>
 
