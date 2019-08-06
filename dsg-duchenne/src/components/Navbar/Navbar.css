@@ -33,7 +33,7 @@
 }
 @media (max-width: 576px) {
     .navbar img {
-        width: 100%;
+        width: 90%;
     }
  }
 .nav-item{
@@ -98,4 +98,7 @@
 .link:hover{
     text-decoration:none;
     
+}
+.navbar img .btn-home{
+    width: 10%;
 }

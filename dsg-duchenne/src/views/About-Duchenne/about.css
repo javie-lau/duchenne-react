@@ -50,3 +50,8 @@ p, li{
     margin-top:10px; 
     }
 }
+
+.family{
+  width: 50%;
+  justify-content: center;
+}
