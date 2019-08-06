@@ -7,7 +7,8 @@ class Form extends Component{
     render(){
         return(
             <React.Fragment>
-        <Navbar/>        
+        <Navbar/>  
+        <div  id="form">
           <div className="row">
                         <form className="col-md-6 offset-md-3">
                             <h4>¡Contactenos!</h4>
@@ -39,7 +40,8 @@ class Form extends Component{
                             
                         </form>
                  
-                        </div> 
+                        </div>
+                        </div>       
                         <Footer/>     
             </React.Fragment>
         )

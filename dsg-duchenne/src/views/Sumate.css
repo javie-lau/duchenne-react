@@ -1,3 +1,6 @@
+#sumate{
+    height: 85vh;
+}
 #sumate img{
     width: 60%;
 }
@@ -8,10 +11,8 @@
     #sumate img{
         margin-top:1.5em;
         width: 55%;
-    }
-    
+    }    
 }
-
 #sumate h6{
     color:#039D8B;
    
@@ -32,12 +33,21 @@
     font-size: 1.3em;
 }
 @media (max-width: 576px){
-#sumate ul li{
-    font-size: .5em;
+    #sumate ul li{
+        font-size: .5em;
+    }
 }
-}
-.btn-help{
-    border:solid 2px #039D8B;
+#sumate .btn-help{
+    border-radius: 25px;
+    border:solid 4px #039D8B;
     color: #039D8B;
-
+    width: 40%;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+@media (max-width: 576px){
+    #sumate .btn-help{
+        width: 70%;
+        font-size: .9em;
+    }
 }

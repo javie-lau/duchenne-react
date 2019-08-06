@@ -1,4 +1,4 @@
-.btn{
+#navbar .btn{
     margin-top:.5em;
     background: white;
     border-radius: 25px;
@@ -9,55 +9,52 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.3em;
 }
-.btn i span{
-    font-family: 'Source Sans Pro', sans-serif;
-}
-.fas{
 
-    color: #9d0315;
+#navbar .navbar button img{
+    width: 20%;
 }
 @media (max-width: 576px) {
-    .btn{
-        width: 110%;
+    #navbar .btn{
+        width: 120%;
         margin-right:1em;
-        padding:0 .2em .3em 0.2em;
-        font-size: 1.2em;
+        padding:0 .2em .2em 0.2em;
+        font-size: 1.1em;
     }
     
-    .fas{
-        font-size: .7em; 
+    #navbar .navbar button img{
+        width: 20%;
     }
  }
-.navbar img {
+ #navbar .navbar img {
     width: 60%;
 }
 @media (max-width: 576px) {
-    .navbar img {
+    #navbar .navbar img {
         width: 90%;
     }
  }
-.nav-item{
+ #navbar .nav-item{
     margin-right: 2em;
 }
-.nav-item, .dropdown-item{
+#navbar .nav-item, .dropdown-item{
     font-size: 1.3em;
     font-family: 'Source Sans Pro', sans-serif;
 }
 @media (max-width: 576px) {
-    .nav-item, .dropdown-item{
+    #navbar .nav-item, .dropdown-item{
         font-size: 1em;
     }   
  }
 
 
-.dropdown-menu,.dropdown-item{
+ #navbar .dropdown-menu,.dropdown-item{
     background: #eaebea;
     color:rgb(97, 131, 127) !important;
 }
-.dropdown-item:hover,.dropdown-item:focus{
+#navbar .dropdown-item:hover,.dropdown-item:focus{
     color: #9d0315 !important;
 }
-.dropdown-divider{
+#navbar .dropdown-divider{
     background: #039D8B;
     border-color:#039D8B;
 }
@@ -72,9 +69,9 @@
 }
 
 
-.hamburger,
-.hamburger::before,
-.hamburger::after{
+#navbar .hamburger,
+#navbar .hamburger::before,
+#navbar .hamburger::after{
 	content: '';
 	display: block;
 	background: #eaebea;
@@ -84,14 +81,14 @@
 	transition: all ease-in-out 500ms;
 
 }
-.hamburger::before{
+#navbar .hamburger::before{
 	transform: translateY(-6px);
 
 }
-.hamburger::after{
+#navbar .hamburger::after{
 	transform: translateY(3px);
 }
-.navbar-toggler{
+#navbar .navbar-toggler{
     background: #039D8B;
     padding: 10px 0;
 }
