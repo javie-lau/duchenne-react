@@ -75,9 +75,9 @@ class Navbar extends Component{
                     Investigaciones
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="investigacion-microdistrofina">Microdistrofina</a>
+                  <Link className="link" to="/investigacion-microdistrofina"><a className="dropdown-item">Microdistrofina</a></Link>
                     <div className="dropdown-divider"></div>
-                    <a className="dropdown-item" href="investigacion-exon">Exón skipping</a>
+                    <Link className="link" to="/investigacion-exon"> <a className="dropdown-item">Exón skipping</a></Link>
                     </div>
                     
                 </li>
