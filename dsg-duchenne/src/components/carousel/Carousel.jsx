@@ -23,7 +23,7 @@ class  Carousel extends Component{
             <img src={images['donar.png']}className="d-block w-100" alt="..."/>
           </div>
           <div class="carousel-item">
-           <Link to="/investigacion"> <img src={images['microdistrofina.png']} className="d-block w-100" alt="..."/></Link>
+           <Link to="/investigacion-microdistrofina"> <img src={images['microdistrofina.png']} className="d-block w-100" alt="..."/></Link>
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
