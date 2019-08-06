@@ -14,7 +14,7 @@ class Investigation extends Component{
                 </div>
                 <div className="body">
                     <div className="row">
-                        <div className="offset-md-1 col-md-8">
+                        <div className="offset-md-1 col-md-7">
                     <h1>MICRODISTROFINA</h1>
                     <p>
                     En los últimos años se han generado varios ensayos clínicos, como nunca antes.
@@ -156,8 +156,31 @@ Texto sacado de
 Parent Project muscular dystrophy
 Muscular dystrophy news today
                     </p>
+                    <p className="finalText">
+                    Este contenido no pretende ser un sustituto del consejo médico
+profesional, diagnóstico o tratamiento. Siempre busque el consejo de su
+médico u otro proveedor de salud calificado con cualquier pregunta que
+pueda tener con respecto a una afección médica.
+                    </p>
                     <ButtonDonate/>
                     </div>
+                    <div className="col-md-3 extra-cards">
+              
+                <div class="card text-white bg-secondary">
+                  <div class="card-body">
+                    <a className="link" href="diagnostico"><h5 class="card-title">Diagnóstico</h5></a>
+                  </div>
+                </div>
+                       
+                            
+                
+                  <div class="card text-white bg-secondary">
+                    <div class="card-body">
+                      <a className="link" href="investigacion-exon"><h5 class="card-title">Exón skipping</h5></a>
+                    </div>
+                  </div>
+               
+              </div>
                     </div>
 
                 </div>

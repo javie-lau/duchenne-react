@@ -10,7 +10,11 @@ import News from './views/News';
 import Sumate from './views/Sumate';
 import Investigation from './views/investigacion/Investigation';
 import Form from './components/Form/Form';
+
+import Exon from './views/Exon'
+
 import Transparency from './views/Tranparency';
+
 
 const Routes = () =>{
     return(
@@ -24,9 +28,10 @@ const Routes = () =>{
             <Route path='/etapas' component = {Stages}/>
             <Route path='/guia-para-padres' component = {Guide}/>
             <Route path='/sumate' component = {Sumate}/>
-            <Route path='/investigacion' component = {Investigation}/>
+            <Route path='/investigacion-microdistrofina' component = {Investigation}/>
             <Route path='/transparencia' component = {Transparency}/>
             <Route path='/contact' component = {Form}/>
+            <Route path='/investigacion-exon' component = {Exon}/>
 
         </Switch>
     )
