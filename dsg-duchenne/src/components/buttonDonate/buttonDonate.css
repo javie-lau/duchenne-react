@@ -5,12 +5,12 @@
     width: 30%;
 }
 
-.donate:hover{
+.donate:hover, .donate:focus{
     background-color:#9d0315;
     color: white; 
     border-color:#9d0315;
 }
-.donate:hover i{
+.donate:hover i,.donate:focus i{
     color: white;
 }
 @media (max-width: 576px) {
