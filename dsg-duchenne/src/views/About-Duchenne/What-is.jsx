@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import './about.css';
 import ButtonDonate from '../../components/buttonDonate/ButtonDonate';
+import Conector from '../../components/Conector/Conector';
 
 class WhatIsDuchenne extends Component{
   render(){
@@ -31,7 +32,8 @@ class WhatIsDuchenne extends Component{
             </div>
           </div>
           <div className="col-md-3 extra-cards">
-              
+            {/* <a><Conector /></a> */}
+            
                 <div class="card text-white bg-secondary">
                   <div class="card-body">
                     <a className="link" href="diagnostico"><h5 class="card-title">Diagnóstico</h5></a>
@@ -55,6 +57,8 @@ class WhatIsDuchenne extends Component{
                
               </div>
           </div>
+          
+         
   <ButtonDonate/>
 
   <Footer/>

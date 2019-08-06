@@ -8,6 +8,7 @@ class Footer extends Component {
     render(){
     return (
      <footer className="footer text-center">
+
          <div className="row">
              <div className="col-md-12">
                

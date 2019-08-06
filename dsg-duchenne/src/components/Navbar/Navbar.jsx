@@ -27,6 +27,9 @@ class Navbar extends Component{
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 
                 <ul className="navbar-nav mr-auto">
+                <li>
+                   <Link className="link" to="/Home"><a className="nav-item"> <img className="img-fluid btn-home"src={images['home.png']}/></a></Link>
+                </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Sobre Duchenne
@@ -65,7 +68,7 @@ class Navbar extends Component{
                    <Link className="link" to="/news"><a className="nav-link">Noticias</a></Link> 
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Transparencia</a>
+                   <Link className="link" to="/transparencia"><a className="nav-link">Transparencia</a></Link>
                 </li>
                 <li className="nav-item">
                     <a className ="nav-link" href="#">Investigaciones</a>
