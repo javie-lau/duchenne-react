@@ -32,7 +32,7 @@ input[type=text],input[type=email],textarea {
     background-color:white ;
   }
   form{
-      font-family: 'Source Sans Pro', sans-serif;
+     
       margin: 1em;
       background: #eaebea;
       width: 50%;
