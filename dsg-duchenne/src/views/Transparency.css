@@ -1,0 +1,18 @@
+#transparency{
+    margin-top: 7vh;
+    text-align: center;
+    
+
+}
+@media (max-width: 576px){
+    #transparency{
+        margin-top: 3vh;
+        height: 67vh;
+    }
+}
+@media (max-width: 576px){
+    #transparency h2{
+        margin-bottom: 9vh;
+        font-size: 1.3em;
+    }
+}
