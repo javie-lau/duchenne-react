@@ -8,10 +8,10 @@ import Conector from '../../components/Conector/Conector';
 class WhatIsDuchenne extends Component{
   render(){
    return (
-     <React.Fragment>
+     <React.Fragment> 
          <Navbar />
          
-      <div className="row">
+      <div className="row" id="what-is">
         <div className="container-all col-md-8">
             <h2>¿Qué es la distrofia muscular de Duchenne (DMD)?</h2>
             <div className="container-p"> 
@@ -35,7 +35,7 @@ class WhatIsDuchenne extends Component{
           <div className="col-md-3 col-10 offset-md-0 offset-1 extra-cards">
             {/* <a><Conector /></a> */}
             
-                <div class="card text-white bg-secondary">
+                <div class="card text-white">
                   <div class="card-body">
                     <a className="link" href="diagnostico"><h5 class="card-title">Diagnóstico</h5></a>
                   </div>
@@ -43,14 +43,14 @@ class WhatIsDuchenne extends Component{
              
 
                 
-                  <div class="card text-white bg-secondary">
+                  <div class="card text-white ">
                     <div class="card-body">
                       <a className="link" href="#etapas"><h5 class="card-title">Etapas</h5></a>
                     </div>
                   </div>
                
                 
-                  <div class="card text-white bg-secondary">
+                  <div class="card text-white">
                     <div class="card-body">
                       <a className="link" href="#guia-para-padres"><h5 class="card-title">Guía para padres</h5></a>
                     </div>
