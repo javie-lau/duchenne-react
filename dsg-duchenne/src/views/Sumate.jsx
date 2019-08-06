@@ -11,7 +11,7 @@ class Sumate extends Component {
                 <Navbar/>
                 <div className="container" id="sumate">
                     <div className="row">
-                        <div className="col-6 col-md-4 offset-md-2 img"><img className="img-fluid" src={images['empresa-svg.png']} alt=""/></div>
+                        <div className="col-6 col-md-4 offset-md-2 img"><img className="img-fluid" src={images['empresa-svg(3).png']} alt=""/></div>
                         <div className="col-6 col-md-4 offset-md-1">
                             <h6>
                                 Empresa solidaria:
@@ -38,7 +38,7 @@ class Sumate extends Component {
                             </ul>
                             <button className="btn btn-help">Ayudar!</button>
                         </div>
-                        <div className="col-6 col-md-4 offset-md-1 img"><img className="img-fluid" src={images['superhombre.svg']} alt=""/></div>
+                        <div className="col-6 col-md-4 offset-md-1 img"><img className="img-fluid" src={images['superhombre-svg.png']} alt=""/></div>
                     </div>
                 </div>
                 <Footer />
