@@ -21,7 +21,12 @@ input[type=text],input[type=email],textarea {
     cursor: pointer;
     font-weight: bolder;
   }
-  
+  @media (max-width: 576px) {
+    input[type=submit] {
+      padding: .2em .8em;
+    }
+   
+  }
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color:white ;

@@ -19,9 +19,9 @@
 @media (max-width: 576px) {
     .btn{
         width: 110%;
-        
-        padding:.1em 0 .2em 0;
-        font-size: 1.4em;
+        margin-right:1em;
+        padding:0 .2em .3em 0.2em;
+        font-size: 1.2em;
     }
     
     .fas{

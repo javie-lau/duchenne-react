@@ -12,6 +12,13 @@
     padding: .5em 1.5em;
 
 }
+@media (max-width: 576px) {
+    .footer button{
+       
+        padding: .2em .7em;
+    
+    }
+}
 .footer a{
     text-decoration: none;
     color:white;

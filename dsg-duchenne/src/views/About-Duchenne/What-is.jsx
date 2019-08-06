@@ -10,6 +10,7 @@ class WhatIsDuchenne extends Component{
    return (
      <React.Fragment>
          <Navbar />
+         
       <div className="row">
         <div className="container-all col-md-8">
             <h2>¿Qué es la distrofia muscular de Duchenne (DMD)?</h2>
@@ -31,7 +32,7 @@ class WhatIsDuchenne extends Component{
               <p> Pero las niñas con un solo gen de la distrofia muscular de Duchenne pueden tener calambres musculares, debilidad y problemas cardíacos. Las mujeres que son portadoras del gen de esta enfermedad presentan una deleción (falta de un fragmento) o una modificación del gen, que pueden transmitir a sus hijos. A veces, la modificación o deleción del gen no proviene de la madre, sino que se trata de un cambio genético que aparece en el niño. Esto se llama mutación nueva o de novo. </p>
             </div>
           </div>
-          <div className="col-md-3 extra-cards">
+          <div className="col-md-3 col-10 offset-md-0 offset-1 extra-cards">
             {/* <a><Conector /></a> */}
             
                 <div class="card text-white bg-secondary">
@@ -60,7 +61,7 @@ class WhatIsDuchenne extends Component{
           
          
   <ButtonDonate/>
-
+ 
   <Footer/>
    
    </React.Fragment>
