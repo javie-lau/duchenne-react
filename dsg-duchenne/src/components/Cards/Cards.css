@@ -77,10 +77,10 @@ flex-wrap:wrap;
 	.container {
         flex-direction:column;
         justify-items: auto;
-        max-width: 50%;
         margin-bottom: 20px;
         flex-wrap:wrap;
         flex-grow: 1;
+        max-width: 90%;
     }
     
 }
@@ -94,7 +94,7 @@ flex-wrap:wrap;
             margin-bottom: 20px;
             flex-wrap:wrap;
             justify-content: center;
-            margin-left:  20%;
+            flex-grow: 1;
         }
         img{ 
             flex-wrap: wrap;
