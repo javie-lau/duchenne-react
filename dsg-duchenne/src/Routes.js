@@ -16,6 +16,7 @@ import Exon from './views/investigacion/Exon'
 import Transparency from './views/Tranparency';
 import Genetics from './views/About-Duchenne/Genetics';
 import OtrasInvestigaciones from './views/investigacion/Otrasinvestigaciones';
+import Crispr from '../src/views/investigacion/CRISPR'
 
 
 const Routes = () =>{
@@ -36,6 +37,8 @@ const Routes = () =>{
             <Route path='/contact' component = {Form}/>
             <Route path='/investigacion-exon' component = {Exon}/>
             <Route path='/otras-investigaciones' component = {OtrasInvestigaciones}/>
+            <Route path='/CRISPR' component = {Crispr}/>
+
 
 
         </Switch>
