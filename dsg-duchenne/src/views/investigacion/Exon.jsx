@@ -1,9 +1,9 @@
 import React, {Component}from 'react';
-import images from '../importImages';
+import images from '../../importImages';
 
-import Navbar from '../components/Navbar/Navbar';
-import Footer from '../components/Footer/Footer'
-import ButtonDonate from '../components/buttonDonate/ButtonDonate'
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer'
+import ButtonDonate from '../../components/buttonDonate/ButtonDonate'
 
 class Exon extends Component{
     render(){
