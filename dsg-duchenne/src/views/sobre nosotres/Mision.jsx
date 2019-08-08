@@ -47,7 +47,7 @@ class Mision extends Component{
                     musculares causadas por este defecto genético.
                     </p>
 
-                    <h4>3. Ganar vida:</h4> <p>nuestro proyecto busca que mediante el desarrollo y la investigación
+                    <h4>3. Ganar vida:</h4> <p>Nuestro proyecto busca que mediante el desarrollo y la investigación
                     científica miles de niños en el mundo ganen vida, tanto en calidad mejorando la
                     forma en que viven, así como también en cantidad, extendiendo la expectativa de
                     vida de niños con Distrofia Muscular de Duchenne.
@@ -57,18 +57,18 @@ class Mision extends Component{
                     valores fundamentales:
                     </p>
 
-                    <h4>Evidencia científica:</h4> <p> buscamos alentar la generación de tratamientos basados en la ciencia,
+                    <h4>Evidencia científica:</h4> <p> Buscamos alentar la generación de tratamientos basados en la ciencia,
                     con evidencia segura y comprobada.
                     </p>
 
-                    <h4>Accesibilidad:</h4><p> queremos fomentar el desarrollo de tratamientos que sean accesibles
+                    <h4>Accesibilidad:</h4><p> Queremos fomentar el desarrollo de tratamientos que sean accesibles
                     económicamente para la mayor cantidad de niños posibles. Para eso nos enfocamos no solo
                     en la búsqueda de nuevas alternativas, sino también en el reposicionamiento de
                     medicamentos ya existentes que puedan contribuir a un tratamiento efectivo de esta
                     condición.
                     </p>
 
-                    <h4>Transparencia: </h4><p> nuestro objetivo final es mejorar la vida de los niños que sufren Distrofia
+                    <h4>Transparencia: </h4><p> Nuestro objetivo final es mejorar la vida de los niños que sufren Distrofia
                     Muscular de Duchenne. En esta travesía la transparencia es fundamental, porque queremos
                     que cualquier persona pueda saber cómo y en qué se utilizan los recursos de esta
                     Fundación.

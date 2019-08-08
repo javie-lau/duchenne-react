@@ -16,7 +16,7 @@ class Navbar extends Component{
                                 <Link  to="/"><a className="navbar-brand"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a></Link>
                             </div>
                             <div className="col-4 col-md-2 offset-md-6">
-                                <Link  to="/sumate"><button className="btn"><img className="img-fluid"src={images['like2.svg']} alt=""/><span> Sumate</span></button></Link>
+                                <Link  to="/sumate"><button className="btn"><img className="img-fluid"src={images['like2.svg']} alt=""/><span> Súmate</span></button></Link>
                             </div>    
                         </div>
                     </nav>
@@ -36,7 +36,7 @@ class Navbar extends Component{
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <Link className="link" to='/que-es-duchenne'> <a className="dropdown-item" href="#">¿Qué es Duchenne?</a> </Link>
                                     <div className="dropdown-divider"></div>
-                                <Link className='link' to='/diagnostico'> <a className="dropdown-item" href="#">Diagnostico Duchenne</a> </Link>
+                                <Link className='link' to='/diagnostico'> <a className="dropdown-item" href="#">Diagnóstico Duchenne</a> </Link>
                                     <div className="dropdown-divider"></div>
                                 <Link className="link" to='/genetica'><a className="dropdown-item" href="#">Geńetica</a></Link>
                                     <div className="dropdown-divider"></div>
