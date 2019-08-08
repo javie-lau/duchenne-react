@@ -9,11 +9,17 @@ class Conector extends Component{
     }
     render(){
         return(
-            <div>
-             <a className="conector"><img className="img-fluid conector" src={images["New-Project(13).png"]} alt=""/>
-             <h5 className="txt-btn">{this.props.title}</h5>
-             </a>
+            <div class="card text-white">
+            <div class="card-body">
+              <a className="link" href="diagnostico"><h5 class="card-title">{this.props.title}</h5></a>
             </div>
+          </div>
+
+            // <div className="container-conector">
+            //  <a><img className="img-fluid conector" src={images["NewProject(7).png"]} alt=""/>
+            //  <h5 className="txt-btn">{this.props.title}</h5>
+            //  </a>
+            // </div>
         )
     }
 }

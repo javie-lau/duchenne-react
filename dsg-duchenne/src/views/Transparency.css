@@ -18,5 +18,15 @@
 }
 
 .icons{
-    width: 10%;
+    width: 15%;
+    padding: 2%;
+}
+.arrow{
+    width: 8%;
+    padding: 2%;
+}
+@media (max-width: 576px){
+    .icons .arrow{
+        width: 30%;
+    }
 }
