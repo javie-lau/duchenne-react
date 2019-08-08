@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Navbar.css';
 import images from '../../importImages';
 import { Link } from 'react-router-dom';
+import ButtonDonate from '../buttonDonate/ButtonDonate';
 
 
 
@@ -16,7 +17,8 @@ class Navbar extends Component{
                                 <Link  to="/"><a className="navbar-brand"><img className="img-fluid" src={images['logo.jpg']} alt=""/><span><img className="img-fluid txt-cura" src={images['cura.png']} alt=""/></span></a></Link>
                             </div>
                             <div className="col-4 col-md-2 offset-md-6">
-                                <Link  to="/sumate"><button className="btn"><img className="img-fluid"src={images['like2.svg']} alt=""/><span> Súmate</span></button></Link>
+                                {/* <Link  to="/sumate"><button className="btn"><img className="img-fluid"src={images['like2.svg']} alt=""/><span> Súmate</span></button></Link> */}
+                                <Link className="link"  to="/sumate"><ButtonDonate/></Link>
                             </div>    
                         </div>
                     </nav>
@@ -40,8 +42,8 @@ class Navbar extends Component{
                                     <div className="dropdown-divider"></div>
                                 <Link className="link" to='/genetica'><a className="dropdown-item" href="#">Geńetica</a></Link>
                                     <div className="dropdown-divider"></div>
-                                <Link className="link" to='/etapas'><a className="dropdown-item" href="#">Etapas de duchenne</a></Link>
-                                    <div className="dropdown-divider"></div>
+                                
+                                   
                                 <Link className="link" to='/guia-para-padres'><a className="dropdown-item" href="#">Guía para padres</a></Link> 
                                     </div>
                                 </li>

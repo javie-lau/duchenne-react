@@ -10,8 +10,8 @@ class WhatIsDuchenne extends Component{
    return (
      <React.Fragment> 
          <Navbar />
-         
-      <div className="row" id="what-is">
+      <div id="what-is">   
+      <div className="row">
         <div className="container-all col-md-8">
             <h2>¿Qué es la distrofia muscular de Duchenne (DMD)?</h2>
             <div className="container-p"> 
@@ -64,7 +64,7 @@ class WhatIsDuchenne extends Component{
           
          
   <ButtonDonate/>
- 
+  </div>
   <Footer/>
    
    </React.Fragment>

@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import '../buttonDonate/buttonDonate.css'
+import '../buttonDonate/buttonDonate.css';
+import images from '../../importImages';
 
 class ButtonDonate extends Component{
     render(){
         return(
-            <div>
-                <button type="button" className="donate btn btn-primary btn-lg btn-block"><i class="fas fa-heart"><span> --Súmate a esta iniciativa--</span></i></button>
-            </div>
+            
+                <button className="btn donate"><img className="img-fluid"src={images['like2.svg']} alt=""/><span> Súmate</span></button>
+           
 
         )
     }

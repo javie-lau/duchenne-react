@@ -11,7 +11,7 @@ class Mision extends Component{
            <React.Fragment>
                 
                     <Navbar/>
-               
+               <div id="mision">
                 <div className="row">
                 
                 <div className="body offset-md-1 col-md-8">
@@ -82,6 +82,7 @@ class Mision extends Component{
 
 </div>
 <ButtonDonate/>
+</div>
     <Footer/>
     </React.Fragment>
 
