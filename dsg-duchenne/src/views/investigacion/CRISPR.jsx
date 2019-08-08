@@ -1,11 +1,11 @@
 import React, {Component}from 'react';
-import images from '../importImages';
+import images from '../../importImages';
 
-import Navbar from '../components/Navbar/Navbar';
-import Footer from '../components/Footer/Footer'
-import ButtonDonate from '../components/buttonDonate/ButtonDonate'
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer'
+import ButtonDonate from '../../components/buttonDonate/ButtonDonate'
 
-class Exon extends Component{
+class Crispr extends Component{
     render(){
         return(
       <React.Fragment>
@@ -15,7 +15,7 @@ class Exon extends Component{
                 <div className="body">
                 <div className="row">
                         <div className="offset-md-1 col-md-7">
-                            <h1>Exón skipping</h1>
+                            <h1>Tratamiento CRISPR / Cas9</h1>
                             <p>
                             En los últimos años se han generado varios ensayos clínicos, como nunca antes.
 La gran mayoría se están realizando en países como USA o Europa. Pero en
@@ -104,4 +104,4 @@ pueda tener con respecto a una afección médica.
         )
     }
 }
- export default Exon
+ export default Crispr

@@ -5,7 +5,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer'
 import ButtonDonate from '../../components/buttonDonate/ButtonDonate'
 
-class Investigation extends Component{
+class Microdistrofina extends Component{
     render(){
         return(
     <React.Fragment>
@@ -194,4 +194,4 @@ class Investigation extends Component{
         )
     }
 }
-export default Investigation
+export default Microdistrofina
