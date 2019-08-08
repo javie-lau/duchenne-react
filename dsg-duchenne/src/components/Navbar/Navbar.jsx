@@ -13,7 +13,7 @@ class Navbar extends Component{
                     <nav className="navbar navbar-expand-lg navbar-light ">
                         <div className="row">
                             <div className="col-8 col-md-4">
-                                <Link  to="/"><a className="navbar-brand"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a></Link>
+                                <Link  to="/"><a className="navbar-brand"><img className="img-fluid" src={images['logo.jpg']} alt=""/><span><img className="img-fluid txt-cura" src={images['cura.png']} alt=""/></span></a></Link>
                             </div>
                             <div className="col-4 col-md-2 offset-md-6">
                                 <Link  to="/sumate"><button className="btn"><img className="img-fluid"src={images['like2.svg']} alt=""/><span> Sumate</span></button></Link>

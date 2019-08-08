@@ -17,13 +17,13 @@ class  Carousel extends Component{
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={images['mision.png']} className="d-block w-100" alt="..."/>
+            <img src={images['donar(4).png']} className="d-block w-100" alt="..."/>
           </div>
           <div className="carousel-item">
-            <img src={images['donar.png']}className="d-block w-100" alt="..."/>
+            <img src={images['donar(3).png']}className="d-block w-100" alt="..."/>
           </div>
           <div class="carousel-item">
-           <Link to="/investigacion-microdistrofina"> <img src={images['microdistrofina.png']} className="d-block w-100" alt="..."/></Link>
+           <Link to="/investigacion-microdistrofina"> <img src={images['donar(2).png']} className="d-block w-100" alt="..."/></Link>
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
