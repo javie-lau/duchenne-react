@@ -39,7 +39,7 @@ class Sumate extends Component {
                             </ul>
                             <Link className="link" to="/contact"><button className="btn btn-help">Ayudar!</button></Link>
                         </div>
-                        <div className="col-6 col-md-4 offset-md-1 img"><img className="img-fluid" src={images['superhombre-svg.png']} alt=""/></div>
+                        <div className="col-6 col-md-4 offset-md-1 img"><img className="img-fluid" src={images['superman-svg.png']} alt=""/></div>
                     </div>
                 </div>
                 <Footer />

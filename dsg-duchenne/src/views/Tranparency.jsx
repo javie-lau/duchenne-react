@@ -12,7 +12,11 @@ class Transparency extends Component{
                 <Navbar/>
                 <div id="transparency"> 
                     <h2>Presupuesto para la investigación</h2>
-                    <img className="img-fluid" src={images["New-Project(12).png"]} alt=""/>
+                    <img className="img-fluid icons" src={images["save-money-svg-svg.png"]} alt=""/>
+                    <img className="img-fluid " src={images["icons8-abajo-2-52(1).png"]} alt=""/>
+                    <img className="img-fluid icons" src={images["microscope-svg-svg.png"]} alt=""/>
+                    <img className="img-fluid" src={images["icons8-abajo-2-52(1).png"]} alt=""/>
+                    <img className="img-fluid icons" src={images["family(2)-svg.png"]} alt=""/>
                 </div>
                 <Footer/>
              </React.Fragment>
