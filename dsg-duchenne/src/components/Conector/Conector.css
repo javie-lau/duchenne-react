@@ -1,0 +1,10 @@
+.conector{
+    background: transparent;
+    border:none;
+    width: 80%;
+}
+.txt-btn{
+    margin-top:-77%;
+    color: #039D8B;
+    font-size: 16px;
+}

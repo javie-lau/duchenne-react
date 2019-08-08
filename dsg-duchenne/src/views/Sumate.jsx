@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 import images from '../importImages';
+import {Link } from 'react-router-dom';
 import './Sumate.css';
 
 class Sumate extends Component {
@@ -20,9 +21,9 @@ class Sumate extends Component {
                                 <li>Lorem, ipsum dolor.</li>
                                 <li>Lorem ipsum dolor sit.</li>
                                 <li>Lorem, ipsum dolor.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>En que consiste el<a href="http://www.sii.cl/contribuyentes/actividades_especiales/donaciones.pdf"> "Beneficio Tributario"</a></li>
                             </ul>
-                            <button className="btn btn-help">Ayudar!</button>
+                            <Link className="link" to="/contact"><button className="btn btn-help">Ayudar!</button></Link>
                         </div>
                     </div>
                     <div className="row">
@@ -36,7 +37,7 @@ class Sumate extends Component {
                                 <li>Lorem, ipsum dolor.</li>
                                 <li>Lorem ipsum dolor sit amet.</li>
                             </ul>
-                            <button className="btn btn-help">Ayudar!</button>
+                            <Link className="link" to="/contact"><button className="btn btn-help">Ayudar!</button></Link>
                         </div>
                         <div className="col-6 col-md-4 offset-md-1 img"><img className="img-fluid" src={images['superhombre-svg.png']} alt=""/></div>
                     </div>
