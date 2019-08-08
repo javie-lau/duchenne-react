@@ -12,7 +12,7 @@ class Sumate extends Component {
                 <Navbar/>
                 <div className="container" id="sumate">
                     <div className="row">
-                        <div className="col-6 col-md-4 offset-md-2 img"><img className="img-fluid" src={images['empresa-svg(3).png']} alt=""/></div>
+                        <div className="col-6 col-md-4 offset-md-2 img"><img className="img-fluid" src={images['enterprise-svg-svg.png']} alt=""/></div>
                         <div className="col-6 col-md-4 offset-md-1">
                             <h6>
                                 Empresa solidaria:
