@@ -9,7 +9,7 @@ class Conector extends Component{
     }
     render(){
         return(
-            <div class="card text-white">
+            <div id="conector" class="card text-white">
             <div class="card-body">
               <a className="link" href=""><h5 class="card-title">{this.props.title}</h5></a>
             </div>

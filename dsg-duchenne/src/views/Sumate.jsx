@@ -10,7 +10,7 @@ class Sumate extends Component {
         return(
             <React.Fragment>
                 <Navbar/>
-                <div className="container-donate" id="sumate">
+                <div className="container" id="sumate">
                     <div className="row">
                         {/* <h4>Tu colaboración es fundamental para seguir luchando contra la distrofia Muscular de Duchenne</h4>
                         <p>Con tu ayuda podemos financiar y promover proyectos de investigación para estar cada día más cerca de la cura de esta enfermedad.¡Gracias por unirte a nuestra fundación y ser parte de la solución!</p>
