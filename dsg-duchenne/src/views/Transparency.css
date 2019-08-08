@@ -16,3 +16,21 @@
         font-size: 1.3em;
     }
 }
+
+.icons{
+    width: 15%;
+    padding: 2%;
+}
+.arrow{
+    width: 8%;
+    padding: 2%;
+}
+@media (max-width: 576px){
+    .icons .arrow{
+        width: 30%;
+    }
+}
+.container-trans-bottom{
+    margin-top:5%;
+    margin-bottom:3%;
+}

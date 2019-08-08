@@ -15,13 +15,15 @@ class Footer extends Component {
          <div className="row">
              {/* <div className="col-md-6"> */}
                <div className="container">
-                  <button><Link to="/contact">Contacto</Link></button>
+                  <Link to="/contact"> <a><img className="img-fluid icon-footer" src={images['mail(1).png']} alt=""/></a></Link>
                   
              {/* </div>
              <div className="col-md-6"> */}
                 {/* <div className="footer-icons"> */}
+
                 <a  target='_blank' href="https://www.facebook.com/DSGDuchenne/"><img className="img-fluid icon-footer" src={images['facebook(1).png']} alt=""/></a>
                 <a><img className="img-fluid icon-footer" src={images['New-Project(11).png']} alt=""/></a>
+
 
                 {/* </div> */}
                 </div> 

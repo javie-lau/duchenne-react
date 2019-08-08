@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import './about.css';
 import ButtonDonate from '../../components/buttonDonate/ButtonDonate';
+import Conector from '../../components/Conector/Conector';
 
 class WhatIsDuchenne extends Component{
   render(){
@@ -32,16 +33,20 @@ class WhatIsDuchenne extends Component{
             </div>
           </div>
           <div className="col-md-3 btns-extras">
+
+            <a className="link" href="#diagnostico"><Conector title="Diagnóstico"/></a>
+            <a className="link" href="#etapas"><Conector title="Etapas"/></a>
+            <a className="link" href="#guia-para-padres"><Conector title="Guía para padres"/></a>
             
-                <div class="card text-white">
+                {/* <div class="card text-white">
                   <div class="card-body">
                     <a className="link" href="diagnostico"><h5 class="card-title">Diagnóstico</h5></a>
                   </div>
-                </div>
+                </div> */}
              
 
                 
-                  <div class="card text-white ">
+                  {/* <div class="card text-white ">
                     <div class="card-body">
                       <a className="link" href="#etapas"><h5 class="card-title">Etapas</h5></a>
                     </div>
@@ -52,7 +57,7 @@ class WhatIsDuchenne extends Component{
                     <div class="card-body">
                       <a className="link" href="#guia-para-padres"><h5 class="card-title">Guía para padres</h5></a>
                     </div>
-                  </div>
+                  </div> */}
                
               </div>
           </div>
