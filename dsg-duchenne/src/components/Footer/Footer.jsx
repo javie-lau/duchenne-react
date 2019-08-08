@@ -12,7 +12,7 @@ class Footer extends Component {
          <div className="row">
              {/* <div className="col-md-6"> */}
                <div className="container">
-                  <Link to="/contact"> <a><img className="img-fluid icon-footer" src={images['contact-svg-svg.png']} alt=""/></a></Link>
+                  <Link to="/contact"> <a><img className="img-fluid icon-footer" src={images['mail(1).png']} alt=""/></a></Link>
                   
              {/* </div>
              <div className="col-md-6"> */}

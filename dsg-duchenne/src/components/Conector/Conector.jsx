@@ -11,7 +11,7 @@ class Conector extends Component{
         return(
             <div class="card text-white">
             <div class="card-body">
-              <a className="link" href="diagnostico"><h5 class="card-title">{this.props.title}</h5></a>
+              <a className="link" href=""><h5 class="card-title">{this.props.title}</h5></a>
             </div>
           </div>
 
