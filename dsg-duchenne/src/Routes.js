@@ -10,6 +10,7 @@ import News from './views/News';
 import Sumate from './views/Sumate';
 import Investigation from './views/investigacion/Investigation';
 import Form from './components/Form/Form';
+import Article from '../src/views/Article/TemplateArticle';
 
 import Exon from './views/Exon'
 
@@ -34,6 +35,7 @@ const Routes = () =>{
             <Route path='/transparencia' component = {Transparency}/>
             <Route path='/contact' component = {Form}/>
             <Route path='/investigacion-exon' component = {Exon}/>
+            <Route path='/article' component = {Article}/>
 
         </Switch>
     )

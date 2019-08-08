@@ -1,0 +1,18 @@
+{
+  "News":[
+      {
+          "title": "Según experto, la fisioterapia es esencial para los niños con Duchenne si se administra con cuidado",
+          "body" : "",
+          "img" : "https://musculardystrophynews.com/wp-content/uploads/2018/11/MA-148.jpg"
+      },
+      {
+        "title": "La terapia genética de Pfizer es prometedora en el tratamiento de la DMD",
+        "body" : "",
+        "img" : "https://musculardystrophynews.com/wp-content/uploads/2018/10/results-1000x480.jpg"
+    }, {
+        "title": "Terapia genética para la distrofia muscular de Duchenne",
+        "body" : "",
+        "img" : "https://www.duchennexchange.org/wp-content/uploads/2019/07/gene-therapy-illustration.jpg"
+    }
+  ] 
+}
