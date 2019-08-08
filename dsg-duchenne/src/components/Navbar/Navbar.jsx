@@ -13,10 +13,10 @@ class Navbar extends Component{
                     <nav className="navbar navbar-expand-lg navbar-light ">
                         <div className="row">
                             <div className="col-8 col-md-4">
-                                <Link  to="/"><a className="navbar-brand"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a></Link>
+                                <Link  to="/"><a className="navbar-brand"><img className="img-fluid" src={images['logo.jpg']} alt=""/><span><img className="img-fluid txt-cura" src={images['cura.png']} alt=""/></span></a></Link>
                             </div>
                             <div className="col-4 col-md-2 offset-md-6">
-                                <Link  to="/sumate"><button className="btn"><img className="img-fluid"src={images['like2.svg']} alt=""/><span> Sumate</span></button></Link>
+                                <Link  to="/sumate"><button className="btn"><img className="img-fluid"src={images['like2.svg']} alt=""/><span> Súmate</span></button></Link>
                             </div>    
                         </div>
                     </nav>
@@ -36,7 +36,7 @@ class Navbar extends Component{
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <Link className="link" to='/que-es-duchenne'> <a className="dropdown-item" href="#">¿Qué es Duchenne?</a> </Link>
                                     <div className="dropdown-divider"></div>
-                                <Link className='link' to='/diagnostico'> <a className="dropdown-item" href="#">Diagnostico Duchenne</a> </Link>
+                                <Link className='link' to='/diagnostico'> <a className="dropdown-item" href="#">Diagnóstico Duchenne</a> </Link>
                                     <div className="dropdown-divider"></div>
                                 <Link className="link" to='/genetica'><a className="dropdown-item" href="#">Geńetica</a></Link>
                                     <div className="dropdown-divider"></div>

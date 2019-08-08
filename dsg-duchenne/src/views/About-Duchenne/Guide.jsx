@@ -9,9 +9,10 @@ class Guide extends Component {
         return(
             <React.Fragment>
                         <Navbar />
-             <div className="family flex-box"> 
-             <h2>Revisa la guía para padres <a href="http://www.treat-nmd.eu/downloads/file/standardsofcare/dmd/spanish/dmdmdffg_master_spanish_upa.pdf">aquí</a></h2>
-             <img className="img-fluid" src={images["familia.png"]}/>
+             <div className="family-container"> 
+             <h2>Revisa la guía recomendada para padres</h2>
+             <a href="http://www.treat-nmd.eu/downloads/file/standardsofcare/dmd/spanish/dmdmdffg_master_spanish_upa.pdf"> <p>Guía para padres</p></a>
+             <img className="img-fluid family-img" src={images["family(1)-svg-svg.png"]}/>
              </div>
              <Footer />
             </React.Fragment>

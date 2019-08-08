@@ -10,6 +10,7 @@ import News from './views/News';
 import Sumate from './views/Sumate';
 import Microdistrofina from './views/investigacion/Microdistrofina';
 import Form from './components/Form/Form';
+import Article from '../src/views/Article/TemplateArticle';
 
 import Exon from './views/investigacion/Exon'
 
@@ -36,9 +37,13 @@ const Routes = () =>{
             <Route path='/transparencia' component = {Transparency}/>
             <Route path='/contact' component = {Form}/>
             <Route path='/investigacion-exon' component = {Exon}/>
+
             <Route path='/otras-investigaciones' component = {OtrasInvestigaciones}/>
             <Route path='/CRISPR' component = {Crispr}/>
 
+
+
+            <Route path='/article' component = {Article}/>
 
 
         </Switch>
