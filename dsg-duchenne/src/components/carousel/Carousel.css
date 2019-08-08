@@ -11,8 +11,8 @@
 }
 .carousel-indicators li {
     background: inherit;
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
    border:2px solid #9d0315;
     border-radius: 100%;
   }

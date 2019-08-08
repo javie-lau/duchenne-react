@@ -28,9 +28,6 @@ class Navbar extends Component{
                         </div>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">                
                             <ul className="navbar-nav mr-auto">
-                                <li className="nav-item imgHome">
-                                <Link className="link" to="/Home"><a className="nav-item"> <img className="img-fluid btn-home"src={images['home.png']}/></a></Link>
-                                </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Sobre Duchenne
