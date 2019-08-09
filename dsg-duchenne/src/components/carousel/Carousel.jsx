@@ -17,13 +17,29 @@ class  Carousel extends Component{
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={images['donar(4).png']} className="d-block w-100" alt="..."/>
+            <div id="txt-one" className="offset-md-5 col-md-6">
+              <h2 id="fundation">Fundación</h2>
+              <h3 id="dsg">DSG-Duchenne</h3>
+              <div id="divider"></div>
+              <h5 id="enfoque"> Enfocados en encontrar la cura para la Distrofia Muscular Duchenne</h5>
+            </div>
+              <img src={images['portada.jpg']} className="d-block w-100" alt="..."/>
           </div>
           <div className="carousel-item">
-            <img src={images['donar(3).png']}className="d-block w-100" alt="..."/>
+            <div id="txt-two"> 
+            <h5 id="sabias que">¿Sabías qué?</h5>
+            <h2 id="dato-duro">La expectativa de vida en Latinoamérica para de niños con Distrofia Muscular de Duchennees de 20 años</h2>
+            <h5 id="europa">mientras que en Europa es de 45 años</h5>
+            <h2 id="por-eso">Por eso tu apoyo es fundamental para encontrar la cura</h2>
+            </div>
+            <img src={images['and-puntos.jpg']} className="d-block w-100" alt="..."/>
           </div>
           <div class="carousel-item">
-           <Link to="/investigacion-microdistrofina"> <img src={images['donar(2).png']} className="d-block w-100" alt="..."/></Link>
+            <div id="txt-three">
+              <h5 id="ayuda">Tu ayuda es muy importante para nosotros</h5>
+              <h2 id="project">Sumate</h2>
+            </div>
+           <img src={images['vector.jpg']} className="d-block w-100" alt="..."/>
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
