@@ -7,7 +7,8 @@
     }
 }
 .carousel-item img{
-    height: 22em;
+    height: 300px;
+    width: 853px;
 }
 @media (max-width: 576px) {
     .carousel-item img{
@@ -19,8 +20,49 @@
 }
 .carousel-indicators li {
     background: inherit;
-    width: 5px;
-    height: 5px;
-   border:2px solid #9d0315;
+
+    width: 10px;
+    height: 10px;
+    border:2px solid #9d0315;
+
     border-radius: 100%;
   }
+
+#txt-one{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 853px;
+    height: 300px;   
+    position: absolute;
+}
+#txt-one h2{
+    margin-top:0px;
+}
+
+#txt-two{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 853px;
+    height: 300px;   
+    position: absolute;
+
+}
+#txt-two h5{
+    margin: 0px;
+}
+#txt-three{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 853px;
+    height: 300px;   
+    position: absolute;
+
+}
+
+
