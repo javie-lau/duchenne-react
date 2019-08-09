@@ -6,12 +6,9 @@
         margin-top:20vh;
     }
 }
-.carousel-item{
-    width: 900px;
-    height: 300px;
-}
+
 .carousel-item img{
-    width: 100%;
+    width: 100%;;
     overflow: hidden;
 }
 @media (max-width: 576px) {
@@ -37,7 +34,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    width: 853px;
+    width: 900px;
     height: 300px;   
     position: absolute;
 }
@@ -51,7 +48,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    width: 853px;
+    width: 900px;
     height: 300px;   
     position: absolute;
 
@@ -64,7 +61,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    width: 853px;
+    width: 900px;
     height: 300px;   
     position: absolute;
 

@@ -23,7 +23,7 @@ class  Carousel extends Component{
               <div id="divider"></div>
               <h5 id="enfoque"> Enfocados en encontrar la cura para la Distrofia Muscular Duchenne</h5>
             </div>
-              <img id="portada" src={images['portada1.jpg']} className="d-block w-100" alt="..."/>
+              <img id="portada" src={images['portada1.png']} className="d-block w-100" alt="..."/>
           </div>
           <div className="carousel-item">
             <div id="txt-two"> 
