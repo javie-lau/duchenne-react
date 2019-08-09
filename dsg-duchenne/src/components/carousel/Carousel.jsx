@@ -23,7 +23,7 @@ class  Carousel extends Component{
               <div id="divider"></div>
               <h5 id="enfoque"> Enfocados en encontrar la cura para la Distrofia Muscular Duchenne</h5>
             </div>
-              <img id="portada" src={images['portada1.png']} className="d-block w-100" alt="..."/>
+              <img id="bkg1" src={images['portada1.png']} className="d-block w-100" alt="..."/>
           </div>
           <div className="carousel-item">
             <div id="txt-two"> 
@@ -32,15 +32,15 @@ class  Carousel extends Component{
             <h5 id="europa">mientras que en Europa es de 45 años</h5>
             <h2 id="por-eso">Por eso tu apoyo es fundamental para encontrar la cura</h2>
             </div>
-            <img src={images['and-puntos.jpg']} className="d-block w-100" alt="..."/>
+            <img id="bkg2" src={images['and-puntos.jpg']} className="d-block w-100" alt="..."/>
           </div>
 
           <div class="carousel-item">
             <div id="txt-three">
-              <h5 id="ayuda">Tu ayuda es muy importante para nosotros</h5>
-              <h2 id="project">Sumate</h2>
+              {/* <h5 id="ayuda">Tu ayuda es muy importante para nosotros</h5>
+              <h2 id="project">Sumate</h2> */}
             </div>
-           <img src={images['vector.jpg']} className="d-block w-100" alt="..."/>
+           <img id="bkg3" src={images['duchenne-day(1).png']} className="d-block w-100" alt="..."/>
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

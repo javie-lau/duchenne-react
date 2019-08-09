@@ -1,15 +1,14 @@
-#navbar .btn, #what-is .btn, #mision .btn, #othinv .btn, #sumate .btn{
+#navbar .btn, #what-is .btn, #mision .btn, #othinv .btn,#sumate .btn{
     margin-top:1.5vh;
     background: white;
     border-radius: 25px;
     border:solid 3px #9d0315;
-    padding:.2vh 1.5vw;
+    padding:.4vh .8vw;
     color:#9d0315;
     font-weight: bold;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.3em;
 }
-
 #navbar .navbar button img, #what-is .btn img, #mision .btn img, #othinv .btn img,#sumate .btn img{
     width: 20%;
 }
@@ -52,4 +51,4 @@
         width: 60%;
         
     }
- }
+}

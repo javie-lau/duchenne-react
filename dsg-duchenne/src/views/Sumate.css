@@ -1,6 +1,6 @@
 
 #sumate img{
-    width: 40%;
+    width: 50%;
 }
 #sumate .img{
     text-align: center;
@@ -8,7 +8,7 @@
 @media (max-width: 576px){
     #sumate img{
         margin-top:1.5em;
-        width: 55%;
+        width: 60%;
     }    
 }
 #sumate h6{
@@ -21,7 +21,7 @@
         font-size: .9em;
     }
 }
-#sumate.container{
+#sumate.container{ 
     margin: 27vh 0 3em 0;
    
 }
