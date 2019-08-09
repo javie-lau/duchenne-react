@@ -2,76 +2,39 @@
 #sumate img{
     width: 50%;
 }
-#sumate .img{
-    text-align: center;
-}
+
 @media (max-width: 576px){
     #sumate img{
         margin-top:1.5em;
         width: 60%;
     }    
 }
-#sumate h6{
-    color:#039D8B;
-   
-    font-size: 2em;
-}
-@media (max-width: 576px){
-    #sumate h6{
-        font-size: .9em;
-    }
-}
+
 #sumate.container{ 
     margin: 27vh 0 3em 0;
    
 }
-#sumate .row:first-child{
-    margin-bottom:5em;
+#sumate span{
+    color:  #9d0315;
 }
-#sumate ul li{
-    font-size: 1.3em;
+#sumate p{
+    
+    font-size: 1.1em;
 }
-@media (max-width: 576px){
-    #sumate ul li{
-        font-size: .5em;
-    }
+#sumate h4{
+   text-align: center;
+    font-size: 1.5em;
 }
-#sumate .btn-help{
-    border-radius: 25px;
-    border:solid 4px #039D8B;
-    color: #039D8B;
-    width: 30%;
-    font-size: 1.3em;
-    font-weight: bolder;
+#sumate .row:nth-child(3){
+    margin-top:7vh;
 }
-@media (max-width: 576px){
-    #sumate .btn-help{
-        width: 70%;
-        font-size: .9em;
-    }
+#sumate .row:nth-child(2){
+    margin-top:5vh;
 }
-
-/* #sumate, .container-donate{
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-
-.icon-donate{
-    width: 40%;
-    padding-top: 8%;
-    padding-bottom: 5%;
-    margin-right:20%;
-}
-#sumate .btn-help{
-    border-radius: 25px;
-    border:solid 4px #039D8B;
-    color: #039D8B;
-    width: 30%;
-    font-size: 1.3em;
-    font-weight: bolder;
-    margin-right: 5%;
-    margin-left: 12%;
-    margin-bottom: 5%;
-} */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+ 
