@@ -34,6 +34,7 @@ class  Carousel extends Component{
             </div>
             <img src={images['and-puntos.jpg']} className="d-block w-100" alt="..."/>
           </div>
+
           <div class="carousel-item">
             <div id="txt-three">
               <h5 id="ayuda">Tu ayuda es muy importante para nosotros</h5>

@@ -10,8 +10,8 @@ class Navbar extends Component{
     render(){
         return(
             <React.Fragment>
-                <div id="navbar">
-                    <nav className="navbar navbar-expand-lg navbar-light ">
+                <div id="navbar" className="fixed-top">
+                    <nav id="navbar-one" className="navbar navbar-expand-lg navbar-light ">
                         <div className="row">
                             <div className="col-8 col-md-4">
                                 <Link  to="/"><a className="navbar-brand"><img className="img-fluid" src={images['logo.jpg']} alt=""/><span><img className="img-fluid txt-cura" src={images['cura.png']} alt=""/></span></a></Link>
@@ -28,9 +28,6 @@ class Navbar extends Component{
                         </div>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">                
                             <ul className="navbar-nav mr-auto">
-                                <li className="nav-item imgHome">
-                                <Link className="link" to="/Home"><a className="nav-item"> <img className="img-fluid btn-home"src={images['home.png']}/></a></Link>
-                                </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Sobre Duchenne

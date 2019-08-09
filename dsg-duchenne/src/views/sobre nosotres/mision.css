@@ -1,3 +1,11 @@
+#mision{
+    margin-top: 25vh;
+}
+@media (max-width: 576px){
+    #mision{
+        margin-top: 20vh;
+    }
+}
 h1{
     font-family: 'Source Sans Pro', sans-serif;
     color: #039D8B;

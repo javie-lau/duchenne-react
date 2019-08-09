@@ -1,3 +1,11 @@
+.carousel{
+    margin-top:25vh;
+}
+@media (max-width: 576px) {
+    .carousel{
+        margin-top:20vh;
+    }
+}
 .carousel-item img{
     height: 300px;
     width: 853px;
@@ -12,9 +20,11 @@
 }
 .carousel-indicators li {
     background: inherit;
+
     width: 10px;
     height: 10px;
     border:2px solid #9d0315;
+
     border-radius: 100%;
   }
 
