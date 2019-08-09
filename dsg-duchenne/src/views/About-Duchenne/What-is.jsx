@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import './about.css';
-import ButtonDonate from '../../components/buttonDonate/ButtonDonate';
 import Conector from '../../components/Conector/Conector';
 
 class WhatIsDuchenne extends Component{
@@ -63,7 +62,7 @@ class WhatIsDuchenne extends Component{
           </div>
           
          
-  <ButtonDonate/>
+
   </div>
   <Footer/>
    

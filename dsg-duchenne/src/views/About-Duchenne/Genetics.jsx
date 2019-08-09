@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import './about.css';
-import ButtonDonate from '../../components/buttonDonate/ButtonDonate';
+
 
 class Genetics extends Component{
     render(){
@@ -44,7 +44,7 @@ class Genetics extends Component{
              
            
 
-            <ButtonDonate/>
+         
             </div>
             <Footer/>
 
