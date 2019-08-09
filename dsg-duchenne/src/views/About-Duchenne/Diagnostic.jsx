@@ -8,6 +8,7 @@ class Diagnostic extends Component{
    return (
      <React.Fragment>
         <Navbar />
+        <div id="diagnostic">
           <div className="container-all col-md-8">
             <h2>Diagnóstico Duchenne</h2>
             <div className="container-p"> 
@@ -19,6 +20,7 @@ class Diagnostic extends Component{
                 <li> Pruebas genéticas: permiten identificar la alteración en el gen de la distrofina. Esto ayuda al equipo médico a tomar decisiones sobre cómo tratar el problema y a saber qué esperar de cara al futuro. Si tanto las pruebas genéticas, como la concentración de CK y la exploración física apuntan a un diagnóstico de distrofia muscular de Duchenne, es posible que no sea necesario hacer una biopsia muscular. </li>
               </ul>
             </div>
+         </div>
          </div>
         <Footer/>  
     </React.Fragment>

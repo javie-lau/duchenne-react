@@ -1,3 +1,13 @@
+#what-is, #diagnostic,#genetics,#guide{
+  margin-top: 25vh;
+}
+
+@media (max-width: 576px){
+  #what-is, #diagnostic,#genetics,#guide{
+    margin-top: 20vh;
+  }
+}
+
 h2, h4{
  color: #039D8B;
  margin-top:1%;

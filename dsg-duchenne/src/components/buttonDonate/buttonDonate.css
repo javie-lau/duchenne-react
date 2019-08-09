@@ -1,6 +1,5 @@
-#navbar .btn, #what-is .btn, #mision .btn{
+#navbar .btn, #what-is .btn, #mision .btn, #othinv .btn{
     margin-top:1.5vh;
-   
     background: white;
     border-radius: 25px;
     border:solid 3px #9d0315;
@@ -11,18 +10,16 @@
     font-size: 1.3em;
 }
 
-#navbar .navbar button img, #what-is .btn img, #mision .btn img{
+#navbar .navbar button img, #what-is .btn img, #mision .btn img, #othinv .btn img{
     width: 20%;
 }
 @media(min-width:577px) and (max-width:768px){
-    #navbar .btn, #what-is .btn, #mision .btn{
+    #navbar .btn, #what-is .btn, #mision .btn,#othinv .btn{
         width: 100%;
-       
         padding:0.4vw .4vw .2vh 0.4vw;
         font-size: 1em;
         margin-bottom: 1vh;
     }
-  
 }
 @media (max-width: 576px) {
     #navbar .btn, #what-is .btn, #mision .btn{
@@ -31,14 +28,19 @@
         padding:0 .4vw .2vh 0.4vw;
         font-size: 1em;
     }
+    #othinv .btn{
+        width: 100%;
+        margin-bottom: 1vh;
+       
+    }
     
     #navbar .navbar button img {
         width: 20%;
     }
-    #what-is button img, #mision .donate img{
+    #what-is button img, #mision .donate img, #othinv .donate img{
         width: 10%;
     }
-    #what-is .btn, #mision .btn{
+    #what-is .btn, #mision .btn,#othinv .btn{
         width: 60%;
         
     }
