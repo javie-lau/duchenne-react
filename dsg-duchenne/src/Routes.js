@@ -12,7 +12,7 @@ import Microdistrofina from './views/investigacion/Microdistrofina';
 import Form from './components/Form/Form';
 import Article from '../src/views/Article/TemplateArticle';
 
-import Exon from './views/investigacion/Exon'
+import Exon from './views/investigacion/Exon';
 
 import Transparency from './views/Tranparency';
 import Genetics from './views/About-Duchenne/Genetics';
