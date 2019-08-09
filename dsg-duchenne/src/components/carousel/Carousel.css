@@ -7,8 +7,8 @@
     }
 }
 .carousel-item img{
-    height: 300px;
-    width: 853px;
+
+    width: 100%;
 }
 @media (max-width: 576px) {
     .carousel-item img{
@@ -40,6 +40,7 @@
 #txt-one h2{
     margin-top:0px;
 }
+
 
 #txt-two{
     display: flex;
