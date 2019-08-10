@@ -31,16 +31,14 @@ class Navbar extends Component{
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Sobre Duchenne
-                                    </a> 
+                                    </a>  
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <Link className="link" to='/que-es-duchenne'> <a className="dropdown-item" href="#">¿Qué es Duchenne?</a> </Link>
                                     <div className="dropdown-divider"></div>
                                 <Link className="link" to='/diagnostico'> <a className="dropdown-item" href="#">Diagnóstico Duchenne</a> </Link>
                                     <div className="dropdown-divider"></div>
-                                <Link className="link" to='/genetica'><a className="dropdown-item" href="#">Geńetica</a></Link>
-                                    <div className="dropdown-divider"></div>
-                                
-                                   
+                                <Link className="link" to='/genetica'><a className="dropdown-item" href="#">Genética</a></Link>
+                                    <div className="dropdown-divider"></div>  
                                 <Link className="link" to='/guia-para-padres'><a className="dropdown-item" href="#">Guía para padres</a></Link> 
                                     </div>
                                 </li>

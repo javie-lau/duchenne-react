@@ -15,6 +15,10 @@
  font-family: 'Source Sans Pro', sans-serif;
 
 }
+#what-is .text-span{
+  color: #039D8B;
+  font-weight: bolder;
+}
 @media (max-width: 576px){
   #what-is h2, #what-is h4{
       margin-top:3%;
@@ -23,17 +27,22 @@
 
   }
 } 
-#what-is p, #what-is ul li{
- color: #7A7C7C;
+#what-is p, #what-is ul li .list{
+ /* color: #7A7C7C; */
+ color:#626363;
  font-size: 20px;
  font-family: 'Source Sans Pro', sans-serif;
 
 }
-
-
-.container-p{
-    text-align: justify;
+#what-is ul li{
+  color: #039D8B;
 }
+#what-is ul{
+  list-style-type: circle;
+  
+}
+
+
 
 .family-container{
   display: flex;

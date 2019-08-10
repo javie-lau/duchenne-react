@@ -28,7 +28,7 @@
 }
 @media (max-width: 576px) {
     #navbar .nav-item,#navbar .dropdown-item{
-        font-size: 1em;
+        font-size: 1.4em;
     }   
  }
 
