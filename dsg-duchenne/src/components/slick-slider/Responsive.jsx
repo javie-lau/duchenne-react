@@ -47,25 +47,31 @@ export default class Responsive extends Component {
         
         <Slider {...settings}>
           <div>
-           <img className="center" src={images['labo2.png']} alt=""/>
+           <a  target="_blank" href="https://www.laboratoria.la/"><img className="center" src={images['labo2.png']} alt=""/></a>
           </div>
           <div>
-          <img className="center" src={images['micro2.jpg']} alt=""/>
+          <img className="center" src={images['logoejemplo.png']} alt=""/>
           </div>
           <div>
-          <img className="center" src={images['beba.png']} alt=""/>
+          <img className="center" src={images['logoejemplo.png']} alt=""/>
           </div>
           <div>
-          <img className="center" src={images['mercado.png']} alt=""/>
+          <img className="center" src={images['logoejemplo.png']} alt=""/>
           </div>
           <div>
-          <img className="center" src={images['google.png']} alt=""/>
+          <img className="center" src={images['logoejemplo.png']} alt=""/>
           </div>
           <div>
-          <img className="center" src={images['lipi.png']} alt=""/>
+          <img className="center" src={images['logoejemplo.png']} alt=""/>
           </div>
           <div>
-          <img className="center" src={images['fruna.png']} alt=""/>
+          <img className="center" src={images['logoejemplo.png']} alt=""/>
+          </div>
+          <div>
+          <img className="center" src={images['logoejemplo.png']} alt=""/>
+          </div>
+          <div>
+          <img className="center" src={images['logoejemplo.png']} alt=""/>
           </div>
 
          
