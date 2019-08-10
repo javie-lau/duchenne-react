@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import './about.css';
-import ButtonDonate from '../../components/buttonDonate/ButtonDonate';
+
 
 class Genetics extends Component{
     render(){
@@ -10,9 +10,9 @@ class Genetics extends Component{
             <React.Fragment>
              
              <Navbar/>
-
-             <div className="row" id="genetics">
-               <div className="container-all col-md-8">
+            <div id="genetics">
+             <div className="row">
+               <div className="container col-md-8">
                  <h2>Duchenne en la genética</h2>
                <div className="container-p"> 
                 <h4>Causas genéticas</h4>
@@ -42,11 +42,10 @@ class Genetics extends Component{
                </div>
             </div>
              
-            <div className="col-md-3">
+           
+
+         
             </div>
-
-            <ButtonDonate/>
-
             <Footer/>
 
 

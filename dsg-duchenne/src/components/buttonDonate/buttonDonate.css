@@ -1,23 +1,49 @@
-.donate{
-    margin-bottom: 5%;
-    margin-top: 5%;
-    margin-left:35%;
-    width: 30%;
+#navbar .btn, #sumate .btn{
+    margin-top:1.5vh;
+    background: white;
+    border-radius: 25px;
+    border:solid 3px #9d0315;
+    padding:.4vh .8vw;
+    color:#9d0315;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em;
 }
-
-.donate:hover, .donate:focus{
-    background-color:#9d0315;
-    color: white; 
-    border-color:#9d0315;
+#navbar .navbar button img,#sumate .btn img{
+    width: 20%;
 }
-.donate:hover i,.donate:focus i{
-    color: white;
+@media(min-width:577px) and (max-width:768px){
+    #navbar .btn, #sumate .btn{
+        width: 100%;
+        padding:0.4vw .4vw .2vh 0.4vw;
+        font-size: 1em;
+        margin-bottom: 1vh;
+    }
 }
 @media (max-width: 576px) {
-    .donate{
-        font-size: 1.2em;
-        margin-left:18%;
-        width: 70%;
-        padding-bottom: 3%;
+    #navbar .btn{
+        width: 100%;
+        padding:0 .4vw .2vh 0.4vw;
+        font-size: .9em;
     }
+    #othinv .btn{
+        width: 100%;
+        margin-bottom: 1vh;
+       
+    }
+    #sumate .btn{
+        padding:0;
+        width: 70%;
+        font-size: .6em;
+    }
+    #sumate .donate img{
+        width: 15%;
+        margin: .3em 0;
+    }
+    #navbar .navbar button img {
+        width: 20%;
+    } 
+}
+#sumate h4,#sumate p,#sumate h6{
+    text-align: center;
 }

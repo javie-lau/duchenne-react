@@ -8,14 +8,16 @@ import Guide from './views/About-Duchenne/Guide';
 import Mision from '../src/views/sobre nosotres/Mision'
 import News from './views/News';
 import Sumate from './views/Sumate';
-import Investigation from './views/investigacion/Investigation';
+import Microdistrofina from './views/investigacion/Microdistrofina';
 import Form from './components/Form/Form';
 import Article from '../src/views/Article/TemplateArticle';
 
-import Exon from './views/Exon'
+import Exon from './views/investigacion/Exon';
 
 import Transparency from './views/Tranparency';
 import Genetics from './views/About-Duchenne/Genetics';
+import OtrasInvestigaciones from './views/investigacion/Otrasinvestigaciones';
+import Crispr from '../src/views/investigacion/CRISPR'
 
 
 const Routes = () =>{
@@ -31,11 +33,18 @@ const Routes = () =>{
             <Route path='/etapas' component = {Stages}/>
             <Route path='/guia-para-padres' component = {Guide}/>
             <Route path='/sumate' component = {Sumate}/>
-            <Route path='/investigacion-microdistrofina' component = {Investigation}/>
+            <Route path='/investigacion-microdistrofina' component = {Microdistrofina}/>
             <Route path='/transparencia' component = {Transparency}/>
             <Route path='/contact' component = {Form}/>
             <Route path='/investigacion-exon' component = {Exon}/>
+
+            <Route path='/otras-investigaciones' component = {OtrasInvestigaciones}/>
+            <Route path='/CRISPR' component = {Crispr}/>
+
+
+
             <Route path='/article' component = {Article}/>
+
 
         </Switch>
     )

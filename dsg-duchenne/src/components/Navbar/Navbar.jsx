@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Navbar.css';
 import images from '../../importImages';
 import { Link } from 'react-router-dom';
+import ButtonDonate from '../buttonDonate/ButtonDonate';
 
 
 
@@ -9,14 +10,15 @@ class Navbar extends Component{
     render(){
         return(
             <React.Fragment>
-                <div id="navbar">
-                    <nav className="navbar navbar-expand-lg navbar-light ">
+                <div id="navbar" className="fixed-top">
+                    <nav id="navbar-one" className="navbar navbar-expand-lg navbar-light ">
                         <div className="row">
                             <div className="col-8 col-md-4">
-                                <Link  to="/"><a className="navbar-brand"><img className="img-fluid" src={images['logo.jpg']} alt=""/></a></Link>
+                                <Link  to="/"><a className="navbar-brand"><img className="img-fluid" src={images['New-Project(3).png']} alt=""/><span><img className="img-fluid txt-cura" src={images['cura.png']} alt=""/></span></a></Link>
                             </div>
                             <div className="col-4 col-md-2 offset-md-6">
-                                <Link  to="/sumate"><button className="btn"><img className="img-fluid"src={images['like2.svg']} alt=""/><span> Súmate</span></button></Link>
+                                {/* <Link  to="/sumate"><button className="btn"><img className="img-fluid"src={images['like2.svg']} alt=""/><span> Súmate</span></button></Link> */}
+                                <Link className="link"  to="/sumate"><ButtonDonate/></Link>
                             </div>    
                         </div>
                     </nav>
@@ -26,22 +28,19 @@ class Navbar extends Component{
                         </div>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">                
                             <ul className="navbar-nav mr-auto">
-                                <li className="nav-item imgHome">
-                                <Link className="link" to="/Home"><a className="nav-item"> <img className="img-fluid btn-home"src={images['home.png']}/></a></Link>
-                                </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Sobre Duchenne
-                                    </a>
+                                    </a> 
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <Link className="link" to='/que-es-duchenne'> <a className="dropdown-item" href="#">¿Qué es Duchenne?</a> </Link>
                                     <div className="dropdown-divider"></div>
-                                <Link className='link' to='/diagnostico'> <a className="dropdown-item" href="#">Diagnóstico Duchenne</a> </Link>
+                                <Link className="link" to='/diagnostico'> <a className="dropdown-item" href="#">Diagnóstico Duchenne</a> </Link>
                                     <div className="dropdown-divider"></div>
                                 <Link className="link" to='/genetica'><a className="dropdown-item" href="#">Geńetica</a></Link>
                                     <div className="dropdown-divider"></div>
-                                <Link className="link" to='/etapas'><a className="dropdown-item" href="#">Etapas de duchenne</a></Link>
-                                    <div className="dropdown-divider"></div>
+                                
+                                   
                                 <Link className="link" to='/guia-para-padres'><a className="dropdown-item" href="#">Guía para padres</a></Link> 
                                     </div>
                                 </li>
@@ -58,21 +57,22 @@ class Navbar extends Component{
                                     </div>
                                 </li>
                                 <li className="nav-item">
-                                <Link className="link" to="/sumate"><a className="nav-link">¿Cómo ayudar? <span className="sr-only">(current)</span></a></Link>                   
-                                </li>
-                                <li className="nav-item">
-                                <Link className="link" to="/news"><a className="nav-link">Noticias</a></Link> 
+                                <Link className="link" to="/sumate"><a className="nav-link">Como ayudar<span className="sr-only">(current)</span></a></Link>                   
                                 </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Investigaciones
                                     </a>
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <Link className="link" to="/investigacion-microdistrofina"><a className="dropdown-item">Microdistrofina</a></Link>
+                                        <a className="dropdown-item">Investigaciones financiadas</a>
                                     <div className="dropdown-divider"></div>
-                                        <Link className="link" to="/investigacion-exon"> <a className="dropdown-item">Exón skipping</a></Link>
+                                        <Link className="link" to="/otras-investigaciones"> <a className="dropdown-item">Otras investigaciones</a></Link>
                                     </div>    
                                 </li>
+                                <li className="nav-item">
+                                <Link className="link" to="/news"><a className="nav-link">Noticias</a></Link> 
+                                </li>
+                                
                                 <li className="nav-item">
                                 <Link className="link" to="/transparencia"><a className="nav-link">Transparencia</a></Link>
                                 </li>                    

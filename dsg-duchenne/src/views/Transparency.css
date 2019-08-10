@@ -1,18 +1,31 @@
 #transparency{
-    margin-top: 7vh;
+    margin-top: 25vh;
     text-align: center;
     
 
 }
-@media (max-width: 576px){
-    #transparency{
-        margin-top: 3vh;
-        height: 67vh;
-    }
-}
+
 @media (max-width: 576px){
     #transparency h2{
-        margin-bottom: 9vh;
+        
         font-size: 1.3em;
     }
+}
+
+#transparency .icons{
+    width: 15%;
+    padding: 2%;
+}
+#transparency .arrow{
+    width: 8%;
+    padding: 2%;
+}
+@media (max-width: 576px){
+    #transparency .icons .arrow{
+        width: 30%;
+    }
+}
+#transparency .container-trans-bottom{
+    margin-top:5%;
+    margin-bottom:3%;
 }

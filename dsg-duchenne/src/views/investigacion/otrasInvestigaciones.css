@@ -1,0 +1,19 @@
+#othinv{
+  margin-top: 25vh;
+}
+#othinv .card{
+    width: 18rem;
+}
+#othinv .card-title{
+    color: #9d0315;
+}
+#ithiv .card-subtitle{
+    color:#039D8B !important;
+}
+@media (max-width: 576px) {
+
+    #othinv .card{
+        margin-top: .3rem;
+        margin-right:6rem;
+    }
+}

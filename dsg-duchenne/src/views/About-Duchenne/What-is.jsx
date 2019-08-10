@@ -2,16 +2,16 @@ import React, { Component } from 'react';
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import './about.css';
-import ButtonDonate from '../../components/buttonDonate/ButtonDonate';
+import Conector from '../../components/Conector/Conector';
 
 class WhatIsDuchenne extends Component{
   render(){
    return (
      <React.Fragment> 
          <Navbar />
-         
-      <div className="row" id="what-is">
-        <div className="container-all col-md-8">
+      <div id="what-is">   
+      <div className="row">
+        <div className="container col-md-8">
             <h2>¿Qué es la distrofia muscular de Duchenne (DMD)?</h2>
             <div className="container-p"> 
               <p>La distrofia muscular de Duchenne es la forma más frecuente de distrofia muscular, un trastorno de origen genético que debilita progresivamente los músculos del cuerpo.</p>
@@ -32,16 +32,20 @@ class WhatIsDuchenne extends Component{
             </div>
           </div>
           <div className="col-md-3 btns-extras">
+
+            <a className="link" href="#diagnostico"><Conector title="Diagnóstico"/></a>
+            <a className="link" href="#etapas"><Conector title="Etapas"/></a>
+            <a className="link" href="#guia-para-padres"><Conector title="Guía para padres"/></a>
             
-                <div class="card text-white">
+                {/* <div class="card text-white">
                   <div class="card-body">
                     <a className="link" href="diagnostico"><h5 class="card-title">Diagnóstico</h5></a>
                   </div>
-                </div>
+                </div> */}
              
 
                 
-                  <div class="card text-white ">
+                  {/* <div class="card text-white ">
                     <div class="card-body">
                       <a className="link" href="#etapas"><h5 class="card-title">Etapas</h5></a>
                     </div>
@@ -52,14 +56,14 @@ class WhatIsDuchenne extends Component{
                     <div class="card-body">
                       <a className="link" href="#guia-para-padres"><h5 class="card-title">Guía para padres</h5></a>
                     </div>
-                  </div>
+                  </div> */}
                
               </div>
           </div>
           
          
-  <ButtonDonate/>
- 
+
+  </div>
   <Footer/>
    
    </React.Fragment>

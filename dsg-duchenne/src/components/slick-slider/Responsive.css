@@ -1,0 +1,15 @@
+#sslider img {
+    
+ height: 60px;
+    opacity: .4;
+}
+#sslider img:hover,#sslider img:focus{
+    opacity: 1;
+    transition: 400ms;
+}
+#sslider .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
