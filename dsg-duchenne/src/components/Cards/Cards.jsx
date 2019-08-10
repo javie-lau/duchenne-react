@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Cards.css';
 import { News } from '../data/News.json'
-import Article from '../../views/Article/TemplateArticle'
+// import Article from '../../views/Article/TemplateArticle'
 import { Link } from 'react-router-dom';
 
 
@@ -21,7 +21,7 @@ class Cards extends Component{
     render(){
       const News = this.state.News.map((News , i)=>{
         return (
-          <div className="col-lg-4 col-md-4 col-12 mt-4 mb-4">
+          <div className="col-lg-4 col-md-6  col-sm-6 mt-4 mb-4">
           <div className="card">
             <img  src={News.img} className="card-img-top" alt="imagen sobre investigacion"/>
             <div className="card-body">
@@ -34,7 +34,7 @@ class Cards extends Component{
               </div>
               </div>
              <div className="text"> 
-             <a className="card-text " href="#">{News.title}</a>
+             <Link  to='/article'>  <a className="card-text " href="#">{News.title}</a></Link>
              </div>
              <div className="card-button">
              <Link  to='/article'><a className="btn-more" onClick={this.click.bind(this)} href="" >Leer más</a></Link>
