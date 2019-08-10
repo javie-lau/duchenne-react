@@ -29,25 +29,25 @@ class Sumate extends Component {
                             <div className="col-6 col-md-4">
                                 <img className="img-fluid center" src={images['enterprise-svg-svg.png']} alt=""/>
                             </div>
-                        </div>
+                        </div> 
                         <div className="row">
                             <div className="col-6 col-md-4 offset-md-3">
                                 <h4>
-                                    Persona:
+                                    Persona natural
                                 </h4> 
                             </div>
                             <div className="col-6 col-md-4">
                                 <h4>
-                                    Empresa solidaria:
+                                    Empresa solidaria
                                 </h4>
                             </div>       
                         </div>     
                         <div className="row"> 
-                            <div className="col-6 col-md-4 offset-md-3">
-                                <Link className="link center" to="/contact"><ButtonDonate/></Link>
+                            <div className="col-5 col-md-4 offset-md-4 offset-1">
+                                <Link className="link" to="/contact"><ButtonDonate/></Link>
                             </div>
-                            <div className="col-6 col-md-4">
-                                <Link className="link center" to="/contact"><ButtonDonate/></Link>
+                            <div className="col-5 col-md-4 offset-md-0 offset-1">
+                                <Link className="link" to="/contact"><ButtonDonate/></Link>
                             </div>
                         </div>  
 

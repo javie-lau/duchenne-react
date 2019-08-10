@@ -4,6 +4,3 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
 }
-.dropdown:hover .dropdown-menu {
-    display: block;
-  }
