@@ -1,4 +1,7 @@
 
+@media(max-width:576px){
+    
+}
 #news .card{
     width: 100%;
     height: 100%;
@@ -9,22 +12,19 @@
     align-items: left;
    
 }
- #news .card-img-top{
+#news .card-img-top{
     width: 100%;
     height: 200px;
 }
-
 #news .img-news{
     padding: 0;
 
 }
-
 #news .card-body{
    
     width: 100%;
     padding: 10%;
 }
-
 #news .card-date{
     margin-left: 55%;
 }
@@ -40,7 +40,6 @@
 }
 #news .card-text{
     color:rgba(75, 71, 71, 0.699);
-  
     text-decoration: none;
     
 }

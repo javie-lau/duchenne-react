@@ -9,9 +9,9 @@ class News extends Component{
         return(
         <React.Fragment>
             <Navbar />  
-            <div id="news-news">
+                <div className="news">
                 <Cards />
-            </div>
+                </div>
             <Footer />
         </React.Fragment>
     )} 

@@ -10,22 +10,23 @@ class Home extends Component {
     render(){
         return(
          <React.Fragment>
-            <div className="header">
+           
             <Navbar />
-            </div>
-            <div className ="body">
-              <Carousel/>
-              <div className="container">
-              <Responsive/>
-              </div>
             
+           
+              <Carousel/>
+              <div className="container responsive">
+              <Responsive/>
+            
+              
               <Cards /> 
-           
-            </div>
-           
-            <div className= "footer">
-              <Footer />
+              
               </div>
+         
+           
+          
+              <Footer />
+      
          </React.Fragment>
 
         )

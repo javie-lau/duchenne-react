@@ -15,7 +15,7 @@ class Footer extends Component {
          <div className="row">
              {/* <div className="col-md-6"> */}
                <div className="container">
-               <a><img className="img-fluid icon-footer" src={images['phone1.svg']} alt=""/></a>
+                <Link><a><img className="img-fluid icon-footer" src={images['phone1.svg']} alt=""/></a></Link>
 
                   <Link to="/contact"><a><img className="img-fluid icon-footer" src={images['envelope1.svg']} alt=""/></a></Link>
                   
@@ -23,8 +23,8 @@ class Footer extends Component {
              <div className="col-md-6"> */}
                 {/* <div className="footer-icons"> */}
 
-                <a  target='_blank' href="https://www.facebook.com/DSGDuchenne/"><img className="img-fluid icon-footer" src={images['facebook1.svg']} alt=""/></a>
-                <a><img className="img-fluid icon-footer" src={images['instagram1.svg']} alt=""/></a>
+                <Link><a  target='_blank' href="https://www.facebook.com/DSGDuchenne/"><img className="img-fluid icon-footer" src={images['facebook1.svg']} alt=""/></a></Link>
+                <Link><a><img className="img-fluid icon-footer" src={images['instagram1.svg']} alt=""/></a></Link>
 
 
                 {/* </div> */}
