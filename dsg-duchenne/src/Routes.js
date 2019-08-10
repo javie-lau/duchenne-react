@@ -5,13 +5,13 @@ import WhatIsDuchenne from './views/About-Duchenne/What-is';
 import Diagnostic from './views/About-Duchenne/Diagnostic';
 import Stages from './views/About-Duchenne/Stages';
 import Guide from './views/About-Duchenne/Guide';
-import Mision from '../src/views/sobre nosotres/Mision'
+import Mision from '../src/views/AboutUs/Mision'
 import News from './views/News';
 import Sumate from './views/Sumate';
 import Microdistrofina from './views/investigacion/Microdistrofina';
 import Form from './components/Form/Form';
 import Article from '../src/views/Article/TemplateArticle';
-
+import Team from '../src/views/AboutUs/Team'
 import Exon from './views/investigacion/Exon';
 
 import Transparency from './views/Tranparency';
@@ -37,6 +37,7 @@ const Routes = () =>{
             <Route path='/transparencia' component = {Transparency}/>
             <Route path='/contact' component = {Form}/>
             <Route path='/investigacion-exon' component = {Exon}/>
+            <Route path='/equipo' component = {Team}/>
 
             <Route path='/otras-investigaciones' component = {OtrasInvestigaciones}/>
             <Route path='/CRISPR' component = {Crispr}/>

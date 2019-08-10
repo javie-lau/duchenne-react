@@ -5,9 +5,6 @@ import {Link} from 'react-router-dom';
 
 
 class Footer extends Component {
-    constructor(){
-        super()
-    }
     
     render(){
     return (
