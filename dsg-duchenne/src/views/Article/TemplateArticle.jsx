@@ -1,7 +1,9 @@
 
 import React, { Component } from 'react';
-import Navbar from '../../components/Navbar/Navbar'
-import Footer from '../../components/Footer/Footer'
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+import './TemplateArticle.css'
+
 
 
 class Article extends Component{
@@ -9,7 +11,7 @@ class Article extends Component{
        return (
          <React.Fragment>
             <Navbar />
-              <div className="container-all col-md-8">
+              <div id="article" className = "container col-md-8">
                 <h2>Según experto, la fisioterapia es esencial para los niños con Duchenne si se administra con cuidado</h2>
                 <div className="text-justify"> 
                   <p>  Hace años, los médicos creían que ningún ejercicio era mejor para los niños con distrofia muscular de Duchenne (DMD). Hoy, todos los expertos en DMD están de acuerdo: el ejercicio extiende la vida.<br></br>

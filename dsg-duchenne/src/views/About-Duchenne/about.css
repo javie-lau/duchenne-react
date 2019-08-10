@@ -8,7 +8,7 @@
   }
 }
 
-h2, h4{
+#what-is h2, #what-is h4{
  color: #039D8B;
  margin-top:1%;
  margin-bottom:2%;
@@ -16,23 +16,21 @@ h2, h4{
 
 }
 @media (max-width: 576px){
-  h2, h4{
+  #what-is h2, #what-is h4{
       margin-top:3%;
       margin-bottom:4%;
       font-family: 'Source Sans Pro', sans-serif;
 
   }
 } 
-p, ul li{
+#what-is p, #what-is ul li{
  color: #7A7C7C;
  font-size: 20px;
  font-family: 'Source Sans Pro', sans-serif;
 
 }
 
-.container-all{
-    margin:3%;
-}
+
 .container-p{
     text-align: justify;
 }

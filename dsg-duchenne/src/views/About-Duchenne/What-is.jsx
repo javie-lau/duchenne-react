@@ -11,7 +11,7 @@ class WhatIsDuchenne extends Component{
          <Navbar />
       <div id="what-is">   
       <div className="row">
-        <div className="container-all col-md-8">
+        <div className="container col-md-8">
             <h2>¿Qué es la distrofia muscular de Duchenne (DMD)?</h2>
             <div className="container-p"> 
               <p>La distrofia muscular de Duchenne es la forma más frecuente de distrofia muscular, un trastorno de origen genético que debilita progresivamente los músculos del cuerpo.</p>

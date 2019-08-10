@@ -25,16 +25,16 @@
     padding: 10%;
 }
 
-.card-date{
+#news .card-date{
     margin-left: 55%;
 }
 @media(max-width:576px){
-    .card-date{
+    #news .card-date{
         margin-left:45%;
     }
 }
 @media(min-width:576px) and (max-width:768px){
-    .card-date{
+    #news .card-date{
         margin-left:25%;
     }
 }
@@ -47,7 +47,7 @@
 #news .card-title h3{
     color:#039D8B;
 }
-.card-button{
+#news .card-button{
     margin-bottom: 10px;
 }
 

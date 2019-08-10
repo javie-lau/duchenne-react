@@ -1,4 +1,4 @@
-#navbar .btn, #what-is .btn, #mision .btn, #othinv .btn,#sumate .btn{
+#navbar .btn, #sumate .btn{
     margin-top:1.5vh;
     background: white;
     border-radius: 25px;
@@ -9,11 +9,11 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.3em;
 }
-#navbar .navbar button img, #what-is .btn img, #mision .btn img, #othinv .btn img,#sumate .btn img{
+#navbar .navbar button img,#sumate .btn img{
     width: 20%;
 }
 @media(min-width:577px) and (max-width:768px){
-    #navbar .btn, #what-is .btn, #mision .btn,#othinv .btn, #sumate .btn{
+    #navbar .btn, #sumate .btn{
         width: 100%;
         padding:0.4vw .4vw .2vh 0.4vw;
         font-size: 1em;
@@ -21,7 +21,7 @@
     }
 }
 @media (max-width: 576px) {
-    #navbar .btn, #what-is .btn, #mision .btn{
+    #navbar .btn{
         width: 100%;
         padding:0 .4vw .2vh 0.4vw;
         font-size: .9em;
@@ -42,14 +42,7 @@
     }
     #navbar .navbar button img {
         width: 20%;
-    }
-    #what-is button img, #mision .donate img, #othinv .donate img{
-        width: 10%;
-    }
-    #what-is .btn, #mision .btn,#othinv .btn{
-        width: 60%;
-        
-    }
+    } 
 }
 #sumate h4,#sumate p,#sumate h6{
     text-align: center;

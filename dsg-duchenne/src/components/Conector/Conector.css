@@ -3,7 +3,7 @@
     margin-top:10%;
     text-align: center;
 }
-.card-body{
+#conector  .card-body{
     padding-top: 7%;
     padding-bottom:7%;
 }
@@ -12,15 +12,15 @@
     background-color: #5da49a;
 }
 
-.link:hover{
+#conector .link:hover{
     text-decoration:none;
 }
 @media (max-width: 576px) {
-    .card-body{
+    #conector .card-body{
         padding-top: 3%;
         padding-bottom:3%
     }
-    .card.title{
+    #conector .card.title{
     margin-top:10px; 
     }
 }

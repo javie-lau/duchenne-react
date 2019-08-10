@@ -7,7 +7,7 @@
     opacity: 1;
     transition: 400ms;
 }
-.center {
+#sslider .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
