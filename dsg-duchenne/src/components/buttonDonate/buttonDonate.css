@@ -1,4 +1,4 @@
-#navbar .btn, #sumate .btn{
+#navbar .btn{
     margin-top:1.5vh;
     background: white;
     border-radius: 25px;
@@ -9,13 +9,13 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.3em;
 }
-#navbar .navbar button img,#sumate .btn img{
+#navbar .navbar button img{
     width: 20%;
 }
 @media(min-width:577px) and (max-width:768px){
-    #navbar .btn, #sumate .btn{
+    #navbar .btn{
         width: 100%;
-        padding:0.4vw .4vw .2vh 0.4vw;
+        padding:0.4vh .4vw .4vh 0.4vw;
         font-size: 1em;
         margin-bottom: 1vh;
     }
@@ -23,27 +23,10 @@
 @media (max-width: 576px) {
     #navbar .btn{
         width: 100%;
-        padding:0 .4vw .2vh 0.4vw;
-        font-size: 1em;
-    }
-    #othinv .btn{
-        width: 100%;
-        margin-bottom: 1vh;
-       
-    }
-    #sumate .btn{
-        padding:0;
-        width: 70%;
-        font-size: .6em;
-    }
-    #sumate .donate img{
-        width: 15%;
-        margin: .3em 0;
+        padding:.1em .2em;
+        font-size: .8em;
     }
     #navbar .navbar button img {
         width: 20%;
     } 
-}
-#sumate h4,#sumate p,#sumate h6{
-    text-align: center;
 }

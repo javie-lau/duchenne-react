@@ -1,5 +1,11 @@
 .footer{
- background: #039D8B;
+    display: flex;
+    flex-direction:column;
+    background: #039D8B;
+    align-content:center;
+} 
+.row{
+    margin: 0;
 }
 .footer button{
     display: inline;  
@@ -26,7 +32,7 @@
     text-decoration: none;
     color:white;
     font-weight: bolder;
-}
+} 
 
 .footer .row{
     align-items: center;
@@ -37,6 +43,7 @@
     padding-bottom: 0.1em;
 }
 .copyright p{
+    color: white;
     margin-bottom: .2em;
 }
 

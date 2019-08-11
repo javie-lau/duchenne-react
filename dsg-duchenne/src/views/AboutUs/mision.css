@@ -1,12 +1,15 @@
+
 /*Css de Mision */
 #mision #title-mision, #values{
     color: #039D8B;
     margin-bottom: 4%;
 }
 
+
 #mision #title-mision{
     margin-top:27vh;
 }
+
 
 #mision .initials{
    color: #9d0315;
@@ -32,11 +35,11 @@
     color: #9d0315;
 }
 
+
 @media (max-width: 576px){
     #mision #title-mision{
         margin-top:20vh;
     }
-    
 }
 
 
@@ -69,6 +72,7 @@
 
 
 @media (max-width: 576px){
+
   #us{
       margin-top:20vh;
   }
@@ -76,3 +80,4 @@
       margin-bottom:8vh;
   }
 }
+

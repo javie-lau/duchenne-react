@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer'
 import './mision.css'
-
+ 
 class Mision extends Component{
 
     render(){

@@ -90,3 +90,9 @@
 #navbar .dropdown:hover .dropdown-menu {
     display: block;
   }
+  @media(max-width: 576px) {
+    #navbar .row .col-4{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
