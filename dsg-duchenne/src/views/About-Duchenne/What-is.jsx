@@ -19,10 +19,10 @@ class WhatIsDuchenne extends Component{
               <p>Los niños con esta enfermedad pueden empezar a andar más tarde que el promedio, y tienen las pantorrillas grandes cuando tienen entre uno y tres años de edad. La enfermedad suele pasar desapercibida hasta los 3-5 años de edad, cuando la debilidad muscular afecta el andar, subir escaleras y otras actividades.</p>
               <p>Los niños con DMD pueden: </p>
               <ul>
-                <li><span className="list">correr despacio</span></li>
-                <li><span className="list">tener problemas para subir escaleras</span> </li>
-                <li><span className="list">caerse a menudo</span></li>
-                <li><span className="list">caminar de puntillas (sobre los dedos o las almohadillas de los pies)</span></li>
+                <li><span className="lista">correr despacio</span></li>
+                <li><span className="lista">tener problemas para subir escaleras</span> </li>
+                <li><span className="lista">caerse a menudo</span></li>
+                <li><span className="lista">caminar de puntillas (sobre los dedos o las almohadillas de los pies)</span></li>
               </ul>
               <p> Los niños con Distrofia Muscular de Duchenne también pueden tener dificultades de aprendizaje.</p>
               <p>Esta enfemedad es <span className="text-span">progresiva</span>, lo que significa que los problemas empeoran con la edad. Cuando un niño entra en la adolescencia, la debilidad muscular de todo el cuerpo le puede provocar <span className="text-span">problemas cardíacos y respiratorios</span>.</p>
