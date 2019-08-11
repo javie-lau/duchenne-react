@@ -60,3 +60,17 @@
    height: 45vh;
   }
 }
+
+#situation{
+  margin-top:25vh;
+  margin-left:10vh;
+}
+
+#title-situation{
+  color: #039D8B;
+}
+
+#situacion .situation-p{
+  color: #5e5d5d;
+
+}

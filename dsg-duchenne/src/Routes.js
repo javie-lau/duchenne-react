@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './views/Home/Home'
 import WhatIsDuchenne from './views/About-Duchenne/What-is';
 import Diagnostic from './views/About-Duchenne/Diagnostic';
+import Situation from './views/About-Duchenne/Situation';
 import Guide from './views/About-Duchenne/Guide';
 import Mision from '../src/views/AboutUs/Mision'
 import News from './views/News/News';
@@ -28,6 +29,7 @@ const Routes = () =>{
             <Route path='/que-es-duchenne' component = {WhatIsDuchenne}/>  
             <Route path='/diagnostico' component = {Diagnostic}/>  
             <Route path='/genetica' component = {Genetics}/>  
+            <Route path='/situacion-pais' component = {Situation}/>
             <Route path='/guia-para-padres' component = {Guide}/>
             <Route path='/sumate' component = {Sumate}/>
             <Route path='/investigacion-microdistrofina' component = {Microdistrofina}/>
