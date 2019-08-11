@@ -1,20 +1,19 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Home from './views/Home';
+import Home from './views/Home/Home'
 import WhatIsDuchenne from './views/About-Duchenne/What-is';
 import Diagnostic from './views/About-Duchenne/Diagnostic';
 import Stages from './views/About-Duchenne/Stages';
 import Guide from './views/About-Duchenne/Guide';
 import Mision from '../src/views/AboutUs/Mision'
-import News from './views/News';
-import Sumate from './views/Sumate';
+import News from './views/News/News';
+import Sumate from './views/Sumate/Sumate';
 import Microdistrofina from './views/investigacion/Microdistrofina';
 import Form from './components/Form/Form';
 import Article from '../src/views/Article/TemplateArticle';
 import Team from '../src/views/AboutUs/Team'
 import Exon from './views/investigacion/Exon';
-
-import Transparency from './views/Tranparency';
+import Transparency from './views/Transparency/Tranparency';
 import Genetics from './views/About-Duchenne/Genetics';
 import OtrasInvestigaciones from './views/investigacion/Otrasinvestigaciones';
 import Crispr from '../src/views/investigacion/CRISPR'

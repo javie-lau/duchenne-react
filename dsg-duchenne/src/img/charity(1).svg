@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 416 416" width="416" height="416">
+	<defs>
+		<image width="220" height="194" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAADCAQMAAAAYSD4pAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAnQMVFlwlRAAAAAJ0Uk5TAP9bkSK1AAADhklEQVR4nO2YTc7cIAyGE0UqS47AUTgac7QcJbtuu/wqjcYdwMY/mEyl6tuVzQBvgv0YMBm27XMBeI76AfBLagEATmpkgJcUC/Cr7xcBLtZaGx69kQCkkS2CeLq0Bou5tb9afW919mDr7dfwDYS/3SQ+3UdhoxHFi02y0YTtLzY5fB8Pv9gke0RtECbIozFSHYpMINhwtnlEJsjdMVIdatRBO1uHYhPobsP+2d1tzr4Ku1uatfZOM/GkLiR54QCP1F8JxLJjpb50Zow/sew4fv29CnZm/D3I7bfwi2xFBA0EnATCgcMHClUU8DuKkbw+ZNhKfyoR7y4Dnvv4eUwsBV+8kseSyBy1auxso9PiTxzv6ubVRFppkWeqenc1S+hDiyiNsveY8gI+QKzX1r3zltqZpFr7aj0nP83boImHEIvaws8mPriD66mKQezFJOqxOh5sh6zLjmDrUjxELmgjRtGxiwR0WHGzYuKgvEEvMcobS4n5vBHTQ4tZZsHI1W0Sfyjx1OI2iZcvln8Sy714rsRrLeb/4reJNfDftBI+iLdL80ZMa9FsJFHmXfa3YstPattrcfskvlyxpZqwFE16k2XKfbKkKsqUqsWnTsaytGQscrwqlONdsZ8F4E8LnStecPHQKW78DjrLvBDhQZfdKOARmdwoYG9yo4DnT3RB8UAPLqj9TpBlx5P0AAeUOndwQMdw4IBGcqQ4oIkQsgM6+pIDOkaLDujwwwFlgjCDHkM8ZlB+fp9BI1uCCVQAlAk0sziDiqClCVQYihZUujjNqOyYQGVYJlAVbTujyn0LqmY4G1A1kp1R5YMB1evRzKjmNqB6aRhQ44KeUTMRGtSQ6aaJiR7ILBsFarddMP8/1fSqh+0OUKDT3gH1ZWsWo/4mNstYgk47XYJOW0eAztklqH/LZruKGZ03ugB1UgSDOsmFQZ20xKBOQmNLTiocoF4SHaBe+j3E3/c5cZMpLxMOUC+HDlAv+w5QL28PW17GJ1D3rCBQ95QhUBeTZtTFJFAXk0BdTAJ1MWnpupgI6mMiqI+JoD4mgi4wu6MLzA66wOygC8wOusBsoL8XmHTB439c4mWD/82Klw2L72R12TCVIi4bppLFZcNU5GWDKy4wO+gC01w2eOIKs4FeS3H+YBAlrzH1TcRUVh/8rYQ1Zp3RJaa+iZjLDeYb9LwR8+NGTDeaumz4VP4ARV7+VLBuKd8AAAAASUVORK5CYII="/>
+		<image width="178" height="338" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALIAAAFSAQMAAABsdxcdAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAA52LGaSpaQAAAAJ0Uk5TAP9bkSK1AAADYElEQVR4nO2ZTa6cMAyAQVlkmSPkKLlKbwJH4ygcgSVSeZMC/knsONJUqtoOeqzQ94B8cRye8QzDu4fLu8ljziafcl4MPOacN/Px2RwgnPxlD2sOnC4+mzqm0IXzampaosBbUdfh/ubH2zzcvJ3wyX9a/AzDnIxAXKsSTH5cYxt8v+Ywa55OPpp86/LB5Ouf49P7fOry5aN57vL5iXzs8+GJ3HX565Hcd/nxSB7ufxXP47HLt0fy1OXrR/Opy5dH8tzl8yfwscNDh0/ZXF+qzTV3WKpq7rFU1Txgba55xNpc84S1ueZUmyvOtbnirsM91eaKB6rBFY8dnqg2V/yM5pfFr0mlll/6UJtL7q5n+Jb7y8W1PGaozTVPGWpzze9FvzNFcliTho+whg13sOYN95AjDQ/wWdTweC9V65PuJW/94Xuy5aDfxAf1m3iifhP/APrNekXQbzhoDk2esKbirCnzsGhKXjRlPmOUo94XgTQVj7Sj1f5ifbUfWV/tX7jQ6/2OFwb9fsALo36fCM2KC82KC82KC82KC83CpWbhjjV3wT0lA3QAmKM+tTaYoz51HphzLudBcHjdOfqgr/nMoxdekmHHy+ZaM1KjgnjRXAUvmovgRXMWfJKaQ/m70CReogya1B9wIhkKL1FeaZpWlJmrKHMfA+bpuB/k0Rfm6Vk/wAnOM7B+BK41T7HD0iSuNc+z3dIcMR4qGa7xNivKxLVmAAF8QORuE3J8QNGMIOZpb5JmAjF+L1PyTSAWlOaAZ5G2HGrSGT6ONR2eJdqbO60KbTK8bWN9nO4BwxT9FThGlaN8n414W6j0Z+D3bZ56ZajvcP7ukPrEx13qe4rLJvW5efZD6utmG61DUE27hOMF1fxD/btBVx28DlE2F3kdFCf9El+przlne8tX5Kulj18Ijb7mnEaTaL6WNJKc9RVnfcUDb1bJWV/xVG3Wmk/VLqh52QW6NnpZvOg3tdFu8aLf1EarxYt+UxvNFi/6ujZ6WbzSF7zS1zXTZvFKX9dMi8UrfV0zDQav9VXNdFi81lc102bxWl/VTIvFa33FB4uLPr6opQ6LO/G7guCbxb34PUPwxeIhy1Sq+GDxKN5o7/DD5Em8ud7hW4evJp9+my//GZ+/+Tf/Z7wc3/zv887xC0I/pYVH95C0AAAAAElFTkSuQmCC"/>
+		<image width="177" height="338" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALEAAAFSAQMAAACHQKweAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAAA52LGaSpaQAAAAJ0Uk5TAP9bkSK1AAADYElEQVR4nO2XS3LbMBBEweKCSxyBR+HRwKPhJuENwqUWKiICMTMAeoZlx+VKUoy0sfUWQHfj13Lu8uPTZvKQnhYeUkoWn148Gnx+cWuC5cUf5rTJnPiF02HLsQSNJ19NmRb3J48XfFN8Pvn+ab6cXBt+8Z8WDy+zNn+YKxNec84Gz9q9yeMln4ygc2ZXfPwW7r7A9cJnNPx/fLW4uy+PJg+35ZvJl5vyWV+gt+ZeX/Q35+rhOfl0W64esJMbD9tNuHqoTmI8YLfmxgP2VR4vOB4wzh8F0T5UA9G9pCou3c+qytJ7pCamd1l1d+onqrtTf1NC83ero1e+Ke6Nzp35bHTuyp+Kl45+WPwHCi38GFBo5qWj90kXvuexNs23rGnXPHf03kDmpaP3Bpjj0he+OhTKPAs1OQgVDkKFg1DWg0LZVxZ6KL6p35fCXW+A83SQNOePBsp6ZSW9AVpHhwZon6xogHjEQ0b7kAysyPdiIHZ8KjOGViidCyWUuBLK58uBUD6PKyTN5zdC0nzeN9cnzffDw/VJtzO2SfP9c4ABvicTGOB7DJMuPKiky3+LSrpwEtokXTjN2AgtfFJCCx+V0MIHJZSUidCj51Voz2fZEivztRFakyZek947rpImTkKrAZ4ogVDmAYQyX0AoC0Oh/Be3BP90QaHMcUuEaqRLemEOSS9ssAgVAwuvUN0Sa/lKxn0ZmQ+fcBqZDXgOhEam4TJfW6FsYJKV64VOsvX6LTHKyvVbYpSV65MeZOtB0gkMcNKpNdAIDa2BKJdRHi+K0CiXUR5vE6HrOdxB8nYR2giZxAC13yCGnyz0SdOsro6X/3u2CTdnp0u4Ggg7DRzBwEa+NzAQW14NTCvlsfcGRpom8Tx9dSA+YHXgrYnVYZat3leHWbZ6Xx3411I10HMP1cGTjgmqA/8KQQPM0cBY74hkcjAgrR8MCAcD0prBgHAwIBwMDM0OPywOBirvDVQOBoSDAeFedyLLgPBRdyLLQPvqYSeyDFS+qE5kGajcq05kGah8VJ3IMtDVi2TygF3JMtDwzkDDPXalyh8WH1VXMgz0mtNv8QU7VDUQLe6xQ33AJ+xW1YDJnepc9AkXfMEu9gGfL7ivgX6KTxd8vOTpW/jwl7h78zf/N3j9vPmf593nF/iUoyYZoH69AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Layer">
+		<g id="Layer">
+			<use id="Layer" href="#img1" x="98" y="31" />
+		</g>
+	</g>
+	<g id="Layer">
+		<g id="Layer">
+			<use id="Layer" href="#img2" x="239" y="47" />
+		</g>
+	</g>
+	<g id="Layer">
+		<g id="Layer">
+			<use id="Layer" href="#img3" x="0" y="47" />
+		</g>
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+</svg>
