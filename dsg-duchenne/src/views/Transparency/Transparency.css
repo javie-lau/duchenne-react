@@ -1,10 +1,18 @@
 #transparency{
-    margin-top: 30vh;
+    margin-top: 27vh;
     margin-bottom: 15vh;
     text-align: center;
 }
+
 .all-accounts{
     margin-top: 15vh;
+}
+
+#transparency .titles-trans{
+    color: #039D8B;
+}
+#transparency #sub-titles{
+    color: #5e5d5d;
 }
 @media (max-width: 576px){
     #transparency h2{

@@ -32,8 +32,8 @@ class  Carousel extends Component{
             <h5 id="europa">mientras que en Europa es de 45 años</h5>
             <h1 id="por-eso" className="rectangulo-blue">¡Por eso tu apoyo es fundamental para encontrar la cura!</h1>
             </div>
-            <img id="charity-l" src={images['charity(1).svg']} alt="..."/>
-            <img id="charity-r" src={images['charity(1).svg']} alt="..."/>
+            {/* <img id="charity-l" src={images['charity(1).svg']} alt="..."/>
+            <img id="charity-r" src={images['charity(1).svg']} alt="..."/> */}
           </div>
 
           <div class="carousel-item">

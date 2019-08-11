@@ -1,66 +1,83 @@
-#mision h1{
-    font-family: 'Source Sans Pro', sans-serif;
+
+/*Css de Mision */
+#mision #title-mision, #values{
     color: #039D8B;
     margin-bottom: 4%;
 }
-#mision h4{
-    font-weight:14px;;
-    color:rgba(75, 71, 71, 0.699);
-    font-family: 'Source Sans Pro', sans-serif;
+
+
+#mision #title-mision{
+    margin-top:27vh;
 }
 
-#mision h5{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 120%;
-    color:rgba(75, 71, 71, 0.699);
-    margin-bottom: 2%;
- 
 
-}
-#mision .AllPoints{
-    margin-top: 3%;
-    margin-left: 2%;
-    margin-bottom: 3%;
-}
-#mision .header{
-    margin-bottom: 3%;
+#mision .initials{
+   color: #9d0315;
+   font-size:50px;
    
 }
-#mision .list{
-    font-weight: bold;
-    margin-bottom: 2%;
-    margin-right: 2%;
+#mision #explanation, .rest-txt, .values{
+    color: #5e5d5d;
 }
-#mision .points {
-    padding: 2%;
-    background: #039D8B;
-    color: white;
-    width:30%;
-    font-size:100%;
-    margin-right: 3%;
 
+.points{
+    margin-right:5%;
+    margin-bottom: 5%;
+    margin-top:5%;
+}
+#mision #focus{
+    margin-top:-3%;
+    margin-left:2%;
+}
+#mision li .list{   
     margin-top: 3%;
-    margin-bottom: 3%;
-    font-style: bold;
-   font-family:  'Source Sans Pro', sans-serif;
+    margin-right: 5%;
+    color: #9d0315;
 }
 
-#mision .body{
-margin-left: 5%;
-margin-right: 5%;
-margin-top: 18%;
-text-align: justify;
-margin-bottom:8%;
-}
 
 @media (max-width: 576px){
-    #mision p{
-        margin-top:3%;
-        margin-bottom:4%;
+    #mision #title-mision{
+        margin-top:20vh;
     }
+}
+
+
+/*css de Team*/
+#us{
+    margin-top:27vh;
+}
+#us #our-team, #directory{
+    color:#039D8B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#us #directory,.names{
+    color: #5e5d5d;
+}
+.photo-team{
+    width: 30%;
+    margin-left: 35%;
+}
+#us .names, .ocupation{
+   text-align: center;
+}
+#us .ocupation{
+    color:#9d0315;
+}
+#us .member{
+    margin-bottom: 5%;
+}
+
+
+@media (max-width: 576px){
+
+  #us{
+      margin-top:20vh;
   }
-  #mision .icono{
-    width:100px;
-    height:100px;
-    border-radius:150px;
+  #directory{
+      margin-bottom:8vh;
   }
+}
+
