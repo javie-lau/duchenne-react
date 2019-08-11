@@ -49,11 +49,10 @@ class Navbar extends Component{
                                     Sobre nosotros
                                     </a>
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <Link className="link" to='/nuestra-mision'>  <a className="dropdown-item" href="#">Nuestra misión</a> </Link>
+                                    <Link className="link" to='/nuestra-mision'>  <a className="dropdown-item" href="#">Nuestra misión</a> </Link>
                                     <div className="dropdown-divider"></div>
                                     <Link className="link" to='/equipo'> <a className="dropdown-item" href="#">Nuestro equipo</a></Link>
-                                    <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="#">Que hacemos</a>
+                                  
                                     </div>
                                 </li>
                                 <li className="nav-item">

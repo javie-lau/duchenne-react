@@ -43,7 +43,7 @@
    
    #explainMoney .icons{
       width:40%;
-   }
+   } 
    #explainMoney .arrow{
       width: 20%;
       transform: rotate(90deg);
@@ -57,4 +57,7 @@
       font-size: 30px;
    }
    
+}
+h4#amount{
+   text-align: center;
 }

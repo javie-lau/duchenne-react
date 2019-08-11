@@ -38,7 +38,7 @@ export default class Responsive extends Component {
           }
         }
       ]
-    };
+    }; 
     return (
       <div id="sslider">
         <div className="row">

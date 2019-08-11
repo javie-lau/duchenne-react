@@ -1,4 +1,9 @@
-
+#news h4{
+    color: #039D8B;
+    text-align: center;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+}
 @media(max-width:576px){
     
 }
@@ -39,7 +44,7 @@
     #news .card-date{
         margin-left:25%;
     }
-}
+} 
 a.card-text{
     color:rgba(75, 71, 71, 0.699);
     text-decoration: none;
