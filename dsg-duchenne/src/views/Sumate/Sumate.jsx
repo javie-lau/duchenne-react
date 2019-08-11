@@ -7,7 +7,7 @@ import {Link } from 'react-router-dom';
 import './Sumate.css';
 
 class Sumate extends Component {
-    render(){
+    render(){  
         return(
             <React.Fragment>
                 <Navbar/>
