@@ -1,6 +1,11 @@
 .footer{
-   
- background: #039D8B;
+    display: flex;
+    flex-direction:column;
+    background: #039D8B;
+    align-content:center;
+} 
+.row{
+    margin: 0;
 }
 .footer button{
     display: inline;  

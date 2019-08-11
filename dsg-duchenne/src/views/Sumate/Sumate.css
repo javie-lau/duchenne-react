@@ -4,7 +4,7 @@
 #sumate img{
     width: 50%;
 }
-@media (max-width: 576px){
+@media only screen and (max-width: 576px){
     #sumate img{
         margin-top:1.5em;
         width: 70%;
@@ -15,9 +15,14 @@
     margin: 27vh 0 3em 0;
    
 }
-@media (max-width: 576px){
+@media only screen and (max-width: 576px){
     #sumate.container{ 
         margin: 20vh 0 3em 0;   
+    }
+}
+@media only screen and (min-width:577px) and (max-width:768px){
+    #sumate.container{ 
+        margin: 15vh 0 3em 0;   
     }
 }
 #sumate span{
@@ -37,16 +42,17 @@
     font-size: 25px;
   
 }
-@media (max-width: 576px){
+@media only screen and (max-width: 576px){
     #sumate h4{
          font-size: 23px;
         
      }
 }
+
 #sumate .row:nth-child(3){
     margin-top:7vh;
 }
-@media (max-width: 576px){
+@media only screen and (max-width: 576px){
     #sumate .row:nth-child(3){
         margin-top:3vh;
     }
@@ -54,7 +60,7 @@
 #sumate .row:nth-child(2){
     margin-top:5vh;
 }
-@media (max-width: 576px){
+@media only screen and (max-width: 576px){
     #sumate .row:nth-child(2){
         margin-top:2vh;
     }
@@ -62,7 +68,7 @@
 #sumate .row:nth-child(5){
     margin-top:5vh;
 }
-@media (max-width: 576px){
+@media only screen and (max-width: 576px){
     #sumate .row:nth-child(5){
         margin-top:2vh;
     }
@@ -70,7 +76,7 @@
 #sumate .row:nth-child(4){
     margin-top:8vh;
 }
-@media (max-width: 576px){
+@media only screen and (max-width: 576px){
     #sumate .row:nth-child(4){
         margin-top:3vh;
     }
@@ -99,26 +105,31 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.3em;
 }
-@media (max-width: 576px) {
+@media only screen and (max-width: 576px) {
     #sumate .btn{
-        padding:.1em .3em;
-        width: 70%;
+        width: 100%;
+        padding:.1em .2em;
         font-size: .8em;
     }
    
 }
-@media (max-width: 576px) {
+@media only screen and (max-width: 576px) {
     #sumate .donate img{
         width: 20%;
         margin: .3em 0;
     }
 }
 
-@media(min-width:577px) and (max-width:768px){
+@media only screen and (min-width:577px) and (max-width:768px){
     #sumate .btn{
-        width: 100%;
-        padding:0.4vw .4vw .2vh 0.4vw;
-        font-size: 1em;
-        margin-bottom: 1vh;
+        padding:0.2vh 0vw;
+        width: 50%;
+        font-size: .9em;
+    }
+}
+@media only screen and (min-width:577px) and (max-width:768px){
+    #sumate .donate img{
+        width: 15%;
+        margin: .4em 0 0.3em 0;
     }
 }

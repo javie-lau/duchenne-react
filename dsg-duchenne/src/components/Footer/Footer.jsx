@@ -19,7 +19,9 @@ class Footer extends Component {
                </div> 
 
         </div>
-             <div className="copyright"><p>© 2018 Copyright: DSG-Duchenne</p></div>
+        
+          <div className="copyright"><p>© 2018 Copyright: DSG-Duchenne</p></div>
+        
      </footer>
     )
     }

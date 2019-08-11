@@ -15,7 +15,7 @@
 @media(min-width:577px) and (max-width:768px){
     #navbar .btn{
         width: 100%;
-        padding:0.4vw .4vw .2vh 0.4vw;
+        padding:0.4vh .4vw .4vh 0.4vw;
         font-size: 1em;
         margin-bottom: 1vh;
     }
@@ -23,8 +23,8 @@
 @media (max-width: 576px) {
     #navbar .btn{
         width: 100%;
-        padding:0 .4vw .2vh 0.4vw;
-        font-size: 1em;
+        padding:.1em .2em;
+        font-size: .8em;
     }
     #navbar .navbar button img {
         width: 20%;
