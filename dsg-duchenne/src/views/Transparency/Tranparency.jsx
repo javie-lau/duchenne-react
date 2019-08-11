@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Navbar/Navbar';
-import Footer from '../components/Footer/Footer';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
 import './Transparency.css';
-import ExplainMoney from '../components/Money/Money';
+import ExplainMoney from '../../components/Money/Money';
 
 class Transparency extends Component{
     render(){

@@ -1,26 +1,25 @@
 #conector .card-title{
-    color: white;
-    margin-top:10%;
+    color:#039D8B;
+    
     text-align: center;
 }
-.card-body{
-    padding-top: 7%;
-    padding-bottom:7%;
-}
+
 #conector.card{ 
+    border-radius:20px;
+    border:3px solid #039D8B;
     margin-top: 2em;
-    background-color: #5da49a;
+    background-color: white;
 }
 
-.link:hover{
+#conector .link:hover{
     text-decoration:none;
 }
 @media (max-width: 576px) {
-    .card-body{
+    #conector .card-body{
         padding-top: 3%;
         padding-bottom:3%
     }
-    .card.title{
+    #conector .card.title{
     margin-top:10px; 
     }
 }

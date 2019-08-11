@@ -3,7 +3,7 @@ import images from '../../importImages';
 
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer'
-import ButtonDonate from '../../components/buttonDonate/ButtonDonate'
+
 
 class Crispr extends Component{
     render(){
@@ -93,8 +93,7 @@ pueda tener con respecto a una afección médica.
                 </div>            
 
                 </div>
-                    
-                <ButtonDonate/>
+                
                
                      <Footer/>
                

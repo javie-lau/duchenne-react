@@ -8,7 +8,7 @@ class ButtonDonate extends Component{
             
                 <button className="btn donate"><img className="img-fluid"src={images['like2.svg']} alt=""/><span> Súmate</span></button>
            
-
+ 
         )
     }
 }

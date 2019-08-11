@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer'
 import './mision.css'
-import ButtonDonate from '../../components/buttonDonate/ButtonDonate'
-import images from '../../importImages';
+
 class Mision extends Component{
 
     render(){
@@ -71,7 +70,6 @@ class Mision extends Component{
                         </p>
                     </div>
                 </div>
-                <ButtonDonate/>
             </div>
           <Footer/>
     </React.Fragment>

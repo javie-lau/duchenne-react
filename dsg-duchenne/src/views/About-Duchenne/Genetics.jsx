@@ -12,7 +12,7 @@ class Genetics extends Component{
              <Navbar/>
             <div id="genetics">
              <div className="row">
-               <div className="container-all col-md-8">
+               <div className="container col-md-8">
                  <h2>Duchenne en la genética</h2>
                <div className="container-p"> 
                 <h4>Causas genéticas</h4>

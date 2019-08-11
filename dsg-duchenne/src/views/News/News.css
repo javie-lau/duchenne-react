@@ -1,0 +1,8 @@
+.news{
+    margin-top: 25vh;
+}
+@media(max-width:576px){
+    .news{
+        margin-top: 12vh;
+    }
+}
