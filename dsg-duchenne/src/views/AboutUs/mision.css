@@ -1,15 +1,15 @@
-h1{
+#mision h1{
     font-family: 'Source Sans Pro', sans-serif;
     color: #039D8B;
     margin-bottom: 4%;
 }
-h4{
+#mision h4{
     font-weight:14px;;
     color:rgba(75, 71, 71, 0.699);
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-h5{
+#mision h5{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 120%;
     color:rgba(75, 71, 71, 0.699);
@@ -17,21 +17,21 @@ h5{
  
 
 }
-.AllPoints{
+#mision .AllPoints{
     margin-top: 3%;
     margin-left: 2%;
     margin-bottom: 3%;
 }
-.header{
+#mision .header{
     margin-bottom: 3%;
    
 }
-.list{
+#mision .list{
     font-weight: bold;
     margin-bottom: 2%;
     margin-right: 2%;
 }
-.points {
+#mision .points {
     padding: 2%;
     background: #039D8B;
     color: white;
@@ -45,7 +45,7 @@ h5{
    font-family:  'Source Sans Pro', sans-serif;
 }
 
-.body{
+#mision .body{
 margin-left: 5%;
 margin-right: 5%;
 margin-top: 18%;
@@ -54,12 +54,12 @@ margin-bottom:8%;
 }
 
 @media (max-width: 576px){
-    p{
+    #mision p{
         margin-top:3%;
         margin-bottom:4%;
     }
   }
-  .icono{
+  #mision .icono{
     width:100px;
     height:100px;
     border-radius:150px;

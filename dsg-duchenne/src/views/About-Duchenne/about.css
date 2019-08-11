@@ -1,55 +1,68 @@
-#what-is, #diagnostic,#genetics,#guide{
-  margin-top: 25vh;
+#what-is, #diagnostic, #genetics{
+    margin-top: 27vh;
+    margin-bottom:5vh;
 }
-
 @media (max-width: 576px){
-  #what-is, #diagnostic,#genetics,#guide{
-    margin-top: 20vh;
+    #what-is, #diagnostic, #genetics{
+      margin-top: 20vh;
+    }
+}
+#what-is h2, #diagnostic h2, #genetics h2, #genetics h4, #guide h2{
+  color: #039D8B;
+}
+@media (max-width: 576px){
+  #what-is h2, #diagnostic h2, #genetics h2, #guide h2{
+    font-size: 25px; 
+   }
+}
+@media (max-width: 576px){
+  #genetics h4{
+    font-size: 23px; 
   }
 }
-
-#what-is h2, #what-is h4{
- color: #039D8B;
- font-family: 'Source Sans Pro', sans-serif;
-
-}
-#what-is .text-span{
+#what-is .text-span, #diagnostic .text-span,#genetics .text-span{
   color: #039D8B;
   font-weight: bolder;
 }
-@media (max-width: 576px){
-  #what-is h2, #what-is h4{
-      
-      font-family: 'Source Sans Pro', sans-serif;
 
-  }
-} 
-#what-is p, #what-is .lista{
+#what-is p, #what-is .lista, #diagnostic p, #diagnostic .lista, #genetics .lista, #genetics p{
  /* color: #7A7C7C; */
  color:#626363;
  font-size: 20px;
- font-family: 'Source Sans Pro', sans-serif;
-
 }
-#what-is ul li{
+#what-is ul li, #diagnostic ul li, #genetics ul li{
   color: #039D8B;
 }
-#what-is ul{
+#what-is ul,  #diagnostic ul, #genetics ul{
   list-style-type: circle;
-  
 }
-
-
-
-.family-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top:1%;
-}
-.family-img{
+#guide .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 15%;
-  padding-top: 3%;
-  padding-bottom: 3%;
+}
+@media (max-width: 576px){
+  #guide .center{
+    width: 30%;
+  }
+}
+#guide .container{
+  text-align: center;
+}
+#guide a{
+  color:#626363;
+  text-decoration: none;
+}
+#guide a:hover{
+  color:#9d0315;
+}
+#guide{
+  margin-top:30vh;
+  margin-bottom:15vh;
+}
+@media (max-width: 576px){
+  #guide{
+   height: 45vh;
+  }
 }
