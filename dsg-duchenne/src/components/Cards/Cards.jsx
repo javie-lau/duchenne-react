@@ -49,10 +49,12 @@ class Cards extends Component{
       })
         return(
     <React.Fragment> 
-      <div className="container" id="news">
+      <div  id="news">
         <h4>Ultimas noticias:</h4>
+        <div className="container">
         <div className="row">
           {News}
+        </div>
         </div>
       </div>
     </React.Fragment>

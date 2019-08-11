@@ -1,0 +1,8 @@
+.sabias{
+    display:none !important;
+}
+@media (max-width: 576px){
+    .sabias{
+        display: block;
+    }
+}

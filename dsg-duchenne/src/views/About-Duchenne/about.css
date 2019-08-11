@@ -12,7 +12,7 @@
   color: #039D8B;
 }
 #diagnostic h2, #genetics h2, #what-is h2{
-  text-align: center;
+  /* text-align: center; */
 }
 #what-is .text-span, #diagnostic .text-span,#genetics .text-span{
   color: #039D8B;

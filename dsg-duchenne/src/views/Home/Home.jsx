@@ -6,29 +6,21 @@ import Cards from '../../components/Cards/Cards';
 import './Home.css';
 import Responsive from '../../components/slick-slider/Responsive';
 import ExplainMoney from '../../components/Money/Money';
+import Sabias from '../../components/Sabias-que/Sabias';
+
 
 class Home extends Component {
     render(){
         return(
          <React.Fragment>
-           
             <Navbar />
-            
-           
               <Carousel/>
-              <div className="container responsive">
-              <ExplainMoney/> 
-              <Responsive/>
-              
-              
-              <Cards /> 
-              
+              <div className="responsive container">
+                <ExplainMoney/> 
+                <Responsive/>
+                <Cards /> 
               </div>
-         
-           
-          
               <Footer />
-      
          </React.Fragment>
 
         )
