@@ -42,8 +42,6 @@
   
 }
 
-
-
 .family-container{
   display: flex;
   flex-direction: column;
@@ -55,4 +53,18 @@
   width: 15%;
   padding-top: 3%;
   padding-bottom: 3%;
+}
+
+#situation{
+  margin-top:25vh;
+  margin-left:10vh;
+}
+
+#situacion h1{
+  color: #039D8B;
+}
+
+#situacion p{
+  color: #5e5d5d;
+
 }
