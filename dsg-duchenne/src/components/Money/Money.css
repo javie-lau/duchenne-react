@@ -20,6 +20,8 @@
 #explainMoney #amount{
    margin-top: 5%;
    padding: 0%;
+   color: #039D8B;
+
 }
 #explainMoney #money{
    font-size: 50px;
@@ -43,7 +45,7 @@
       width:40%;
    }
    #explainMoney .arrow{
-      width: 50%;
+      width: 20%;
       transform: rotate(90deg);
       margin-top: 5%;
       margin-bottom: 4%;

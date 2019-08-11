@@ -10,18 +10,16 @@ class Transparency extends Component{
          <div>
              <React.Fragment>
                 <Navbar/>
-                <div id="transparency" className="container">
-                    <div className="col-12">
-                        <h1>Transparencia</h1>
-                    </div>
-                    <div className="col-12">
-                        <p>Para mantener la confianza de nuestros socios y donantes, es importane conocer el destino de los fondos recaudados.</p>
-                    </div>
+                <div id="transparency">
+                        <h1 className="titles-trans">Transparencia</h1>
+                        <h5>Para mantener la confianza de nuestros socios y donantes, es importane conocer el destino de los fondos recaudados.</h5>
+                 
                     <ExplainMoney/>
+
                     <div className="all-accounts"> 
                         <div className="col-md-4 offset-md-4 offset-1 col-10">
-                            <h1>Cuentas claras</h1>
-                            <p>Revisa el detalle de nuestras cuentas anuales</p>
+                            <h1 className="titles-trans">Cuentas claras</h1>
+                            <h5 className="sub-title">Revisa el detalle de nuestras cuentas anuales</h5>
                             <select id="accounts" placeholder="año">
                                <option value="2019">2019</option>
                                <option value="2020">2020</option>

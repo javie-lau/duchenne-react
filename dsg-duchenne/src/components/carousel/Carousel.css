@@ -13,7 +13,6 @@
     height: 400px;
 }
 
-
 .carousel-indicators{
     margin-bottom: 5px;
 }
@@ -41,6 +40,8 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size:80px;
     margin-top: -5%;
+    color: #039D8B;
+
 }
 #txt-one #divider{
     color: #039D8B;
@@ -71,7 +72,7 @@
 #txt-two #dato-duro, #por-eso{
     color: #ffffff;  
 }
-#charity-l{
+/* #charity-l{
     width: 7%;
     margin-top: 20%;
     margin-left: 14%;
@@ -80,21 +81,17 @@
     width: 7%;
     margin-top: 20%;
     margin-left: 58%;
-}
+} */
 
 .rectangulo-blue{
     width:700px; 
     height: 100px; 
     background: #039D8B;;
     border-radius: 6px;
-    margin-left: 13%;
+    margin-left: 12%;
 }
 
 #txt-two{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
     width: 900px;
     height: 400px;   
     position: absolute;
