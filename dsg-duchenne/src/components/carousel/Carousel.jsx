@@ -17,22 +17,23 @@ class  Carousel extends Component{
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <div id="txt-one" className="offset-md-5 col-md-6">
-              <h2 id="fundation">Fundación</h2>
-              <h3 id="dsg">DSG-Duchenne</h3>
-              <div id="divider"></div>
-              <h5 id="enfoque"> Enfocados en encontrar la cura para la Distrofia Muscular Duchenne</h5>
+            <div id="txt-one" className="offset-md-5 col-md-6 flex-center">
+              <h1 id="fundation">Fundación</h1>
+              <h1 id="dsg">DSG-Duchenne</h1>
+              <hr id="divider"></hr>
+              <h3 id="enfoque"> Enfocados en encontrar la cura para la Distrofia Muscular Duchenne</h3>
             </div>
               <img id="bkg1" src={images['portada1.png']} className="d-block w-100" alt="..."/>
           </div>
           <div className="carousel-item">
-            <div id="txt-two"> 
-            <h5 id="sabias-que">¿Sabías qué?</h5>
-            <h2 id="dato-duro">La expectativa de vida en Latinoamérica para de niños con Distrofia Muscular de Duchennees de 20 años</h2> 
+            <div id="txt-two" className="offset-md-1 col-md-10 flex-center"> 
+            <h5 id="sabias-que" >¿Sabías qué?</h5>
+            <h1 id="dato-duro" className="rectangulo-red">La expectativa de vida en Latinoamérica para niños con Distrofia Muscular de Duchenne es de 20 años</h1> 
             <h5 id="europa">mientras que en Europa es de 45 años</h5>
-            <h2 id="por-eso">Por eso tu apoyo es fundamental para encontrar la cura</h2>
+            <h1 id="por-eso" className="rectangulo-blue">¡Por eso tu apoyo es fundamental para encontrar la cura!</h1>
             </div>
-            <img id="bkg2" src={images['dna(1).png']} className="d-block w-100" alt="..."/>
+            <img id="charity-l" src={images['charity(1).svg']} alt="..."/>
+            <img id="charity-r" src={images['charity(1).svg']} alt="..."/>
           </div>
 
           <div class="carousel-item">

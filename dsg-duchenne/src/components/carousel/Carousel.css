@@ -27,26 +27,65 @@
     height: 10px;
     border:2px solid #9d0315;
     border-radius: 100%;
-  }
-
-#txt-one{
+}
+.flex-center{
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+}
+
+#txt-one{
     width: 900px;
     height: 400px;   
     position: absolute;
 }
-#txt-two #sabias-que{
-    margin-top:0px;
-    color: #039D8B;
-    font-size: 30px;
+#txt-one #fundation, #dsg{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:80px;
+    margin-top: -5%;
 }
-#txt-two #dato-duro{
-    color: #9d0315;
-    font-size: 50px;
+#txt-one #divider{
+    color: #039D8B;
+    size: 80;
+    width: 80%;
+}
+#txt-one #enfoque{
+    color: #5a5858;
+    
+}
+#txt-two #sabias-que, #europa{
+    color: #5a5858;
+    font-family: 'Handlee', cursive;
+    font-size: 25px;
 
+}
+.rectangulo-red {
+    width:930px; 
+    height: 110px; 
+    background: #9d0315;
+    border-radius: 6px;
+}
+#txt-two #dato-duro, #por-eso{
+    color: #ffffff;  
+}
+#charity-l{
+    width: 7%;
+    margin-top: 22%;
+    margin-left: 8%;
+}
+#charity-r{
+    width: 7%;
+    margin-top: 22%;
+    margin-left: 65%;
+}
+
+.rectangulo-blue{
+    width:700px; 
+    height: 100px; 
+    background: #039D8B;;
+    border-radius: 6px;
+    margin-left: 10%;
 }
 
 #txt-two{
@@ -57,11 +96,9 @@
     width: 900px;
     height: 400px;   
     position: absolute;
+}
 
-}
-#txt-two h5{
-    margin: 0px;
-}
+
 #txt-three{
     display: flex;
     flex-direction: column;
@@ -72,49 +109,48 @@
     position: absolute;
     margin-top:-5%
 }
-#world{
-    width: 15%;
-    margin-top:13%;
-    margin-left:80%;
-    z-index: 1;
-}
+
 #txt-three #duch{
     font-family: 'Handlee', cursive;
-    font-size: 180px;
+    font-size: 190px;
     color: #9d0315;
-    margin-top:-15%;
+    position: absolute;
 }
 #awarness, #day, #date{
     color: #7c7c7c;
     font-family: 'Handlee', cursive;
-    font-size: 45px;
+    font-size: 55px;   
+    text-align: right;
 }
 #txt-three #awarness{
-    font-size: 45px;
-    text-align: right;
-    margin-top: -20%;
+    margin-left: 85%;
+    margin-top: 12%;
 }
 #txt-three #day{
-    text-align: right;
-    margin-top:-40%;
-    font-size: 45px;
+    margin-right: 3%;
+    margin-top:-2%;
 }
 #txt-three #date{
-    margin-top:-5%;
-    margin-left: 65%;
-    font-size: 50px;
+    margin-top: 2%;
+    margin-right: 15%;
+    font-size: 70px;
+}
+#world{
+    width: 21%;
+    margin-top:13%;
+    margin-left:74%;
+    z-index: 1;
+    position: absolute;
 }
 
 #linea{
-    margin-top:-10%;
-    margin-left: 6%;
-    width: 71%;
+    margin-top:17%;
+    width: 76%;
     height: 40px;
     transform: rotate(-2deg);
     z-index: -1;
+    position: absolute;
 }
-#bkg2{
-    opacity: 0.5;
-}
+
 
 

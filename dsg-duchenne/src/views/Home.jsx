@@ -16,15 +16,12 @@ class Home extends Component {
             </div>
             <div className ="body">
               <Carousel/>
-              <div>
-                <ExplainMoney/>
-              </div>
+              <ExplainMoney/>
+            
               <div className="container">
               <Responsive/>
               </div>
-              
               <Cards /> 
-           
             </div>
            
             <div className= "footer">
