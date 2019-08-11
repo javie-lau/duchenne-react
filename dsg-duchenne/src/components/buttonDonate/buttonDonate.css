@@ -7,10 +7,10 @@
     color:#9d0315;
     font-weight: bold;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 #navbar .navbar button img{
-    width: 20%;
+    width: 17%;
 }
 @media(min-width:577px) and (max-width:768px){
     #navbar .btn{

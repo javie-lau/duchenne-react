@@ -15,9 +15,7 @@
     color: #5e5d5d;
 }
 @media (max-width: 576px){
-    #transparency h2{
-        font-size: 1em;
-    }
+   
     #transparency{
         margin-top: 20vh;
     }

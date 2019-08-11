@@ -1,30 +1,50 @@
 
 /*Css de Mision */
-#mision #title-mision, #values{
+#mision ul{
+    list-style-type: circle;
+  }
+.lista{
+    color:#626363;
+}
+#mision ul li{
     color: #039D8B;
-    margin-bottom: 4%;
+  }
+
+#title-mision{
+    text-align: center;
+    color: #039D8B;
+    margin-bottom:3vh;
 }
-
-
-#mision #title-mision{
+#values h4{
+    color:#626363;
+    margin-bottom:3vh;
+}
+ 
+#mision{
     margin-top:27vh;
+    margin-bottom: 5vh;
 }
-
-
 #mision .initials{
-   color: #9d0315;
-   font-size:50px;
-   
+    font-size: 35px;
+    color: #9d0315; 
 }
 #mision #explanation, .rest-txt, .values{
     color: #5e5d5d;
 }
-
 .points{
-    margin-right:5%;
     margin-bottom: 5%;
     margin-top:5%;
+   
 }
+.points.col-md-5{
+    text-align: center;
+    padding: 0;
+}
+.points.col-md-3{
+    padding-right: 0;
+    text-align: center;
+}
+
 #mision #focus{
     margin-top:-3%;
     margin-left:2%;
@@ -34,11 +54,17 @@
     margin-right: 5%;
     color: #9d0315;
 }
-
-
 @media (max-width: 576px){
-    #mision #title-mision{
+    #mision{
         margin-top:20vh;
+    }
+    .points.col-md-5{
+        text-align:initial;
+        padding: 15px;
+    }
+    .points.col-md-3{
+        padding-right: 15px;
+        text-align: initial;
     }
 }
 

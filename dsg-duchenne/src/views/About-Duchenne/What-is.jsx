@@ -10,10 +10,12 @@ class WhatIsDuchenne extends Component{
    return (
      <React.Fragment> 
          <Navbar />
-      <div id="what-is" className="container">    
+      <div id="what-is" className="container">  
+      <h2>¿Qué es la Distrofia Muscular de Duchenne (DMD)?</h2>  
       <div className="row">
+      
         <div className="col-md-8">
-            <h2>¿Qué es la Distrofia Muscular de Duchenne (DMD)?</h2>
+            
               <p>La Distrofia Muscular de Duchenne es la forma más frecuente de <span className="text-span">distrofia muscular</span>, un trastorno de origen <span className="text-span">genético</span> que debilita progresivamente los músculos del cuerpo.</p>
               <p>Los niños con esta enfermedad pueden empezar a andar más tarde que el promedio, y tienen las pantorrillas grandes cuando tienen entre uno y tres años de edad. La enfermedad suele pasar desapercibida hasta los 3-5 años de edad, cuando la debilidad muscular afecta el andar, subir escaleras y otras actividades.</p>
               <p>Los niños con DMD pueden: </p>

@@ -1,6 +1,4 @@
 #sslider img {
-    
-
     opacity: .4;
 }
 #sslider img:hover,#sslider img:focus{
@@ -18,3 +16,9 @@
         color: transparent; 
         text-decoration: none;
   }
+  #sslider h4{
+      text-align: center;
+      margin-top:8vh;
+      margin-bottom:5vh;
+      color:#039D8B;
+  } 
