@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Navbar/Navbar';
-import Footer from '../components/Footer/Footer';
-import ButtonDonate from '../components/buttonDonate/ButtonDonate';
-import images from '../importImages';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+import ButtonDonate from '../../components/buttonDonate/ButtonDonate';
+import images from '../../importImages';
 import {Link } from 'react-router-dom';
 import './Sumate.css';
 

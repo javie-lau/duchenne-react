@@ -1,0 +1,17 @@
+#transparency{
+    margin-top: 30vh;
+    margin-bottom: 15vh;
+    text-align: center;
+}
+.all-accounts{
+    margin-top: 15vh;
+}
+@media (max-width: 576px){
+    #transparency h2{
+        font-size: 1em;
+    }
+    #transparency{
+        margin-top: 20vh;
+    }
+}
+

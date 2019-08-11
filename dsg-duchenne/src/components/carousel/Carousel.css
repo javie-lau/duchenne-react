@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
+
 .carousel{
     margin-top:25vh;
 }
@@ -21,21 +23,72 @@
     height: 10px;
     border:2px solid #9d0315;
     border-radius: 100%;
-  }
-
-#txt-one{
+}
+/*Primera imagen carrusel */
+.flex-center{
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+}
+
+#txt-one{
     width: 900px;
     height: 400px;   
     position: absolute;
 }
-#txt-one h2{
-    margin-top:0px;
+#txt-one #fundation, #dsg{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:80px;
+    margin-top: -5%;
+}
+#txt-one #divider{
+    color: #039D8B;
+    size: 80;
+    width: 80%;
+}
+#txt-one #enfoque{
+    color: #5a5858;
+    
 }
 
+/*Segunda imagen carrusel */
+#txt-two #sabias-que, #europa{
+    color: #5a5858;
+    font-family: 'Handlee', cursive;
+    font-size: 35px;
+    margin-bottom: 1%;
+
+}
+.rectangulo-red {
+    width:930px; 
+    height: 110px; 
+    background: #9d0315;
+    border-radius: 6px;
+    margin-bottom: 1%;
+}
+
+#txt-two #dato-duro, #por-eso{
+    color: #ffffff;  
+}
+#charity-l{
+    width: 7%;
+    margin-top: 20%;
+    margin-left: 14%;
+}
+#charity-r{
+    width: 7%;
+    margin-top: 20%;
+    margin-left: 58%;
+}
+
+.rectangulo-blue{
+    width:700px; 
+    height: 100px; 
+    background: #039D8B;;
+    border-radius: 6px;
+    margin-left: 13%;
+}
 
 #txt-two{
     display: flex;
@@ -45,11 +98,9 @@
     width: 900px;
     height: 400px;   
     position: absolute;
-
+    margin-left:13%;
 }
-#txt-two h5{
-    margin: 0px;
-}
+/*Tercer imagen carrusel */
 #txt-three{
     display: flex;
     flex-direction: column;
@@ -58,10 +109,51 @@
     width: 900px;
     height: 400px;   
     position: absolute;
+    margin-top:-5%
+}
 
+#txt-three #duch{
+    font-family: 'Handlee', cursive;
+    font-size: 190px;
+    color: #9d0315;
+    position: absolute;
+    margin-left:2%;
 }
-#bkg3{
-    width: 20%;
+#awarness, #day, #date{
+    color: #7c7c7c;
+    font-family: 'Handlee', cursive;
+    font-size: 55px;   
+    text-align: right;
 }
+#txt-three #awarness{
+    margin-left: 89%;
+    margin-top: 12%;
+}
+#txt-three #day{
+    margin-right: -1%;
+    margin-top:-2%;
+}
+#txt-three #date{
+    margin-top: 3%;
+    margin-right: 12%;
+    font-size: 80px;
+}
+#world{
+    width: 21%;
+    margin-top:10%;
+    margin-left:72%;
+    z-index: 1;
+    position: absolute;
+}
+
+#linea{
+    margin-top:15%;
+    width: 74%;
+    height: 40px;
+    transform: rotate(-2deg);
+    z-index: -1;
+    position: absolute;
+}
+
 
 
