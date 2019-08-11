@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
-import images from '../importImages';
 import './Transparency.css';
-import Conector from '../components/Conector/Conector';
+import ExplainMoney from '../components/Money/Money';
 
 class Transparency extends Component{
     render(){
@@ -12,25 +11,21 @@ class Transparency extends Component{
              <React.Fragment>
                 <Navbar/>
                 <div id="transparency" className="container">
-                <div className="row">
                     <div className="col-12">
-                        <h2>Transparencia y cuentas claras</h2>
+                        <h1>Transparencia</h1>
                     </div>
                     <div className="col-12">
                         <p>Para mantener la confianza de nuestros socios y donantes, es importane conocer el destino de los fondos recaudados.</p>
                     </div>
-                        <div className="col-12">
-                            <img className="img-fluid icons" id="savings" src={images["save-money-svg-svg.png"]} alt=""/>
-                            <img className="img-fluid arrow" src={images["icons8-flecha-izquierda-larga-64(2).png"]} alt=""/>
-                            <img className="img-fluid icons" id="microscope" src={images["microscope-svg-svg.png"]} alt=""/>
-                            <img className="img-fluid arrow" src={images["icons8-flecha-izquierda-larga-64(2).png"]} alt=""/>
-                            <img className="img-fluid icons" id="family" src={images["family(2)-svg.png"]} alt=""/>
-                        </div>
-                    </div>   
-                    <div className="container-trans-bottom"> 
+                    <ExplainMoney/>
+                    <div className="all-accounts"> 
                         <div className="col-md-4 offset-md-4 offset-1 col-10">
-                            <Conector title="Cuentas 2018"/>
-                            <Conector title="Cuentas 2019"/>
+                            <h1>Cuentas claras</h1>
+                            <p>Revisa el detalle de nuestras cuentas anuales</p>
+                            <select id="accounts" placeholder="año">
+                               <option value="2019">2019</option>
+                               <option value="2020">2020</option>
+                            </select>
                         </div >
                         {/* <div className="offset-1 col-md-4">
                             <img className="img-fluid" src={images["pdf-trans.png"]} alt=""/>

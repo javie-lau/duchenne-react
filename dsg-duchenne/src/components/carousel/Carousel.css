@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
+
 .carousel{
     margin-top:25vh;
 }
@@ -36,10 +38,16 @@
     height: 400px;   
     position: absolute;
 }
-#txt-one h2{
+#txt-two #sabias-que{
     margin-top:0px;
+    color: #039D8B;
+    font-size: 30px;
 }
+#txt-two #dato-duro{
+    color: #9d0315;
+    font-size: 50px;
 
+}
 
 #txt-two{
     display: flex;
@@ -62,10 +70,51 @@
     width: 900px;
     height: 400px;   
     position: absolute;
-
+    margin-top:-5%
 }
-#bkg3{
-    width: 20%;
+#world{
+    width: 15%;
+    margin-top:13%;
+    margin-left:80%;
+    z-index: 1;
+}
+#txt-three #duch{
+    font-family: 'Handlee', cursive;
+    font-size: 180px;
+    color: #9d0315;
+    margin-top:-15%;
+}
+#awarness, #day, #date{
+    color: #7c7c7c;
+    font-family: 'Handlee', cursive;
+    font-size: 45px;
+}
+#txt-three #awarness{
+    font-size: 45px;
+    text-align: right;
+    margin-top: -20%;
+}
+#txt-three #day{
+    text-align: right;
+    margin-top:-40%;
+    font-size: 45px;
+}
+#txt-three #date{
+    margin-top:-5%;
+    margin-left: 65%;
+    font-size: 50px;
+}
+
+#linea{
+    margin-top:-10%;
+    margin-left: 6%;
+    width: 71%;
+    height: 40px;
+    transform: rotate(-2deg);
+    z-index: -1;
+}
+#bkg2{
+    opacity: 0.5;
 }
 
 

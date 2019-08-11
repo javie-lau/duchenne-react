@@ -1,31 +1,17 @@
 #transparency{
-    margin-top: 25vh;
+    margin-top: 30vh;
+    margin-bottom: 15vh;
     text-align: center;
-    
-
 }
-
+.all-accounts{
+    margin-top: 15vh;
+}
 @media (max-width: 576px){
     #transparency h2{
-        
-        font-size: 1.3em;
+        font-size: 1em;
+    }
+    #transparency{
+        margin-top: 20vh;
     }
 }
 
-.icons{
-    width: 15%;
-    padding: 2%;
-}
-.arrow{
-    width: 8%;
-    padding: 2%;
-}
-@media (max-width: 576px){
-    .icons .arrow{
-        width: 30%;
-    }
-}
-.container-trans-bottom{
-    margin-top:5%;
-    margin-bottom:3%;
-}

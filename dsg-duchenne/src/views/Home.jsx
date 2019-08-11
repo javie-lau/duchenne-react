@@ -5,6 +5,7 @@ import Carousel from '../components/carousel/Carousel';
 import Cards from '../components/Cards/Cards';
 import './Home.css';
 import Responsive from '../components/slick-slider/Responsive';
+import ExplainMoney from '../components/Money/Money';
 
 class Home extends Component {
     render(){
@@ -15,10 +16,13 @@ class Home extends Component {
             </div>
             <div className ="body">
               <Carousel/>
+              <div>
+                <ExplainMoney/>
+              </div>
               <div className="container">
               <Responsive/>
               </div>
-            
+              
               <Cards /> 
            
             </div>
