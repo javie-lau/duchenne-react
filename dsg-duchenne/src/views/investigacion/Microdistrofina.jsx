@@ -1,9 +1,9 @@
 import React, {Component}from 'react';
-import images from '../../importImages';
+
 import './investigation.css'
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer'
-import ButtonDonate from '../../components/buttonDonate/ButtonDonate'
+
 
 class Microdistrofina extends Component{
     render(){
@@ -185,7 +185,6 @@ class Microdistrofina extends Component{
 
               
                     </div>
-                    <ButtonDonate/>
         <Footer/>
     
         </React.Fragment>

@@ -1,0 +1,103 @@
+
+/*Css de Mision */
+#mision ul{
+    list-style-type: circle;
+  }
+.lista, #values, #explanation{
+    color: #5e5d5d;
+}
+#mision ul li{
+    color: #039D8B;
+  }
+
+#title-mision{
+    color: #039D8B;
+    margin-bottom:3vh;
+}
+#values h5{
+    margin-bottom:3vh;
+}
+ 
+#mision{
+    margin-top:27vh;
+    margin-bottom: 5vh;
+}
+#mision .initials{
+    font-size: 40px;
+    color: #9d0315; 
+}
+#mision .rest-txt{
+    color: #9d0315;
+}
+
+.points{
+    margin-bottom: 5%;
+    margin-top:5%;
+}
+.points.col-md-5{
+    text-align: center;
+    padding: 0;
+}
+.points.col-md-3{
+    padding-right: 0;
+    text-align: center;
+}
+
+#mision #focus{
+    margin-top:-3%;
+    margin-left:2%;
+}
+
+@media (max-width: 576px){
+    #mision{
+        margin-top:20vh;
+    }
+    .points.col-md-5{
+        text-align:initial;
+        padding: 15px;
+    }
+    .points.col-md-3{
+        padding-right: 15px;
+        text-align: initial;
+    }
+}
+
+
+/*css de Team*/
+#us{
+    margin-top:27vh;
+}
+#us #our-team, #directory{
+    color:#039D8B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#us #directory,.names{
+    color: #5e5d5d;
+}
+.photo-team{
+    width: 30%;
+    margin-left: 35%;
+}
+#us .names, .ocupation{
+   text-align: center;
+}
+#us .ocupation{
+    color:#9d0315;
+}
+#us .member{
+    margin-bottom: 5%;
+}
+
+
+@media (max-width: 576px){
+
+  #us{
+      margin-top:20vh;
+  }
+  #directory{
+      margin-bottom:8vh;
+  }
+}
+

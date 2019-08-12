@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
+import './Form.css';
 // import * as typeformEmbed from '@typeform/embed'
 
 
 class Form extends Component{
-    constructor(props) {
-        super(props);
-        this.el = null;
-      }
+    // constructor(props) {
+    //     super(props);
+    //     this.el = null;
+    //   }
     //   componentDidMount() {
     //     if (this.el) {
     //       typeformEmbed.makeWidget(this.el, "https://laurasilva351460.typeform.com/to/lWPvrt", {
@@ -21,18 +22,18 @@ class Form extends Component{
     render(){
         return(
             <React.Fragment>
-
+{/* 
         <Navbar/>   
         <div ref={(el) => this.el = el} style={{width: '100%', height: '500px'}} />
 
 
-        <Footer/>     
+        <Footer/>      */}
 
-            {/*  <Navbar/>  
+           <Navbar/>  
         <div  id="form">
           <div className="row">
                         <form className="col-md-6 offset-md-3">
-                            <h4>¡Contactenos!</h4>
+                            <h4>¡Contáctanos!</h4>
                             <div className="row">
                                 <div className="col-12">
                                 <label  for="email">Tu email:</label>
@@ -63,7 +64,7 @@ class Form extends Component{
                  
                         </div>
                         </div>       
-                        <Footer/>  */  } 
+            <Footer/>  
 
             </React.Fragment>
         )

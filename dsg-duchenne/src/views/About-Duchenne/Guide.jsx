@@ -8,13 +8,15 @@ class Guide extends Component {
     render(){
         return(
             <React.Fragment>
-                        <Navbar />
-             <div className="family-container"> 
-             <h2>Revisa la guía recomendada para padres</h2>
-             <a href="http://www.treat-nmd.eu/downloads/file/standardsofcare/dmd/spanish/dmdmdffg_master_spanish_upa.pdf"> <p>Guía para padres</p></a>
-             <img className="img-fluid family-img" src={images["family(1)-svg-svg.png"]}/>
-             </div>
-             <Footer />
+                    <Navbar />
+                        <div id="guide">
+                            <div className="container"> 
+                                <h2>Revisa la guía recomendada para padres</h2>
+                                <a className="" href="http://www.treat-nmd.eu/downloads/file/standardsofcare/dmd/spanish/dmdmdffg_master_spanish_upa.pdf"> <p>Guía para padres</p></a>
+                                <img className="center img-fluid family-img" src={images["family(1)-svg-svg.png"]}/>
+                            </div>
+                        </div>
+                    <Footer />
             </React.Fragment>
         )
     }

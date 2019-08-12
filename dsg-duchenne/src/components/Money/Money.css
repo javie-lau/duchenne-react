@@ -1,0 +1,63 @@
+#explainMoney{
+  margin-top:5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: initial;
+}
+
+#explainMoney .arrow{
+   transform: rotate(45deg);
+   margin-top: -10%;
+}
+#explainMoney #txt-trans{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   margin-right: -5%;
+}
+#explainMoney #amount{
+   margin-top: 5%;
+   padding: 0%;
+   color: #039D8B;
+
+}
+#explainMoney #money{
+   font-size: 50px;
+   margin-top: -2%;
+   padding: 0%;
+   color: #7c7c7c;
+}
+#explainMoney #years{
+   color: #039D8B;
+}
+@media (max-width: 576px){
+   #explainMoney{
+      margin-top:5%;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+   }
+   
+   #explainMoney .icons{
+      width:35%;
+   } 
+   #explainMoney .arrow{
+      width: 20%;
+      transform: rotate(90deg);
+      margin-top: 5%;
+      margin-bottom: 4%;
+   }
+   #explainMoney #amount #years{
+     font-size: 25px;
+   }
+   #explainMonye #money{
+      font-size: 30px;
+   }
+   
+}
+h4#amount{
+   text-align: center;
+}

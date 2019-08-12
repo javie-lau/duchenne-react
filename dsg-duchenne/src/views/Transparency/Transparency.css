@@ -1,0 +1,34 @@
+#transparency{
+    margin-top: 27vh;
+    margin-bottom: 15vh;
+    text-align: center;
+}
+.all-accounts{
+    margin-top: 15vh;
+}
+#transparency .titles-trans{
+    color: #039D8B;
+}
+#transparency #sub-titles{
+    color: #5e5d5d;
+}
+#accounts{
+ border-color: #039D8B;
+ background:transparent;
+ margin-left: 40%;
+}
+.form-control{
+    width:20%;
+}
+@media (max-width: 576px){
+    #transparency{
+        margin-top: 20vh;
+    }
+    .form-control{
+        width: 40%;
+    }
+    #accounts{
+        margin-left: 30%;
+    }
+}
+

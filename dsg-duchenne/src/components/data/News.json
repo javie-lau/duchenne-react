@@ -1,18 +1,26 @@
 {
   "News":[
       {
-          "title": "Según experto, la fisioterapia es esencial para los niños con Duchenne si se administra con cuidado",
+          "title": "Según experto, la fisioterapia es esencial para los niños con Duchenne si se administra con cuidado.",
           "body" : "",
           "img" : "https://musculardystrophynews.com/wp-content/uploads/2018/11/MA-148.jpg"
       },
       {
-        "title": "La terapia genética de Pfizer es prometedora en el tratamiento de la DMD",
+        "title": "La terapia genética de Pfizer es prometedora en el tratamiento de la DMD.",
         "body" : "",
         "img" : "https://musculardystrophynews.com/wp-content/uploads/2018/10/results-1000x480.jpg"
     }, {
-        "title": "Terapia genética para la distrofia muscular de Duchenne",
-        "body" : "",
+        "title": "Terapia genética para la distrofia muscular de Duchenne.",
+        "body" :"",
         "img" : "https://www.duchennexchange.org/wp-content/uploads/2019/07/gene-therapy-illustration.jpg"
-    }
+    }, {
+      "title": "Selecta biosciencies combina la plataforma ImTOR con la plataforma de terapia génica lider en la industria de askbio en asociación estratégica.",
+      "body" :"",
+      "img" : "http://blogs.discovermagazine.com/d-brief/files/2019/02/Artificial-DNA.jpg"
+  }, {
+    "title": "Dr. Juan Carlos Sáez: Ls respuesta inflamatoria y su implicancia en las terapias contra enfermedades crónicas.",
+    "body" :"",
+    "img" : "https://www.biologiachile.cl/wp-content/uploads/2018/05/Dr.Juan-Carlos-S%C3%A1ez.jpg"
+}
   ] 
 }

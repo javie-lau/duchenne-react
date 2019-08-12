@@ -1,9 +1,11 @@
 /* Style inputs with type="text", select elements and textareas */
 #form{
-  height: 100vh;
+margin-top:25vh;
 }
-#form .row{
-  margin-top:7vh;
+@media (max-width: 576px) {
+  #form{
+    margin-top:20vh;
+    }
 }
 input[type=text],input[type=email],textarea {
     width: 100%; /* Full width */

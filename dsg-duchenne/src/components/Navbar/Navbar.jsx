@@ -10,11 +10,11 @@ class Navbar extends Component{
     render(){
         return(
             <React.Fragment>
-                <div id="navbar">
-                    <nav className="navbar navbar-expand-lg navbar-light ">
+                <div id="navbar" className="fixed-top">
+                    <nav id="navbar-one" className="navbar navbar-expand-lg navbar-light ">
                         <div className="row">
                             <div className="col-8 col-md-4">
-                                <Link  to="/"><a className="navbar-brand"><img className="img-fluid" src={images['logo.jpg']} alt=""/><span><img className="img-fluid txt-cura" src={images['cura.png']} alt=""/></span></a></Link>
+                                <Link  to="/"><a className="navbar-brand"><img className="img-fluid" src={images['New-Project(3).png']} alt=""/><span><img className="img-fluid txt-cura" src={images['cura.png']} alt=""/></span></a></Link>
                             </div>
                             <div className="col-4 col-md-2 offset-md-6">
                                 {/* <Link  to="/sumate"><button className="btn"><img className="img-fluid"src={images['like2.svg']} alt=""/><span> Súmate</span></button></Link> */}
@@ -28,22 +28,19 @@ class Navbar extends Component{
                         </div>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">                
                             <ul className="navbar-nav mr-auto">
-                                <li className="nav-item imgHome">
-                                <Link className="link" to="/Home"><a className="nav-item"> <img className="img-fluid btn-home"src={images['home.png']}/></a></Link>
-                                </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Sobre Duchenne
-                                    </a>
+                                    </a>  
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <Link className="link" to='/que-es-duchenne'> <a className="dropdown-item" href="#">¿Qué es Duchenne?</a> </Link>
+                                <Link className="link" to='/que-es-duchenne'> <a className="dropdown-item" >¿Qué es Duchenne?</a> </Link>
+                                <div className="dropdown-divider"></div>
+                                <Link className="link" to='/diagnostico'> <a className="dropdown-item" href="#">Diagnóstico Duchenne</a> </Link>
+                                 <div className="dropdown-divider"></div>
+                                <Link className="link" to='/situacion-pais'> <a className="dropdown-item" href="#">Situación País</a> </Link>
                                     <div className="dropdown-divider"></div>
-                                <Link className='link' to='/diagnostico'> <a className="dropdown-item" href="#">Diagnóstico Duchenne</a> </Link>
-                                    <div className="dropdown-divider"></div>
-                                <Link className="link" to='/genetica'><a className="dropdown-item" href="#">Geńetica</a></Link>
-                                    <div className="dropdown-divider"></div>
-                                
-                                   
+                                <Link className="link" to='/genetica'><a className="dropdown-item" href="#">Genética</a></Link>
+                                    <div className="dropdown-divider"></div>  
                                 <Link className="link" to='/guia-para-padres'><a className="dropdown-item" href="#">Guía para padres</a></Link> 
                                     </div>
                                 </li>
@@ -52,15 +49,14 @@ class Navbar extends Component{
                                     Sobre nosotros
                                     </a>
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <Link className="link" to='/nuestra-mision'>  <a className="dropdown-item" href="#">Nuestra misión</a> </Link>
+                                    <Link className="link" to='/nuestra-mision'>  <a className="dropdown-item" href="#">Nuestra misión</a> </Link>
                                     <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="#">Nuestro equipo</a>
-                                    <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="#">Que hacemos</a>
+                                    <Link className="link" to='/equipo'> <a className="dropdown-item" href="#">Nuestro equipo</a></Link>
+                                  
                                     </div>
                                 </li>
                                 <li className="nav-item">
-                                <Link className="link" to="/sumate"><a className="nav-link">¿Cómo ayudar? <span className="sr-only">(current)</span></a></Link>                   
+                                <Link className="link" to="/sumate"><a className="nav-link">Como ayudar<span className="sr-only">(current)</span></a></Link>                   
                                 </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

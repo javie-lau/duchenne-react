@@ -1,4 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 body{
     font-family: 'Source Sans Pro', sans-serif;
+}
+.link:hover{
+    text-decoration:none;
+    
+} 
+p{
+    font-size: 20px;
+}
+h1 {
+    font-size: 36px;
+}
+h2{
+    font-size: 28px;
+}
+h4{
+    font-size: 25px; 
+  }
+
+@media (max-width: 576px){
+    h2{
+      font-size: 25px; 
+     }
+  }
+@media (max-width: 576px){
+    h4{
+      font-size: 23px; 
+    }
+}
+@media (max-width: 576px){
+    h1{
+      font-size: 30px; 
+    }
+}
+li{
+    font-size: 20px;
 }

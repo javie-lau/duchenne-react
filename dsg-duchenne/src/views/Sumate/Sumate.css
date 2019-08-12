@@ -1,0 +1,130 @@
+#sumate h4, #sumate p, #sumate h6{
+    text-align: center;
+}
+#sumate img{
+    width: 50%;
+}
+@media only screen and (max-width: 576px){
+    #sumate img{
+        margin-top:1.5em;
+        width: 70%;
+    }    
+}
+
+#sumate{ 
+    margin: 27vh 0 3em 0;
+   
+}
+@media only screen and (max-width: 576px){
+    #sumate.container{ 
+        margin: 20vh 0 3em 0;   
+    }
+}
+@media only screen and (min-width:577px) and (max-width:768px){
+    #sumate.container{ 
+        margin: 15vh 0 3em 0;   
+    }
+}
+#sumate span{
+    color:  #9d0315;
+}
+#sumate p{
+    color:#626363;
+ 
+}
+/* @media (max-width: 576px){
+    #sumate p{
+        font-size: .9em;
+    }
+} */
+#sumate h4{
+    color:#626363;
+  
+  
+}
+
+
+#sumate .row:nth-child(3){
+    margin-top:7vh;
+}
+@media only screen and (max-width: 576px){
+    #sumate .row:nth-child(3){
+        margin-top:3vh;
+    }
+}
+#sumate .row:nth-child(2){
+    margin-top:5vh;
+}
+@media only screen and (max-width: 576px){
+    #sumate .row:nth-child(2){
+        margin-top:2vh;
+    }
+}
+#sumate .row:nth-child(5){
+    margin-top:2vh;
+}
+@media only screen and (max-width: 576px){
+    #sumate .row:nth-child(5){
+        margin-top:2vh;
+    }
+}
+#sumate .row:nth-child(4){
+    margin-top:4vh;
+}
+@media only screen and (max-width: 576px){
+    #sumate .row:nth-child(4){
+        margin-top:3vh;
+    }
+}
+#sumate .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#sumate .row:nth-child(4) h4{
+    color:#626363;
+}
+#sumate .btn img{
+    width: 20%;
+}
+#sumate .btn{
+    margin-top:1.5vh;
+    background: white;
+    border-radius: 25px;
+    border:solid 3px #9d0315;
+    padding:.4vh .8vw;
+    color:#9d0315;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em;
+}
+@media only screen and (max-width: 576px) {
+    #sumate .btn{
+        width: 100%;
+        padding:.1em .2em;
+        font-size: .8em;
+    }
+   
+}
+@media only screen and (max-width: 576px) {
+    #sumate .donate img{
+        width: 20%;
+        margin: .3em 0;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:768px){
+    #sumate .btn{
+        padding:0.2vh 0vw;
+        width: 50%;
+        font-size: .9em;
+    }
+}
+@media only screen and (min-width:577px) and (max-width:768px){
+    #sumate .donate img{
+        width: 15%;
+        margin: .4em 0 0.3em 0;
+    }
+}

@@ -1,15 +1,18 @@
-.card{
+#othinv{
+  margin-top: 40vh;
+}
+#othinv .card{
     width: 18rem;
 }
-.card-title{
+#othinv .card-title{
     color: #9d0315;
 }
-.card-subtitle{
+#ithiv .card-subtitle{
     color:#039D8B !important;
 }
 @media (max-width: 576px) {
 
-    .card{
+    #othinv .card{
         margin-top: .3rem;
         margin-right:6rem;
     }
