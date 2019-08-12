@@ -3,7 +3,7 @@
 #mision ul{
     list-style-type: circle;
   }
-.lista{
+.lista, #values, #explanation{
     color: #5e5d5d;
 }
 #mision ul li{
@@ -11,12 +11,10 @@
   }
 
 #title-mision{
-    text-align: center;
     color: #039D8B;
     margin-bottom:3vh;
 }
-#values h4{
-    color: #5e5d5d;
+#values h5{
     margin-bottom:3vh;
 }
  
@@ -25,16 +23,16 @@
     margin-bottom: 5vh;
 }
 #mision .initials{
-    font-size: 35px;
+    font-size: 40px;
     color: #9d0315; 
 }
-#mision #explanation, .rest-txt, .values{
-    color: #5e5d5d;
+#mision .rest-txt{
+    color: #9d0315;
 }
+
 .points{
     margin-bottom: 5%;
     margin-top:5%;
-   
 }
 .points.col-md-5{
     text-align: center;
@@ -49,11 +47,7 @@
     margin-top:-3%;
     margin-left:2%;
 }
-#mision li .list{   
-    margin-top: 3%;
-    margin-right: 5%;
-    color: #9d0315;
-}
+
 @media (max-width: 576px){
     #mision{
         margin-top:20vh;

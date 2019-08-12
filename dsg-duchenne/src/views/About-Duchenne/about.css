@@ -11,9 +11,9 @@
 #what-is h2, #diagnostic h2, #genetics h2, #genetics h4, #guide h2{
   color: #039D8B;
 }
-#diagnostic h2, #genetics h2, #what-is h2{
-  text-align: center;
-}
+/* #diagnostic h2, #genetics h2, #what-is h2{
+  /* text-align: center; */
+
 #what-is .text-span, #diagnostic .text-span,#genetics .text-span{
   color: #039D8B;
   font-weight: bolder;
