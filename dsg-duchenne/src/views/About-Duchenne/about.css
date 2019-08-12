@@ -8,7 +8,7 @@
       margin-top: 20vh;
     }
 }
-#what-is h2, #diagnostic h2, #genetics h2, #genetics h4, #guide h2{
+#what-is h2, #diagnostic h2, #genetics h2, #genetics h4, #guide h2, #situation h2{
   color: #039D8B;
 }
 /* #diagnostic h2, #genetics h2, #what-is h2{
@@ -19,7 +19,7 @@
   font-weight: bolder;
 }
 
-#what-is p, #what-is .lista, #diagnostic p, #diagnostic .lista, #genetics .lista, #genetics p{
+#what-is p,#situation p, #what-is .lista, #diagnostic p, #diagnostic .lista, #genetics .lista, #genetics p{
  /* color: #7A7C7C; */
  color: #5e5d5d;
  
@@ -66,11 +66,3 @@
   margin-left:10vh;
 }
 
-#title-situation, #info{
-  color: #039D8B;
-}
-
-#situacion .situation-p{
-  color: #5e5d5d;
-
-}
