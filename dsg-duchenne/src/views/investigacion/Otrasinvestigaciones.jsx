@@ -47,7 +47,7 @@ class OtrasInvestigaciones extends Component{
                          </div>
                                 </div>
                                 
-              <ButtonDonate/>
+            
                          </div>
                         
                     
