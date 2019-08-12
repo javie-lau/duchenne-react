@@ -1,6 +1,5 @@
 #news h4{
-    color: #039D8B;
-    
+    color: #5a5858;    
     margin-top: 8vh;
     margin-bottom: 5vh;
 }
@@ -46,7 +45,7 @@
     }
 } 
 a.card-text{
-    color:rgba(75, 71, 71, 0.699);
+    color: #5a5858;    
     text-decoration: none;
 
 }
@@ -56,7 +55,17 @@ a.card-text{
 #news .card-button{
     margin-bottom: 10px;
 }
-
+#divider{
+    color: #5a5858;    
+    size: 80;
+    width: 100%;
+    margin-top:-2%;
+}
+@media (max-width: 576px) {
+    #divider{
+      width:150%;
+    }
+  }
 
 
 

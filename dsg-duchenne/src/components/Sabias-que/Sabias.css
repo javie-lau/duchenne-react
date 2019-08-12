@@ -1,8 +1,92 @@
 .sabias{
-    display:none !important;
+    display:none ;
+    margin-top:20vh;
 }
+#sabias-que, #europa{
+    color: #5a5858;
+    font-family: 'Handlee', cursive;
+    font-size: 35px;
+    margin-bottom: 1%;
+}
+.rectangulo-red {
+    width:930px; 
+    height: 110px; 
+    background: #9d0315;
+    border-radius: 6px;
+    margin-bottom: 1%;
+}
+#dato-duro, #por-eso{
+    color: #ffffff;  
+    display: flex;
+}
+.rectangulo-blue{
+    width:700px; 
+    height: 100px; 
+    background: #039D8B;;
+    border-radius: 6px;
+    margin-left: 12%;
+}
+#sabias{
+    width: 900px;
+    height: 400px;   
+    position: absolute;
+    margin-left:13%;
+    padding: 2%;
+}
+#divider{
+    color: #5a5858;    
+    size: 200;
+    width: 100%;
+    margin-top:-2%;
+}
+
 @media (max-width: 576px){
     .sabias{
         display: block;
+        margin-top:0%;
+    
     }
+    #sabias-que, #europa{
+        font-size: 27px;
+        text-align: center;
+    }
+    .rectangulo-red {
+        width: 330px;
+        height: 130px;
+        text-align: center;
+        margin-left:1.5%;
+    }
+    #dato-duro, #por-eso{
+        font-size:25px; 
+        margin-left:7%;
+        text-align: center;
+
+    }
+    .rectangulo-blue{
+        width:300px;
+        text-align: center;
+        margin-left:10%;
+    }
+    #divider{
+        width:120%;
+        margin-top:5%;
+      }
+}
+
+
+#join h1{
+    font-family: 'Handlee', cursive;
+    margin-top: 10vh;
+    color: #9d0315;
+    text-align: center;
+    font-size:40px;
+    margin-top: 5vh;
+
+}
+#join .heart{
+    width: 5%;
+}
+#join{
+   width: 90%;
+   margin-left: 5%
 }

@@ -39,10 +39,10 @@
       justify-content: center;
       display: flex;
       flex-direction: column;
-    }
+   }
    
    #explainMoney .icons{
-      width:40%;
+      width:35%;
    } 
    #explainMoney .arrow{
       width: 20%;

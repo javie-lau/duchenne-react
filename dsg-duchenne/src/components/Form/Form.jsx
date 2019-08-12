@@ -33,7 +33,7 @@ class Form extends Component{
         <div  id="form">
           <div className="row">
                         <form className="col-md-6 offset-md-3">
-                            <h4>¡Contactenos!</h4>
+                            <h4>¡Contáctanos!</h4>
                             <div className="row">
                                 <div className="col-12">
                                 <label  for="email">Tu email:</label>

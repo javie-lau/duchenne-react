@@ -20,7 +20,7 @@ class Transparency extends Component{
                         <div className="col-md-4 offset-md-4 offset-1 col-10">
                             <h1 className="titles-trans">Cuentas claras</h1>
                             <h5 className="sub-title">Revisa el detalle de nuestras cuentas anuales</h5>
-                            <select id="accounts" placeholder="año">
+                            <select id="accounts" className="form-control" placeholder="Cuentas Anuales">
                                <option value="2019">2019</option>
                                <option value="2020">2020</option>
                             </select>

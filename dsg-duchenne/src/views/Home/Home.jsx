@@ -9,13 +9,15 @@ import ExplainMoney from '../../components/Money/Money';
 import Sabias from '../../components/Sabias-que/Sabias';
 
 
+
 class Home extends Component {
     render(){
         return(
-         <React.Fragment>
+         <React.Fragment>/
             <Navbar />
               <Carousel/>
               <div className="responsive container">
+              <Sabias/>
                 <ExplainMoney/> 
                 <Responsive/>
                 <Cards /> 

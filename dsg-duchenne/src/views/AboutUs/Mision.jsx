@@ -12,31 +12,31 @@ class Mision extends Component{
                     <Navbar/>
                <div id="mision" className="container">
                   <h2 id="title-mision">  Nuestra Misión   </h2>
-                    <h4 id="explanation">
+                    <h5 id="explanation">
                     La misión de nuestra Fundación es facilitar y acelerar el avance de los tratamientos para
                     niños que padecen DMD, generando recursos y espacios de desarrollo para la intervención e
                     investigación que nos permita avanzar en esta materia.
                     El DSG de nuestro nombre viene de
                     nuestras tres columnas de trabajo:
-                    </h4>
+                    </h5>
                    <div id="focus"className="row"> 
-                    <div className=" points col-md-3"><h4 className="rest-txt"><span className="initials">D</span>etección precoz</h4></div>
-                    <div className=" points col-md-5"><h4 className="rest-txt"><span className="initials">S</span>uperación de la enfermedad</h4></div>
-                    <div className=" points col-md-4"><h4 className="rest-txt"><span className="initials">G</span>anar vida</h4></div> 
+                    <div className=" points col-md-3"><h5 className="rest-txt"><span className="initials">D</span>etección precoz</h5></div>
+                    <div className=" points col-md-5"><h5 className="rest-txt"><span className="initials">S</span>uperación de la enfermedad</h5></div>
+                    <div className=" points col-md-4"><h5 className="rest-txt"><span className="initials">G</span>anar vida</h5></div> 
                    </div>
                    <div id="values"> 
-                    <h4>
+                    <h5>
                     Para desarrollar nuestras columnas de trabajo, nuestra Fundación se desarrolla con tres
                     valores fundamentales:
-                    </h4>
+                    </h5>
                     <ul> 
                   <li>
                     <h5>Evidencia científica:</h5>
-                   <h5 ><span className="lista">E Buscamos alentar la generación de tratamientos basados en la ciencia,
+                   <h5 ><span className="lista">Buscamos alentar la generación de tratamientos basados en la ciencia,
                     con evidencia segura y comprobada.</span>
                     </h5>
                     </li>
-                  <li ><h5>Accesibilidad:</h5><h5><span className="lista">Nos enfocamos no solo
+                  <li><h5>Accesibilidad:</h5><h5><span className="lista">Nos enfocamos no solo
                     en la búsqueda de nuevas alternativas, sino también en el reposicionamiento de
                     medicamentos ya existentes que puedan contribuir a un tratamiento efectivo.
                     </span></h5></li>
