@@ -72,3 +72,21 @@
         margin-top:5%;
       }
 }
+
+
+#join h1{
+    font-family: 'Handlee', cursive;
+    margin-top: 10vh;
+    color: #9d0315;
+    text-align: center;
+    font-size:40px;
+    margin-top: 5vh;
+
+}
+#join .heart{
+    width: 5%;
+}
+#join{
+   width: 90%;
+   margin-left: 5%
+}
